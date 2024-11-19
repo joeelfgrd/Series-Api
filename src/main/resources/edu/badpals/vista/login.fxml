@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
-<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" prefHeight="500.0" prefWidth="400.0" spacing="20.0"
-      style="-fx-background-color: #669CE3;" xmlns="http://javafx.com/javafx"
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" prefHeight="500.0" prefWidth="400.0" spacing="25.0"
+      style="-fx-background-color: #1F1B24;" xmlns="http://javafx.com/javafx"
       fx:controller="edu.badpals.controlador.LoginController">
     <children>
-        <Label fx:id="lblLogin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-               prefHeight="43.0" prefWidth="353.0" text="Log in">
+        <!-- Título principal -->
+        <Label fx:id="lblLogin" text="TV Series" textAlignment="CENTER" style="-fx-text-fill: #4ECCA3;">
             <font>
-                <Font name="Calibri Bold" size="29.0"/>
+                <Font name="Arial Bold" size="28.0"/>
             </font>
         </Label>
-        <Separator prefHeight="30.0" prefWidth="400.0"/>
-        <Separator prefWidth="200.0"/>
-        <Label fx:id="lblUser" prefHeight="20.0" prefWidth="283.0" text="User:">
-            <font>
-                <Font name="System Bold" size="14.0"/>
-            </font>
-        </Label>
-        <TextField fx:id="txtFieldUser" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0"
-                   prefWidth="272.0" styleClass="styles/login.css"/>
-        <Label fx:id="lblPwd" alignment="BOTTOM_LEFT" prefHeight="20.0" prefWidth="279.0" text="Password:">
-            <font>
-                <Font name="System Bold" size="14.0"/>
-            </font>
-        </Label>
-        <PasswordField fx:id="txtFieldPwd" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity"
-                       prefHeight="40.0" prefWidth="272.0"/>
-        <Button fx:id="btnAcceder" onAction="#acceder" prefHeight="40.0" prefWidth="112.0"
-                style="-fx-background-color: #6675E3; -fx-text-fill: black; -fx-border-color: black; -fx-border-width: 1px; -fx-border-radius: 15px; -fx-background-radius: 15px;"
-                text="ACCEDER">
-            <font>
-                <Font name="System Bold" size="12.0"/>
-            </font>
-        </Button>
-        <Separator prefWidth="200.0"/>
-        <Button fx:id="btnRegistrar" onAction="#registrarUser" prefHeight="34.0" prefWidth="110.0"
-                style="-fx-background-color: #6675E3; -fx-text-fill: black; -fx-border-color: black; -fx-border-width: 1px; -fx-border-radius: 5px; -fx-background-radius: 5px;"
-                text="REGISTRARME">
-            <font>
-                <Font name="System Bold" size="12.0"/>
-            </font>
-        </Button>
+        <!-- Contenedor de inputs -->
+        <VBox spacing="20.0" alignment="CENTER">
+            <!-- Campo de Usuario -->
+            <VBox spacing="5.0" alignment="CENTER">
+                <Label fx:id="lblUser" text="Username" style="-fx-text-fill: #E0E0E0;">
+                    <font>
+                        <Font name="System" size="14.0"/>
+                    </font>
+                </Label>
+                <TextField fx:id="txtFieldUser" promptText="Enter your username" maxWidth="280.0"
+                           style="-fx-background-color: #37306B; -fx-background-radius: 15px; -fx-padding: 10px; -fx-border-color: #4ECCA3; -fx-border-radius: 15px; -fx-text-fill: #E0E0E0;"/>
+            </VBox>
+            <!-- Campo de Contraseña -->
+            <VBox spacing="5.0" alignment="CENTER">
+                <Label fx:id="lblPwd" text="Password" style="-fx-text-fill: #E0E0E0;">
+                    <font>
+                        <Font name="System" size="14.0"/>
+                    </font>
+                </Label>
+                <PasswordField fx:id="txtFieldPwd" promptText="Enter your password" maxWidth="280.0"
+                               style="-fx-background-color: #37306B; -fx-background-radius: 15px; -fx-padding: 10px; -fx-border-color: #4ECCA3; -fx-border-radius: 15px; -fx-text-fill: #E0E0E0;"/>
+            </VBox>
+        </VBox>
+        <!-- Botón de Login -->
+        <Button fx:id="btnAcceder" text="Log In" onAction="#acceder" maxWidth="200.0" prefHeight="45.0"
+                style="-fx-background-color: #4ECCA3; -fx-text-fill: #1F1B24; -fx-font-size: 14px; -fx-background-radius: 25px;"/>
+        <!-- Separador -->
+        <Separator prefWidth="250.0" opacity="0.3"/>
+        <!-- Botón de Sign Up -->
+        <Button fx:id="btnRegistrar" text="Sign Up" onAction="#registrarUser" maxWidth="200.0" prefHeight="40.0"
+                style="-fx-background-color: transparent; -fx-text-fill: #FF6F61; -fx-border-color: #FF6F61; -fx-border-width: 1.5px; -fx-border-radius: 25px; -fx-background-radius: 25px;"/>
     </children>
 </VBox>
