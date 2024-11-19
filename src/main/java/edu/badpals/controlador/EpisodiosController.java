@@ -25,6 +25,8 @@ public class EpisodiosController implements Initializable {
     Connection c = cbd.crearConexion();
     private Serie serie; // Objeto Serie actual
 
+    private List<Episodio> episodios;
+
     @FXML
     private javafx.scene.control.Label lblNameSerieEpisodios; // Etiqueta para mostrar el nombre de la serie
 
@@ -69,6 +71,7 @@ public class EpisodiosController implements Initializable {
     }
 
     public void cargarEpisodios(List<Episodio> episodios){
+        setEpisodios(episodios);
         tableViewEpisodios.getItems().setAll(episodios);
     }
 
@@ -86,6 +89,15 @@ public class EpisodiosController implements Initializable {
         setCells();
         cargarEpisodios(Conexion_App_bbdd.getEpisodios(c,this.serie));
     }
+
+    public List<Episodio> getEpisodios() {
+        return episodios;
+    }
+
+    public void setEpisodios(List<Episodio> episodios) {
+        this.episodios = episodios;
+    }
+
     /*
 
     private void cargarSerie() {

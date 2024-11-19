@@ -75,9 +75,6 @@ public class SerieController {
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/episodios.fxml"));
 
                 Scene scene = new Scene(fxmlLoader.load(), 919, 750);
-                EpisodiosController controller = fxmlLoader.getController();
-                controller.setSerie(this.serie);
-                controller.cargarTabla();
                 Stage stage = (Stage) ((javafx.scene.Node) actionEvent.getSource()).getScene().getWindow();
 
                 stage.setScene(scene);
@@ -85,6 +82,9 @@ public class SerieController {
                 stage.setMaximized(false);
                 stage.setResizable(false);
                 stage.setTitle("Episodios");
+                EpisodiosController controller = fxmlLoader.getController();
+                controller.setSerie(this.serie);
+                controller.cargarTabla();
             } catch (Exception e){
                 e.printStackTrace();
             }
