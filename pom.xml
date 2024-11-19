@@ -65,7 +65,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>edu.badpals.proyectoud02tvmaze/edu.badpals.Controlador.HelloApplication
+                            <mainClass>edu.badpals.proyectoud02tvmaze/edu.badpals.controlador.HelloApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

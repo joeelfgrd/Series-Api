@@ -1,4 +1,4 @@
-package edu.badpals.Controlador;
+package edu.badpals.modelo;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,7 +12,7 @@ public class Conexion_Series_bbdd {
     public Connection crearConexion() throws SQLException {
         Properties propiedadesConexion = new Properties();
         propiedadesConexion.setProperty("user", "root");
-        propiedadesConexion.setProperty("password", "renaido");
+        propiedadesConexion.setProperty("password", "root");
         return DriverManager.getConnection(urldb, propiedadesConexion);
     }
 

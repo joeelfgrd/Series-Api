@@ -1,4 +1,4 @@
-package edu.badpals.Controlador;
+package edu.badpals.controlador;
 
 public class Controlador {
     public void ejecutar() {
