@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class Conexion_Login_bbdd {
-    private String urldb = "jdbc:mysql://localhost:3306/login";
+    private String urldb = "jdbc:mysql://localhost:3306/badpals";
     public Connection crearConexion() throws SQLException {
         Properties propiedadesConexion = new Properties();
         propiedadesConexion.setProperty("user", "root");

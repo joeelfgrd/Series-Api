@@ -1,5 +1,6 @@
 package edu.badpals.controlador;
 
+import edu.badpals.modelo.BbddController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -8,15 +9,15 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Map;
 
 public class LoginController {
     @FXML
-    TextField txtFieldUser; // Campo de texto para el nombre de usuario
+    TextField txtFieldUser;
 
     @FXML
-    TextField txtFieldPwd; // Campo de texto para la contraseña
+    TextField txtFieldPwd;
 
-    // Método para cambiar a la vista de series
     public void toSerie(ActionEvent actionEvent) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/serie.fxml"));
@@ -27,23 +28,26 @@ public class LoginController {
             stage.setMaximized(false);
             stage.setResizable(false);
             stage.setTitle("Series");
-
-            // Mostrar confirmación y establecer campos si es necesario
-
-
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    // Método para registrar un nuevo usuario
     public void registrarUser() {
-
+        BbddController.crearUser(txtFieldUser.getText(), txtFieldPwd.getText());
     }
 
-    // Método para acceder a la aplicación
+
     public void acceder(ActionEvent actionEvent) {
-        toSerie(actionEvent); // Cambiar a la vista de series si las credenciales son correctas
-
+        Map<String, String> usuarios = BbddController.leerUsers();
+        String decodedUser = txtFieldUser.getText();
+        String decodedPwd = txtFieldPwd.getText();
+        if (usuarios.containsKey(decodedUser) && usuarios.get(decodedUser).equals(decodedPwd)) {
+            toSerie(actionEvent);
+        } else {
+            System.out.println("Usuario o contraseña incorrectos");
+        }
     }
+
+
 }
