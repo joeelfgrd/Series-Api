@@ -1,5 +1,6 @@
 package edu.badpals.controlador;
 
+import edu.badpals.modelo.Episodio;
 import edu.badpals.modelo.Serie;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -7,6 +8,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.ListView;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -17,15 +21,37 @@ public class EpisodiosController implements Initializable {
     private Serie serie; // Objeto Serie actual
 
     @FXML
-    private ListView<String> listViewEpisodios; // Vista de lista para mostrar episodios
-
-    @FXML
     private javafx.scene.control.Label lblNameSerieEpisodios; // Etiqueta para mostrar el nombre de la serie
 
+    @FXML
+    private TableView<Episodio> tableViewEpisodios;
+    @FXML
+    private TableColumn<Episodio, Integer> colId;
+    @FXML
+    private TableColumn<Episodio, Integer> colNumero;
+    @FXML
+    private TableColumn<Episodio, Integer> colTemporada;
+    @FXML
+    private TableColumn<Episodio, String> colNombre;
+    @FXML
+    private TableColumn<Episodio, String> colSerie;
+    @FXML
+    private TableColumn<Episodio, String> colEstreno;
+    @FXML
+    private TableColumn<Episodio, Integer> colDuracion;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        colId.setCellValueFactory(new PropertyValueFactory<>("id"));
+        colNumero.setCellValueFactory(new PropertyValueFactory<>("numero"));
+        colTemporada.setCellValueFactory(new PropertyValueFactory<>("temporada"));
+        colNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
+        colSerie.setCellValueFactory(new PropertyValueFactory<>("serie"));
+        colEstreno.setCellValueFactory(new PropertyValueFactory<>("estreno"));
+        colDuracion.setCellValueFactory(new PropertyValueFactory<>("duracion"));
 
+        // Load episodes data here
+        cargarEpisodios();
     }
 
 
@@ -46,6 +72,8 @@ public class EpisodiosController implements Initializable {
     public void setSerie(Serie serie) {
         this.serie = serie;
     }
+
+    public void cargarEpisodios(){}
     /*
 
     private void cargarSerie() {
