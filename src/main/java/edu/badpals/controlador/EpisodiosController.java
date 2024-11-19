@@ -1,13 +1,14 @@
 package edu.badpals.controlador;
 
+import edu.badpals.modelo.Conexion_App_bbdd;
 import edu.badpals.modelo.Episodio;
 import edu.badpals.modelo.Serie;
+import javafx.beans.property.SimpleStringProperty;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
-import javafx.scene.control.ListView;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -15,9 +16,13 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
+import java.sql.Connection;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class EpisodiosController implements Initializable {
+    Conexion_App_bbdd cbd = new Conexion_App_bbdd();
+    Connection c = cbd.crearConexion();
     private Serie serie; // Objeto Serie actual
 
     @FXML
@@ -36,22 +41,12 @@ public class EpisodiosController implements Initializable {
     @FXML
     private TableColumn<Episodio, String> colSerie;
     @FXML
-    private TableColumn<Episodio, String> colEstreno;
+    private TableColumn<Episodio, String> colFechaDeSalida;
     @FXML
     private TableColumn<Episodio, Integer> colDuracion;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        colId.setCellValueFactory(new PropertyValueFactory<>("id"));
-        colNumero.setCellValueFactory(new PropertyValueFactory<>("numero"));
-        colTemporada.setCellValueFactory(new PropertyValueFactory<>("temporada"));
-        colNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
-        colSerie.setCellValueFactory(new PropertyValueFactory<>("serie"));
-        colEstreno.setCellValueFactory(new PropertyValueFactory<>("estreno"));
-        colDuracion.setCellValueFactory(new PropertyValueFactory<>("duracion"));
-
-        // Load episodes data here
-        cargarEpisodios();
     }
 
 
@@ -73,7 +68,24 @@ public class EpisodiosController implements Initializable {
         this.serie = serie;
     }
 
-    public void cargarEpisodios(){}
+    public void cargarEpisodios(List<Episodio> episodios){
+        tableViewEpisodios.getItems().setAll(episodios);
+    }
+
+    private void setCells() {
+        colId.setCellValueFactory(new PropertyValueFactory<>("id"));
+        colNumero.setCellValueFactory(new PropertyValueFactory<>("numero"));
+        colTemporada.setCellValueFactory(new PropertyValueFactory<>("temporada"));
+        colNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
+        colSerie.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getSerie().getNombre()));
+        colFechaDeSalida.setCellValueFactory(new PropertyValueFactory<>("FechaDeSalida"));
+        colDuracion.setCellValueFactory(new PropertyValueFactory<>("duracion"));
+    }
+
+    public void cargarTabla() {
+        setCells();
+        cargarEpisodios(Conexion_App_bbdd.getEpisodios(c,this.serie));
+    }
     /*
 
     private void cargarSerie() {

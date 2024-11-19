@@ -9,14 +9,14 @@ public class Episodio {
     private int temporada;
     private Serie serie;
     private Date fechaDeSalida;
-    private int duracion;
+    private Date duracion;
 
     // Constructor vacío
     public Episodio() {
     }
 
     // Constructor con parámetros
-    public Episodio(int id, String nombre, int numero, int temporada, Serie serie, Date fechaDeSalida, int duracion) {
+    public Episodio(int id, String nombre, int numero, int temporada, Serie serie, Date fechaDeSalida, Date duracion) {
         this.id = id;
         this.nombre = nombre;
         this.numero = numero;
@@ -75,11 +75,11 @@ public class Episodio {
         this.fechaDeSalida = fechaDeSalida;
     }
 
-    public int getDuracion() {
+    public Date getDuracion() {
         return duracion;
     }
 
-    public void setDuracion(int duracion) {
+    public void setDuracion(Date duracion) {
         this.duracion = duracion;
     }
 

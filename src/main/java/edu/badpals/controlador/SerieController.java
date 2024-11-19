@@ -1,6 +1,6 @@
 package edu.badpals.controlador;
 
-import edu.badpals.modelo.Conexion_Series_bbdd;
+import edu.badpals.modelo.Conexion_App_bbdd;
 import edu.badpals.modelo.Estado;
 import edu.badpals.modelo.Serie;
 import javafx.event.ActionEvent;
@@ -17,7 +17,7 @@ import java.util.Date;
 import java.util.List;
 
 public class SerieController {
-    Conexion_Series_bbdd cbd = new Conexion_Series_bbdd();
+    Conexion_App_bbdd cbd = new Conexion_App_bbdd();
     Connection c = cbd.crearConexion();
     Serie serie;
 
@@ -52,7 +52,7 @@ public class SerieController {
     @FXML
     public void initialize() {
         setCells();
-        cargarSeries(Conexion_Series_bbdd.getSeries(c));
+        cargarSeries(Conexion_App_bbdd.getSeries(c));
 
         // Set row factory for selection
         tableViewSeries.setOnMouseClicked(event -> {
@@ -73,8 +73,11 @@ public class SerieController {
         if (this.serie != null) {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/episodios.fxml"));
-                Scene scene = new Scene(fxmlLoader.load(), 919, 750);
 
+                Scene scene = new Scene(fxmlLoader.load(), 919, 750);
+                EpisodiosController controller = fxmlLoader.getController();
+                controller.setSerie(this.serie);
+                controller.cargarTabla();
                 Stage stage = (Stage) ((javafx.scene.Node) actionEvent.getSource()).getScene().getWindow();
 
                 stage.setScene(scene);
@@ -82,8 +85,6 @@ public class SerieController {
                 stage.setMaximized(false);
                 stage.setResizable(false);
                 stage.setTitle("Episodios");
-                EpisodiosController controller = fxmlLoader.getController();
-                controller.setSerie(this.serie);
             } catch (Exception e){
                 e.printStackTrace();
             }
