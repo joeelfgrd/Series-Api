@@ -57,7 +57,7 @@ public class SerieController {
         // Set row factory for selection
         tableViewSeries.setOnMouseClicked(event -> {
             if (!tableViewSeries.getSelectionModel().isEmpty() && event.getButton() == MouseButton.PRIMARY && event.getClickCount() == 1) {
-                this.serie = tableViewSeries.getSelectionModel().getSelectedItem();
+                setSerie(tableViewSeries.getSelectionModel().getSelectedItem());
             }
         });
 
@@ -72,8 +72,8 @@ public class SerieController {
     public void toEpisodios(ActionEvent actionEvent) {
         if (this.serie != null) {
             try {
-                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../../../../resources/edu/badpals/vista/episodios.fxml"));
-                Scene scene = new Scene(fxmlLoader.load(), 1600, 900);
+                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/episodios.fxml"));
+                Scene scene = new Scene(fxmlLoader.load(), 919, 750);
 
                 Stage stage = (Stage) ((javafx.scene.Node) actionEvent.getSource()).getScene().getWindow();
 
@@ -82,6 +82,8 @@ public class SerieController {
                 stage.setMaximized(false);
                 stage.setResizable(false);
                 stage.setTitle("Episodios");
+                EpisodiosController controller = fxmlLoader.getController();
+                controller.setSerie(this.serie);
             } catch (Exception e){
                 e.printStackTrace();
             }
@@ -108,5 +110,9 @@ public class SerieController {
         colIdioma.setCellValueFactory(new PropertyValueFactory<>("idioma"));
         colEstado.setCellValueFactory(new PropertyValueFactory<>("estado"));
         colCadena.setCellValueFactory(new PropertyValueFactory<>("cadena"));
+    }
+
+    public void setSerie(Serie serie) {
+        this.serie = serie;
     }
 }

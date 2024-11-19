@@ -1,12 +1,6 @@
 package edu.badpals.controlador;
 
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import edu.badpals.modelo.Episodio;
 import edu.badpals.modelo.Serie;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -15,15 +9,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.ListView;
 import javafx.stage.Stage;
 
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
-import java.io.File;
 import java.io.IOException;
 import java.net.URL;
-import java.util.List;
 import java.util.ResourceBundle;
 
 public class EpisodiosController implements Initializable {
@@ -42,20 +29,9 @@ public class EpisodiosController implements Initializable {
     }
 
 
-    public void toExportacion(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("exportacion.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600 , 400);
-        Stage stage = (Stage) ((javafx.scene.Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setScene(scene);
-        stage.show();
-        stage.setMaximized(false);
-        stage.setResizable(false);
-        stage.setTitle("Exportacion");
-    }
-
     public void toSerie(ActionEvent actionEvent) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("serie.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1600, 900);
+        Scene scene = new Scene(fxmlLoader.load(), 919, 750);
         Stage stage = (Stage) ((javafx.scene.Node) actionEvent.getSource()).getScene().getWindow();
         stage.setScene(scene);
         stage.show();
@@ -64,6 +40,11 @@ public class EpisodiosController implements Initializable {
         stage.setTitle("Series");
 
         SerieController controller = fxmlLoader.getController();
+        controller.setSerie(this.serie);
+    }
+
+    public void setSerie(Serie serie) {
+        this.serie = serie;
     }
     /*
 
