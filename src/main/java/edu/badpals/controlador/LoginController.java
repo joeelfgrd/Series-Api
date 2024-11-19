@@ -20,7 +20,7 @@ public class LoginController {
     public void toSerie(ActionEvent actionEvent) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/serie.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 1600, 900);
+            Scene scene = new Scene(fxmlLoader.load(), 919, 750);
             Stage stage = (Stage) ((javafx.scene.Node) actionEvent.getSource()).getScene().getWindow();
             stage.setScene(scene);
             stage.show();
