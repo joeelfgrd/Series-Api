@@ -75,7 +75,7 @@ public class SerieController {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/episodios.fxml"));
 
-                Scene scene = new Scene(fxmlLoader.load(), 919, 750);
+                Scene scene = new Scene(fxmlLoader.load(), 1200, 750);
                 Stage stage = (Stage) ((javafx.scene.Node) actionEvent.getSource()).getScene().getWindow();
 
                 EpisodiosController controller = fxmlLoader.getController();

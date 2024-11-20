@@ -5,8 +5,6 @@ Arreglar graficamente la vista de series
 --EPISODIOS--
 Crear volver a series
 Eliminar
-Crear vinculando la vista correspondiente
-Modificar vinculando el boton a la vista en cuestion y precargar la serie seleccionada
 Filtrar por temporada
 Quitar ordenar del menuBar
 Exportar a json

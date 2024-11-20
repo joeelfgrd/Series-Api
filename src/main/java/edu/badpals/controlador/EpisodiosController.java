@@ -71,7 +71,7 @@ public class EpisodiosController implements Initializable {
     public void toSerie(ActionEvent actionEvent) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/serie.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 919, 750);
+            Scene scene = new Scene(fxmlLoader.load(), 1200, 750);
             Stage stage = (Stage) ((MenuItem) actionEvent.getSource()).getParentPopup().getOwnerWindow();
             stage.setScene(scene);
             stage.show();
