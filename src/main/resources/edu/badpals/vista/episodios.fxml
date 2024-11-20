@@ -22,7 +22,7 @@
         </Label>
         <ImageView fx:id="imgEpisodio" fitHeight="485.0" fitWidth="466.0" layoutX="1082.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" />
         <Separator layoutY="90.0" opacity="0.3" prefHeight="8.0" prefWidth="919.0" />
-        <MenuBar layoutX="-3.0" prefHeight="17.0" prefWidth="925.0" style="-fx-background-color: transparent; -fx-text-fill: #E0E0E0;">
+        <MenuBar layoutX="-3.0" prefHeight="17.0" prefWidth="925.0" style="-fx-text-fill: #E0E0E0;">
             <menus>
             <Menu mnemonicParsing="false" style="-fx-text-fill: #E0E0E0;" text="Volver a Series">
                <items>
@@ -42,7 +42,7 @@
                 </Menu>
             </menus>
         </MenuBar>
-        <TableView fx:id="tableViewEpisodios" layoutX="13.0" layoutY="374.0" prefHeight="359.0" prefWidth="893.0" style="-fx-background-color: #1F1B24; -fx-border-color: #4ECCA3;">
+        <TableView fx:id="tableViewEpisodios" layoutX="13.0" layoutY="374.0" prefHeight="359.0" prefWidth="893.0" style="-fx-background-color: #2E2A33; -fx-border-color: #4ECCA3; -fx-border-radius: #5;" stylesheets="@styles.css">
             <columns>
                 <TableColumn fx:id="colId" prefWidth="70.0" text="ID" />
                 <TableColumn fx:id="colNumero" prefWidth="67.0" text="Numero" />
@@ -56,10 +56,10 @@
         <Button fx:id="btnCrearep" layoutX="346.0" layoutY="324.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #4ECCA3; -fx-text-fill: #1F1B24; -fx-background-radius: 15px;" text="Crear" />
         <Button fx:id="btnDelep" layoutX="506.0" layoutY="324.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #4ECCA3; -fx-text-fill: #1F1B24; -fx-background-radius: 15px;" text="Eliminar" />
         <Button fx:id="btnModifep" layoutX="426.0" layoutY="324.0" mnemonicParsing="false" style="-fx-background-color: #4ECCA3; -fx-text-fill: #1F1B24; -fx-background-radius: 15px;" text="Modificar" />
-        <TextField fx:id="txtNumEp" layoutX="811.0" layoutY="170.0" prefHeight="33.0" prefWidth="63.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
+        <TextField fx:id="txtNumEp" layoutX="693.0" layoutY="157.0" prefHeight="33.0" prefWidth="63.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
         <TextField fx:id="txtEstrenoep" layoutX="138.0" layoutY="254.0" prefHeight="33.0" prefWidth="157.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
         <TextField fx:id="txtSerieep" layoutX="136.0" layoutY="160.0" prefHeight="27.0" prefWidth="395.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
-        <TextField fx:id="txtTempep" layoutX="724.0" layoutY="254.0" prefHeight="33.0" prefWidth="63.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
+        <TextField fx:id="txtTempep" layoutX="693.0" layoutY="204.0" prefHeight="33.0" prefWidth="63.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
         <Label layoutX="48.0" layoutY="118.0" prefHeight="27.0" prefWidth="29.0" style="-fx-text-fill: #E0E0E0;" text="ID:">
             <font>
                 <Font size="17.0" />
@@ -69,16 +69,16 @@
          <font>
             <Font size="16.0" />
          </font></Label>
-        <Label layoutX="629.0" layoutY="258.0" style="-fx-text-fill: #E0E0E0;" text="Temporada:">
+        <Label layoutX="595.0" layoutY="208.0" style="-fx-text-fill: #E0E0E0;" text="Temporada:">
          <font>
             <Font size="16.0" />
          </font></Label>
         <Label fx:id="lblidSerie" layoutX="136.0" layoutY="114.0" prefHeight="33.0" prefWidth="63.0" style="-fx-background-color: #4ECCA3; -fx-text-fill: #1F1B24; -fx-background-radius: 10px;" />
-        <Label layoutX="731.0" layoutY="191.0" prefHeight="25.0" prefWidth="63.0" style="-fx-text-fill: #E0E0E0;" text="Numero:">
+        <Label layoutX="595.0" layoutY="161.0" prefHeight="25.0" prefWidth="63.0" style="-fx-text-fill: #E0E0E0;" text="Numero:">
          <font>
             <Font size="16.0" />
          </font></Label>
-        <Label layoutX="697.0" layoutY="118.0" style="-fx-text-fill: #E0E0E0;" text="Duracion:">
+        <Label layoutX="595.0" layoutY="119.0" style="-fx-text-fill: #E0E0E0;" text="Duracion:">
          <font>
             <Font size="16.0" />
          </font></Label>
@@ -90,7 +90,7 @@
          <font>
             <Font size="16.0" />
          </font></Label>
-        <TextField fx:id="txtnomeep" layoutX="138.0" layoutY="207.0" prefHeight="25.0" prefWidth="405.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
-        <TextField fx:id="txtDurep" layoutX="773.0" layoutY="114.0" prefHeight="33.0" prefWidth="139.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
+        <TextField fx:id="txtnomeep" layoutX="138.0" layoutY="207.0" prefHeight="25.0" prefWidth="395.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
+        <TextField fx:id="txtDurep" layoutX="693.0" layoutY="115.0" prefHeight="33.0" prefWidth="139.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
     </children>
 </Pane>

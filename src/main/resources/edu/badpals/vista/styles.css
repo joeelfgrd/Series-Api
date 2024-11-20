@@ -1,0 +1,31 @@
+/* Cambiar el fondo de la tabla */
+.table-view {
+    -fx-background-color: #1F1B24; /* Fondo general */
+    -fx-control-inner-background: #1F1B24; /* Fondo interno */
+    -fx-border-color: #4ECCA3;
+}
+
+/* Cambiar el color de las filas */
+.table-row-cell {
+    -fx-background-color: transparent; /* Fondo por defecto */
+    -fx-control-inner-background: #1F1B24; /* Fondo de las celdas */
+    -fx-text-fill: #E0E0E0; /* Color del texto */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #4ECCA3; /* Fondo de la fila seleccionada */
+    -fx-text-fill: #1F1B24; /* Texto en fila seleccionada */
+}
+
+/* Cambiar encabezado de columnas */
+.table-view .column-header {
+    -fx-background-color: #4ECCA3; /* Fondo del encabezado */
+    -fx-border-color: #1F1B24;
+    -fx-text-fill: #1F1B24; /* Texto del encabezado */
+}
+
+/* Cambiar las líneas divisorias */
+.table-view .table-cell {
+    -fx-border-color:  #37306B; /* Bordes de las celdas */
+    -fx-text-fill: #E0E0E0; /* Color del texto */
+}
