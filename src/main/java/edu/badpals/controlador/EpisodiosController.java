@@ -67,10 +67,9 @@ public class EpisodiosController implements Initializable {
     @FXML
     private TextField txtDurEp;
 
-
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        setCells();
         // Set row factory for selection
         tableViewEpisodios.setOnMouseClicked(event -> {
             if (!tableViewEpisodios.getSelectionModel().isEmpty() && event.getButton() == MouseButton.PRIMARY && event.getClickCount() == 1) {
@@ -80,17 +79,24 @@ public class EpisodiosController implements Initializable {
         });
     }
 
-    private void cargarTextsEpisodio() {
-        lblidSerie.setText(String.valueOf(this.episodio.getId()));
-        txtNumEp.setText(String.valueOf(this.episodio.getNumero()));
-        txtTempEp.setText(String.valueOf(this.episodio.getTemporada()));
-        txtNombreEp.setText(this.episodio.getNombre());
-        txtFechaDeSalidaEp.setText(String.valueOf(this.episodio.getFechaDeSalida()));
-        txtDurEp.setText(String.valueOf(this.episodio.getDuracion()));
+    public void setEpisodio(Episodio episodio) {
+        this.episodio = episodio;
     }
 
-    private void setEpisodio(Episodio episodio) {
-        this.episodio = episodio;
+    public List<Episodio> getEpisodios() {
+        return episodios;
+    }
+
+    public void setEpisodios(List<Episodio> episodios) {
+        this.episodios = episodios;
+    }
+
+    public void setSerie(Serie serie) {
+        this.serie = serie;
+    }
+
+    public void cargarTabla() {
+        cargarEpisodios(Conexion_App_bbdd.getEpisodios(c, this.serie));
     }
 
     public void toSerie(ActionEvent actionEvent) {
@@ -108,14 +114,22 @@ public class EpisodiosController implements Initializable {
         }
     }
 
+    public void crearEp(ActionEvent actionEvent) {
+        Episodio ep = cargarEpisodioTexts();
+        if (ep != null && !Conexion_App_bbdd.crearEpisodio(c, ep)) {
+            Controlador.showWarning("Error Crear", "La temporada y el numero de episodio ya existen");
+        }
+        cargarTabla();
+    }
+
     public void modificarEp(ActionEvent actionEvent) {
         Episodio ep = cargarEpisodioTexts();
         if (ep != null){
             int respuesta = Conexion_App_bbdd.modificarEpisodio(c, ep);
             if (respuesta == 0) {
-                showWarning("Error Modificar", "El ID Seleccionado no Existe");
+                Controlador.showWarning("Error Modificar", "El ID Seleccionado no Existe");
             } else if(respuesta == 2){
-                showWarning("Error Modificar", "La temporada y el numero de episodio ya existen");
+                Controlador.showWarning("Error Modificar", "La temporada y el numero de episodio ya existen");
             }
         }
         cargarTabla();
@@ -124,15 +138,7 @@ public class EpisodiosController implements Initializable {
     public void eliminarEp(ActionEvent actionEvent) {
         Episodio ep = cargarEpisodioTexts();
         if (ep != null && !Conexion_App_bbdd.eliminarEpisodio(c, ep)) {
-            showWarning("Error Eliminar", "El ID Seleccionado no Existe");
-        }
-        cargarTabla();
-    }
-
-    public void crearEp(ActionEvent actionEvent) {
-        Episodio ep = cargarEpisodioTexts();
-        if (ep != null && !Conexion_App_bbdd.crearEpisodio(c, ep)) {
-            showWarning("Error Crear", "La temporada y el numero de episodio ya existen");
+            Controlador.showWarning("Error Eliminar", "El ID Seleccionado no Existe");
         }
         cargarTabla();
     }
@@ -145,13 +151,13 @@ public class EpisodiosController implements Initializable {
         try {
             episodio.setNumero(Integer.parseInt(txtNumEp.getText()));
         } catch (NumberFormatException e) {
-            showWarning("Numero incorrecto", "Escribe un Numero de Episodio correcto");
+            Controlador.showWarning("Numero incorrecto", "Escribe un Numero de Episodio correcto");
             return null;
         }
         try {
             episodio.setTemporada(Integer.parseInt(txtTempEp.getText()));
         } catch (NumberFormatException e) {
-            showWarning("Numero incorrecto", "Escribe un Numero de Temporada correcta");
+            Controlador.showWarning("Numero incorrecto", "Escribe un Numero de Temporada correcta");
             return null;
         }
 
@@ -162,43 +168,21 @@ public class EpisodiosController implements Initializable {
         try {
             episodio.setFechaDeSalida(Date.valueOf(txtFechaDeSalidaEp.getText()));
         } catch (IllegalArgumentException e) {
-            showWarning("Fecha Incorrecta", "Escribe una fecha con el formato Correcto yyyy-[m] m-[d] d");
+            Controlador.showWarning("Fecha Incorrecta", "Escribe una fecha con el formato Correcto yyyy-[m] m-[d] d");
             return null;
         }
         try {
             episodio.setDuracion(Time.valueOf(txtDurEp.getText()));
         } catch (IllegalArgumentException e) {
-            showWarning("Duracion Incorrecta", "Escribe una Duracion con el formato Correcto hh:mm:ss");
+            Controlador.showWarning("Duracion Incorrecta", "Escribe una Duracion con el formato Correcto hh:mm:ss");
             return null;
         }
         return episodio;
     }
 
-    public void setSerie(Serie serie) {
-        this.serie = serie;
-    }
-
     public void cargarEpisodios(List<Episodio> episodios) {
         setEpisodios(episodios);
         tableViewEpisodios.getItems().setAll(episodios);
-    }
-
-    private void setCells() {
-        colId.setCellValueFactory(new PropertyValueFactory<>("id"));
-        colNumero.setCellValueFactory(new PropertyValueFactory<>("numero"));
-        colTemporada.setCellValueFactory(new PropertyValueFactory<>("temporada"));
-        colNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
-        colSerie.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getSerie().getNombre()));
-        colFechaDeSalida.setCellValueFactory(new PropertyValueFactory<>("FechaDeSalida"));
-        colDuracion.setCellValueFactory(new PropertyValueFactory<>("duracion"));
-    }
-
-    private boolean prepareExportDirectory(String directoryPath) {
-        File directory = new File(directoryPath);
-        if (!directory.exists()) {
-            return directory.mkdirs();
-        }
-        return true;
     }
 
     public void toJSON(ActionEvent actionEvent) {
@@ -216,28 +200,33 @@ public class EpisodiosController implements Initializable {
         }
     }
 
-
-
-    public void cargarTabla() {
-        cargarEpisodios(Conexion_App_bbdd.getEpisodios(c, this.serie));
-        setCells();
+    private void setCells() {
+        colId.setCellValueFactory(new PropertyValueFactory<>("id"));
+        colNumero.setCellValueFactory(new PropertyValueFactory<>("numero"));
+        colTemporada.setCellValueFactory(new PropertyValueFactory<>("temporada"));
+        colNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
+        colSerie.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getSerie().getNombre()));
+        colFechaDeSalida.setCellValueFactory(new PropertyValueFactory<>("FechaDeSalida"));
+        colDuracion.setCellValueFactory(new PropertyValueFactory<>("duracion"));
     }
 
-    public List<Episodio> getEpisodios() {
-        return episodios;
+    private void cargarTextsEpisodio() {
+        lblidSerie.setText(String.valueOf(this.episodio.getId()));
+        txtNumEp.setText(String.valueOf(this.episodio.getNumero()));
+        txtTempEp.setText(String.valueOf(this.episodio.getTemporada()));
+        txtNombreEp.setText(this.episodio.getNombre());
+        txtFechaDeSalidaEp.setText(String.valueOf(this.episodio.getFechaDeSalida()));
+        txtDurEp.setText(String.valueOf(this.episodio.getDuracion()));
     }
 
-    public void setEpisodios(List<Episodio> episodios) {
-        this.episodios = episodios;
+    private boolean prepareExportDirectory(String directoryPath) {
+        File directory = new File(directoryPath);
+        if (!directory.exists()) {
+            return directory.mkdirs();
+        }
+        return true;
     }
 
-    public static void showWarning(String title, String message) {
-        Alert alert = new Alert(Alert.AlertType.WARNING);
-        alert.setTitle(title);
-        alert.setHeaderText(null);
-        alert.setContentText(message);
-        alert.showAndWait();
-    }
     /*
 
     private void cargarSerie() {

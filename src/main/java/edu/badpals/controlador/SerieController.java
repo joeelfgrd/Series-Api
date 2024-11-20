@@ -14,7 +14,6 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.sql.Connection;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -76,6 +75,10 @@ public class SerieController {
         });
     }
 
+    public void setSerie(Serie serie) {
+        this.serie = serie;
+    }
+
     public void ordenarTablaCalAsc() {
         cargarSeries(Conexion_App_bbdd.getSeriesCal(c, "ASC"));
         setCells();
@@ -96,10 +99,36 @@ public class SerieController {
         setCells();
     }
 
-    private void cargarSeries(List<Serie> series) {
-        tableViewSeries.getItems().setAll(series);
+    public void filtrarSeries(ActionEvent event) {
+        List<Serie> series;
+        String[] filtros = new String[3];
+        if (chkIdiomaSerie.isSelected()) {
+            filtros[0] = txtIdiomaSerie.getText();
+        }
+        if (chkEstadoSerie.isSelected()) {
+            filtros[1] = txtEstadoSerie.getText();
+        }
+        if (chkCadenaSerie.isSelected()) {
+            filtros[2] = txtCadenaSerie.getText();
+        }
+        series = Conexion_App_bbdd.getSeries(c, filtros);
+        cargarSeries(series);
     }
 
+    public void toLogin(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/login.fxml"));
+            Scene scene = new Scene(fxmlLoader.load(), 500, 600);
+            Stage stage = (Stage) ((MenuItem) actionEvent.getSource()).getParentPopup().getOwnerWindow();
+            stage.setScene(scene);
+            stage.show();
+            stage.setMaximized(false);
+            stage.setResizable(false);
+            stage.setTitle("Login");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     public void toEpisodios(ActionEvent actionEvent) {
         if (this.serie != null) {
@@ -117,50 +146,12 @@ public class SerieController {
                 stage.setMaximized(false);
                 stage.setResizable(false);
                 stage.setTitle("Episodios");
-            } catch (Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         } else {
-            showWarning("Acceso Denegado", "No puedes buscar los episodios de una serie sin elegir la serie");
+            Controlador.showWarning("Acceso Denegado", "No puedes buscar los episodios de una serie sin elegir la serie");
         }
-    }
-    public void filtrarSeries(ActionEvent event) {
-        List<Serie> series = new ArrayList<>(Conexion_App_bbdd.getSeries(c));
-        if (chkIdiomaSerie.isSelected()) {
-            String idioma = txtIdiomaSerie.getText();
-            series = Conexion_App_bbdd.getSeriebyIdioma(c, idioma);
-        }
-        if (chkEstadoSerie.isSelected()) {
-            String estado = txtEstadoSerie.getText();
-            series = Conexion_App_bbdd.getSeriebyEstado(c, estado);
-        }
-        if (chkCadenaSerie.isSelected()) {
-            String cadena = txtCadenaSerie.getText();
-            series = Conexion_App_bbdd.getSeriebyCadena(c, cadena);
-        }
-        cargarSeries(series);
-    }
-    public void toLogin(ActionEvent actionEvent) {
-        try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/login.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 500, 600);
-            Stage stage = (Stage) ((MenuItem) actionEvent.getSource()).getParentPopup().getOwnerWindow();
-            stage.setScene(scene);
-            stage.show();
-            stage.setMaximized(false);
-            stage.setResizable(false);
-            stage.setTitle("Login");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static void showWarning(String title, String message) {
-        Alert alert = new Alert(Alert.AlertType.WARNING);
-        alert.setTitle(title);
-        alert.setHeaderText(null);
-        alert.setContentText(message);
-        alert.showAndWait();
     }
 
     private void setCells() {
@@ -175,7 +166,7 @@ public class SerieController {
         colCadena.setCellValueFactory(new PropertyValueFactory<>("cadena"));
     }
 
-    public void setSerie(Serie serie) {
-        this.serie = serie;
+    private void cargarSeries(List<Serie> series) {
+        tableViewSeries.getItems().setAll(series);
     }
 }

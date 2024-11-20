@@ -10,13 +10,34 @@ public class Conexion_App_bbdd {
 
     private String urldb = "jdbc:mysql://localhost:3306/app_series";
 
+    public Connection crearConexion() {
+        try {
+            Properties propiedadesConexion = new Properties();
+            propiedadesConexion.setProperty("user", "root");
+            propiedadesConexion.setProperty("password", "root");
+            return DriverManager.getConnection(urldb, propiedadesConexion);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public void cerrarConexion(Connection c) {
+        try {
+            c.close();
+            System.out.println("Conexión cerrada en series");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static List<Serie> getSeries(Connection c) {
         String stringSQL = "SELECT * FROM SERIES";
         return selectSeries(c, stringSQL);
     }
 
     public static List<Serie> getSeriesEstreno(Connection c, String orden) {
-        if(!Objects.equals(orden, "ASC") && !Objects.equals(orden, "DESC")){
+        if (!Objects.equals(orden, "ASC") && !Objects.equals(orden, "DESC")) {
             return null;
         }
         String stringSQL = "SELECT * FROM SERIES ORDER BY FECHA_ESTRENO " + orden;
@@ -24,7 +45,7 @@ public class Conexion_App_bbdd {
     }
 
     public static List<Serie> getSeriesCal(Connection c, String orden) {
-        if(!Objects.equals(orden, "ASC") && !Objects.equals(orden, "DESC")){
+        if (!Objects.equals(orden, "ASC") && !Objects.equals(orden, "DESC")) {
             return null;
         }
         String stringSQL = "SELECT * FROM SERIES ORDER BY RATING " + orden;
@@ -70,82 +91,9 @@ public class Conexion_App_bbdd {
     }
     */
 
-    public static Serie getSerie(Connection c, String nombre) {
-        Serie serie = new Serie();
-        try {
-            String stringSQL = "SELECT * FROM SERIES WHERE NOMBRE = ?";
-            PreparedStatement ps = c.prepareStatement(stringSQL);
-            ps.setString(1, nombre);
-            ResultSet rs = ps.executeQuery();
-            if (rs.next()) {
-                serie = getSerieFromRS(rs);
-            }
-            rs.close();
-            ps.close();
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return serie;
+    public static List<Serie> getSeries(Connection c, String[] filtros) {
+        return selectSeries(c, prepareStringSQL(filtros));
     }
-
-    public static List<Serie> getSeriebyIdioma(Connection c, String idioma) {
-        List<Serie> series = new ArrayList<>();
-        try {
-            String idiomasql = "SELECT * FROM SERIES WHERE IDIOMA = ?";
-            PreparedStatement ps = c.prepareStatement(idiomasql);
-            ps.setString(1, idioma);
-            ResultSet rs = ps.executeQuery();
-            while (rs.next()) {
-                Serie serie = getSerieFromRS(rs);
-                series.add(serie);
-            }
-            rs.close();
-            ps.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return series;
-    }
-
-    public static List<Serie> getSeriebyEstado(Connection c, String estado) {
-        List<Serie> series = new ArrayList<>();
-        try {
-            String estadosql = "SELECT * FROM SERIES WHERE ESTADO = ?";
-            PreparedStatement ps = c.prepareStatement(estadosql);
-            ps.setString(1, estado);
-            ResultSet rs = ps.executeQuery();
-            while (rs.next()) {
-                Serie serie = getSerieFromRS(rs);
-                series.add(serie);
-            }
-            rs.close();
-            ps.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return series;
-    }
-
-    public static List<Serie> getSeriebyCadena(Connection c, String cadena) {
-        List<Serie> series = new ArrayList<>();
-        try {
-            String cadenasql = "SELECT * FROM SERIES WHERE CADENA = ?";
-            PreparedStatement ps = c.prepareStatement(cadenasql);
-            ps.setString(1, cadena);
-            ResultSet rs = ps.executeQuery();
-            while (rs.next()) {
-                Serie serie = getSerieFromRS(rs);
-                series.add(serie);
-            }
-            rs.close();
-            ps.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return series;
-    }
-
 
     private static Serie getSerieFromRS(ResultSet rs) throws SQLException {
         Serie serie = new Serie();
@@ -237,7 +185,7 @@ public class Conexion_App_bbdd {
     public static int modificarEpisodio(Connection c, Episodio episodio) {
         int ejecutado = 0;
         try {
-            if(checkEpisodio(c,episodio,episodio.getId())){
+            if (checkEpisodio(c, episodio, episodio.getId())) {
                 return 2;
             }
 
@@ -312,7 +260,7 @@ public class Conexion_App_bbdd {
             ps.setInt(3, episodio.getNumero());
             ResultSet rs = ps.executeQuery();
             hasNext = rs.next();
-            if(hasNext){
+            if (hasNext) {
                 hasNext = rs.getInt(1) != id;
             }
             rs.close();
@@ -323,25 +271,22 @@ public class Conexion_App_bbdd {
         return hasNext;
     }
 
+    private static String prepareStringSQL(String[] filtros) {
+        StringBuilder stringSQL = new StringBuilder("SELECT * FROM SERIES");
+        String[] columnas = {"IDIOMA", "ESTADO", "CADENA"};
+        boolean whereMissing = true;
 
-    public Connection crearConexion() {
-        try {
-            Properties propiedadesConexion = new Properties();
-            propiedadesConexion.setProperty("user", "root");
-            propiedadesConexion.setProperty("password", "root");
-            return DriverManager.getConnection(urldb, propiedadesConexion);
-        } catch (SQLException e) {
-            e.printStackTrace();
+        for (int i = 0; i < filtros.length; i++) {
+            if (filtros[i] != null) {
+                if (whereMissing) {
+                    stringSQL.append(" WHERE ");
+                    whereMissing = false;
+                } else {
+                    stringSQL.append(" AND ");
+                }
+                stringSQL.append(columnas[i]).append(" = '").append(filtros[i]).append("'");
+            }
         }
-        return null;
-    }
-
-    public void cerrarConexion(Connection c) {
-        try {
-            c.close();
-            System.out.println("Conexión cerrada en series");
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        return stringSQL.toString();
     }
 }
