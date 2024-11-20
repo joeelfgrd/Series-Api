@@ -78,14 +78,14 @@ public class SerieController {
                 Scene scene = new Scene(fxmlLoader.load(), 919, 750);
                 Stage stage = (Stage) ((javafx.scene.Node) actionEvent.getSource()).getScene().getWindow();
 
+                EpisodiosController controller = fxmlLoader.getController();
+                controller.setSerie(this.serie);
+                controller.cargarTabla();
                 stage.setScene(scene);
                 stage.show();
                 stage.setMaximized(false);
                 stage.setResizable(false);
                 stage.setTitle("Episodios");
-                EpisodiosController controller = fxmlLoader.getController();
-                controller.setSerie(this.serie);
-                controller.cargarTabla();
             } catch (Exception e){
                 e.printStackTrace();
             }

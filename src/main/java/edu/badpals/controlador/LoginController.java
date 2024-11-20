@@ -1,6 +1,6 @@
 package edu.badpals.controlador;
 
-import edu.badpals.modelo.BbddController;
+import edu.badpals.modelo.Conexion_Login_bbdd;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -34,12 +34,12 @@ public class LoginController {
     }
 
     public void registrarUser() {
-        BbddController.crearUser(txtFieldUser.getText(), txtFieldPwd.getText());
+        Conexion_Login_bbdd.crearUser(txtFieldUser.getText(), txtFieldPwd.getText());
     }
 
 
     public void acceder(ActionEvent actionEvent) {
-        Map<String, String> usuarios = BbddController.leerUsers();
+        Map<String, String> usuarios = Conexion_Login_bbdd.leerUsers();
         String decodedUser = txtFieldUser.getText();
         String decodedPwd = txtFieldPwd.getText();
         if (usuarios.containsKey(decodedUser) && usuarios.get(decodedUser).equals(decodedPwd)) {

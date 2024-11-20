@@ -86,8 +86,8 @@ public class EpisodiosController implements Initializable {
     }
 
     public void cargarTabla() {
-        setCells();
         cargarEpisodios(Conexion_App_bbdd.getEpisodios(c,this.serie));
+        setCells();
     }
 
     public List<Episodio> getEpisodios() {
