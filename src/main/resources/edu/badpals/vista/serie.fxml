@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #37306BFF;" stylesheets="@stylesSeries.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.badpals.controlador.SerieController">
     <children>
         <!-- Botón "Ver Episodios" con diseño minimalista y elegante -->
-        <Button fx:id="btnVerEpisodios" layoutX="1034.0" layoutY="697.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#toEpisodios" prefHeight="39.0" prefWidth="152.0" style="-fx-background-color: #6675E3; -fx-text-fill: white; -fx-border-color: #333333; -fx-border-width: 1px; -fx-border-radius: 5px; -fx-background-radius: 5px; -fx-font-size: 18px;" text="VER EPISODIOS" textFill="WHITE">
+        <Button fx:id="btnVerEpisodios" layoutX="1029.0" layoutY="698.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#toEpisodios" prefHeight="38.0" prefWidth="157.0" style="-fx-background-color: #6675E3; -fx-text-fill: white; -fx-border-color: #333333; -fx-border-width: 1px; -fx-border-radius: 5px; -fx-background-radius: 5px; -fx-font-size: 18px;" text="VER EPISODIOS" textFill="WHITE">
          <font>
             <Font size="9.0" />
          </font>
@@ -37,7 +40,7 @@
         </MenuBar>
 
         <!-- Tabla con bordes finos y colores suaves -->
-        <TableView fx:id="tableViewSeries" layoutX="21.0" layoutY="259.0" prefHeight="432.0" prefWidth="1165.0">
+        <TableView fx:id="tableViewSeries" layoutX="21.0" layoutY="277.0" prefHeight="413.0" prefWidth="1165.0">
             <columns>
                 <TableColumn fx:id="colId" prefWidth="75.0" text="ID" />
                 <TableColumn fx:id="colNombre" prefWidth="144.0" text="Nombre" />
@@ -50,5 +53,27 @@
                 <TableColumn fx:id="colCadena" prefWidth="179.0" text="Cadena" />
             </columns>
         </TableView>
+      <Label layoutX="63.0" layoutY="230.0" text="Idioma:" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtIdiomaEp" layoutX="134.0" layoutY="230.0" />
+      <Label layoutX="449.0" layoutY="230.0" text="Tematica:" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtTematicaEp" layoutX="529.0" layoutY="230.0" />
+      <CheckBox fx:id="chkIdiomaEp" layoutX="296.0" layoutY="234.0" mnemonicParsing="false" />
+      <CheckBox fx:id="chkTematicaEp" layoutX="688.0" layoutY="234.0" mnemonicParsing="false" />
+      <Label layoutX="741.0" layoutY="230.0" text="Rating:" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="797.0" layoutY="230.0" />
+      <Button fx:id="btnRatingUpEp" layoutX="959.0" layoutY="229.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="10.0" prefWidth="20.0" />
+      <Button fx:id="btnRatingDownEp" layoutX="959.0" layoutY="238.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="10.0" prefWidth="20.0" />
     </children>
 </Pane>
