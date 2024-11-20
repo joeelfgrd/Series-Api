@@ -14,6 +14,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.sql.Connection;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -49,6 +50,18 @@ public class SerieController {
     private TableColumn<Serie, Estado> colEstado;
     @FXML
     private TableColumn<Serie, String> colCadena;
+    @FXML
+    private TextField txtIdiomaSerie;
+    @FXML
+    private TextField txtEstadoSerie;
+    @FXML
+    private TextField txtCadenaSerie;
+    @FXML
+    private CheckBox chkIdiomaSerie;
+    @FXML
+    private CheckBox chkEstadoSerie;
+    @FXML
+    private CheckBox chkCadenaSerie;
 
     @FXML
     public void initialize() {
@@ -61,8 +74,6 @@ public class SerieController {
                 setSerie(tableViewSeries.getSelectionModel().getSelectedItem());
             }
         });
-
-
     }
 
     public void ordenarTablaCalAsc() {
@@ -113,7 +124,22 @@ public class SerieController {
             showWarning("Acceso Denegado", "No puedes buscar los episodios de una serie sin elegir la serie");
         }
     }
-
+    public void filtrarSeries(ActionEvent event) {
+        List<Serie> series = new ArrayList<>(Conexion_App_bbdd.getSeries(c));
+        if (chkIdiomaSerie.isSelected()) {
+            String idioma = txtIdiomaSerie.getText();
+            series = Conexion_App_bbdd.getSeriebyIdioma(c, idioma);
+        }
+        if (chkEstadoSerie.isSelected()) {
+            String estado = txtEstadoSerie.getText();
+            series = Conexion_App_bbdd.getSeriebyEstado(c, estado);
+        }
+        if (chkCadenaSerie.isSelected()) {
+            String cadena = txtCadenaSerie.getText();
+            series = Conexion_App_bbdd.getSeriebyCadena(c, cadena);
+        }
+        cargarSeries(series);
+    }
     public void toLogin(ActionEvent actionEvent) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/login.fxml"));
