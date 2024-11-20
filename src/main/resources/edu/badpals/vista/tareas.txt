@@ -1,14 +1,7 @@
 --SERIES--
-Filtrar por tematica,calificacion e idioma en Series
 Redimensionar correctamente la tabla Series para cada dato
 Arreglar graficamente la vista de series
---EPISODIOS--
-Crear volver a series
-Eliminar
-Filtrar por temporada
-Quitar ordenar del menuBar
-Exportar a json
-Retocar graficamente la vista de episodios
---PELICULAS--
 filtrar por cadena estado e idioma
-ordenar por calificacion y fecha de estreno
+
+--EPISODIOS--
+Retocar graficamente la vista de episodios
