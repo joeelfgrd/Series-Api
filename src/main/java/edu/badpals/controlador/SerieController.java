@@ -65,6 +65,26 @@ public class SerieController {
 
     }
 
+    public void ordenarTablaCalAsc() {
+        cargarSeries(Conexion_App_bbdd.getSeriesCal(c, "ASC"));
+        setCells();
+    }
+
+    public void ordenarTablaCalDes() {
+        cargarSeries(Conexion_App_bbdd.getSeriesCal(c, "DESC"));
+        setCells();
+    }
+
+    public void ordenarTablaEstrenoAsc() {
+        cargarSeries(Conexion_App_bbdd.getSeriesEstreno(c, "ASC"));
+        setCells();
+    }
+
+    public void ordenarTablaEstrenoDesc() {
+        cargarSeries(Conexion_App_bbdd.getSeriesEstreno(c, "DESC"));
+        setCells();
+    }
+
     private void cargarSeries(List<Serie> series) {
         tableViewSeries.getItems().setAll(series);
     }

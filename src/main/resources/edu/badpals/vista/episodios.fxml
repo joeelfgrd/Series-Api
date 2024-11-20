@@ -32,12 +32,6 @@
                         <MenuItem fx:id="MenuItemExportar" mnemonicParsing="false" onAction="#toJSON" text="Exportar a json" />
                     </items>
                 </Menu>
-                <Menu mnemonicParsing="false" style="-fx-text-fill: #E0E0E0;" text="Ordenar">
-                    <items>
-                        <MenuItem fx:id="MenuItemOrdTemp" mnemonicParsing="false" text="Temporada" />
-                        <MenuItem fx:id="MenuItemOrdDur" mnemonicParsing="false" text="Duracion" />
-                    </items>
-                </Menu>
             </menus>
         </MenuBar>
         <TableView fx:id="tableViewEpisodios" layoutX="10.0" layoutY="355.0" prefHeight="378.0" prefWidth="1177.0" stylesheets="@styles.css">

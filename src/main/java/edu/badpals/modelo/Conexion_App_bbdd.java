@@ -3,6 +3,7 @@ package edu.badpals.modelo;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Properties;
 
 public class Conexion_App_bbdd {
@@ -10,9 +11,29 @@ public class Conexion_App_bbdd {
     private String urldb = "jdbc:mysql://localhost:3306/app_series";
 
     public static List<Serie> getSeries(Connection c) {
+        String stringSQL = "SELECT * FROM SERIES";
+        return selectSeries(c, stringSQL);
+    }
+
+    public static List<Serie> getSeriesEstreno(Connection c, String orden) {
+        if(!Objects.equals(orden, "ASC") && !Objects.equals(orden, "DESC")){
+            return null;
+        }
+        String stringSQL = "SELECT * FROM SERIES ORDER BY FECHA_ESTRENO " + orden;
+        return selectSeries(c, stringSQL);
+    }
+
+    public static List<Serie> getSeriesCal(Connection c, String orden) {
+        if(!Objects.equals(orden, "ASC") && !Objects.equals(orden, "DESC")){
+            return null;
+        }
+        String stringSQL = "SELECT * FROM SERIES ORDER BY RATING " + orden;
+        return selectSeries(c, stringSQL);
+    }
+
+    private static List<Serie> selectSeries(Connection c, String stringSQL) {
         List<Serie> series = new ArrayList<>();
         try {
-            String stringSQL = "SELECT * FROM SERIES";
             PreparedStatement ps = c.prepareStatement(stringSQL);
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
@@ -27,6 +48,27 @@ public class Conexion_App_bbdd {
         }
         return series;
     }
+
+    /*
+    private static List<Serie> selectSeries(Connection c, String stringSQL, String orden) {
+        List<Serie> series = new ArrayList<>();
+        try {
+            PreparedStatement ps = c.prepareStatement(stringSQL);
+            ps.setString(1,orden);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                Serie serie = getSerieFromRS(rs);
+                series.add(serie);
+            }
+            rs.close();
+            ps.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return series;
+    }
+    */
 
     public static Serie getSerie(Connection c, String nombre) {
         Serie serie = new Serie();
@@ -62,21 +104,18 @@ public class Conexion_App_bbdd {
     }
 
     public static List<Episodio> getEpisodios(Connection c, Serie serie) {
+        String stringSQL = "SELECT * FROM EPISODIOS WHERE SERIE = ?";
+        return selectEpisodios(c, serie, stringSQL);
+    }
+
+    private static List<Episodio> selectEpisodios(Connection c, Serie serie, String stringSQL) {
         List<Episodio> episodios = new ArrayList<>();
         try {
-            String stringSQL = "SELECT * FROM EPISODIOS WHERE SERIE = ?";
             PreparedStatement ps = c.prepareStatement(stringSQL);
             ps.setInt(1, serie.getId());
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
-                Episodio episodio = new Episodio();
-                episodio.setId(rs.getInt("ID"));
-                episodio.setNombre(rs.getString("NOMBRE"));
-                episodio.setNumero(rs.getInt("NUMERO"));
-                episodio.setTemporada(rs.getInt("TEMPORADA"));
-                episodio.setSerie(serie); // Assuming `serie` is already set
-                episodio.setFechaDeSalida(rs.getDate("FECHA_SALIDA"));
-                episodio.setDuracion(rs.getTime("DURACION"));
+                Episodio episodio = getEpisodioRS(serie, rs);
                 episodios.add(episodio);
             }
             rs.close();
@@ -86,6 +125,38 @@ public class Conexion_App_bbdd {
             e.printStackTrace();
         }
         return episodios;
+    }
+
+    private static List<Episodio> selectEpisodiosOrden(Connection c, Serie serie, String stringSQL, String orden) {
+        List<Episodio> episodios = new ArrayList<>();
+        try {
+            PreparedStatement ps = c.prepareStatement(stringSQL);
+            ps.setInt(1, serie.getId());
+            ps.setString(2, orden);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                Episodio episodio = getEpisodioRS(serie, rs);
+                episodios.add(episodio);
+            }
+            rs.close();
+            ps.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return episodios;
+    }
+
+    private static Episodio getEpisodioRS(Serie serie, ResultSet rs) throws SQLException {
+        Episodio episodio = new Episodio();
+        episodio.setId(rs.getInt("ID"));
+        episodio.setNombre(rs.getString("NOMBRE"));
+        episodio.setNumero(rs.getInt("NUMERO"));
+        episodio.setTemporada(rs.getInt("TEMPORADA"));
+        episodio.setSerie(serie); // Assuming `serie` is already set
+        episodio.setFechaDeSalida(rs.getDate("FECHA_SALIDA"));
+        episodio.setDuracion(rs.getTime("DURACION"));
+        return episodio;
     }
 
     public static boolean eliminarEpisodio(Connection c, Episodio episodio) {

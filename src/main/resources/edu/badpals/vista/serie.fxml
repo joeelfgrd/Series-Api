@@ -33,14 +33,14 @@
                <items>
                       <Menu mnemonicParsing="false" text="Calificacion">
                           <items>
-                              <MenuItem fx:id="menuItemCalAsc" mnemonicParsing="false" text="Calificacion asc" />
-                        <MenuItem fx:id="menuItemCalDes" mnemonicParsing="false" text="Calificacion desc" />
+                              <MenuItem fx:id="menuItemCalAsc" onAction="#ordenarTablaCalAsc" mnemonicParsing="false" text="Calificacion asc" />
+                        <MenuItem fx:id="menuItemCalDes" onAction="#ordenarTablaCalDes" mnemonicParsing="false" text="Calificacion desc" />
                           </items>
                       </Menu>
                   <Menu mnemonicParsing="false" text="Fecha Estreno">
                      <items>
-                        <MenuItem fx:id="menuItemNewOld" mnemonicParsing="false" text="Nuevo-Antiguo" />
-                        <MenuItem fx:id="menuItemOldNew" mnemonicParsing="false" text="Antiguo-Nuevo" />
+                        <MenuItem fx:id="menuItemNewOld" onAction="#ordenarTablaEstrenoDesc" mnemonicParsing="false" text="Nuevo-Antiguo" />
+                        <MenuItem fx:id="menuItemOldNew" onAction="#ordenarTablaEstrenoAsc" mnemonicParsing="false" text="Antiguo-Nuevo" />
                      </items>
                   </Menu>
                </items>
