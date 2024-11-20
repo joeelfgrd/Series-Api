@@ -1,11 +1,33 @@
-INSERT INTO SERIES (NOMBRE, FECHA_ESTRENO, TEMATICA, DIRECTOR, RATING, IDIOMA, ESTADO, CADENA)
-VALUES ('Breaking Bad', '2008-01-20', 'Drama', 'Vince Gilligan', 9, 'English', 'TERMINADA', 'AMC');
-
-INSERT INTO SERIES (NOMBRE, FECHA_ESTRENO, TEMATICA, DIRECTOR, RATING, IDIOMA, ESTADO, CADENA)
-VALUES ('Stranger Things', '2016-07-15', 'Sci-Fi', 'The Duffer Brothers', 8, 'English', 'TERMINADA', 'Netflix');
-
-INSERT INTO SERIES (NOMBRE, FECHA_ESTRENO, TEMATICA, DIRECTOR, RATING, IDIOMA, ESTADO, CADENA)
-VALUES ('La Casa de Papel', '2017-05-02', 'Crime', 'Álex Pina', 8, 'Spanish', 'EN EMISION', 'Antena 3');
+INSERT INTO SERIES (NOMBRE, FECHA_ESTRENO, TEMATICA, DIRECTOR, RATING, IDIOMA, ESTADO, CADENA) VALUES
+('Breaking Bad', '2008-01-20', 'Crimen, Drama, Suspense', 'Vince Gilligan', 95, 'Inglés', 'TERMINADA', 'AMC'),
+('Stranger Things', '2016-07-15', 'Ciencia Ficción, Misterio', 'Duffer Brothers', 89, 'Inglés', 'EN EMISION', 'Netflix'),
+('Game of Thrones', '2011-04-17', 'Fantasía, Drama', 'David Benioff y D.B. Weiss', 85, 'Inglés', 'TERMINADA', 'HBO'),
+('The Mandalorian', '2019-11-12', 'Ciencia Ficción, Aventura', 'Jon Favreau', 90, 'Inglés', 'EN EMISION', 'Disney+'),
+('La Casa de Papel', '2017-05-02', 'Crimen, Suspense', 'Álex Pina', 83, 'Español', 'TERMINADA', 'Netflix'),
+('Friends', '1994-09-22', 'Comedia, Drama', 'David Crane y Marta Kauffman', 89, 'Inglés', 'TERMINADA', 'NBC'),
+('The Office', '2005-03-24', 'Comedia', 'Greg Daniels', 91, 'Inglés', 'TERMINADA', 'NBC'),
+('Dark', '2017-12-01', 'Ciencia Ficción, Misterio', 'Baran bo Odar', 87, 'Alemán', 'TERMINADA', 'Netflix'),
+('The Witcher', '2019-12-20', 'Fantasía, Acción', 'Lauren Schmidt Hissrich', 81, 'Inglés', 'EN EMISION', 'Netflix'),
+('The Boys', '2019-07-26', 'Acción, Superhéroes', 'Eric Kripke', 91, 'Inglés', 'EN EMISION', 'Amazon Prime'),
+('Sherlock', '2010-07-25', 'Misterio, Drama', 'Steven Moffat y Mark Gatiss', 92, 'Inglés', 'TERMINADA', 'BBC'),
+('Better Call Saul', '2015-02-08', 'Drama, Crimen', 'Vince Gilligan y Peter Gould', 88, 'Inglés', 'TERMINADA', 'AMC'),
+('House of the Dragon', '2022-08-21', 'Fantasía, Drama', 'Ryan Condal y Miguel Sapochnik', 85, 'Inglés', 'EN EMISION', 'HBO'),
+('How I Met Your Mother', '2005-09-19', 'Comedia, Romance', 'Carter Bays y Craig Thomas', 84, 'Inglés', 'TERMINADA', 'CBS'),
+('Loki', '2021-06-09', 'Ciencia Ficción, Superhéroes', 'Michael Waldron', 87, 'Inglés', 'EN EMISION', 'Disney+'),
+('Lost', '2004-09-22', 'Aventura, Misterio', 'J.J. Abrams', 85, 'Inglés', 'TERMINADA', 'ABC'),
+('Peaky Blinders', '2013-09-12', 'Crimen, Drama', 'Steven Knight', 90, 'Inglés', 'TERMINADA', 'BBC'),
+('The Crown', '2016-11-04', 'Biografía, Drama', 'Peter Morgan', 88, 'Inglés', 'EN EMISION', 'Netflix'),
+('Westworld', '2016-10-02', 'Ciencia Ficción, Misterio', 'Jonathan Nolan y Lisa Joy', 81, 'Inglés', 'TERMINADA', 'HBO'),
+('Fargo', '2014-04-15', 'Crimen, Drama', 'Noah Hawley', 85, 'Inglés', 'EN EMISION', 'FX'),
+('The Big Bang Theory', '2007-09-24', 'Comedia', 'Chuck Lorre y Bill Prady', 88, 'Inglés', 'TERMINADA', 'CBS'),
+('Euphoria', '2019-06-16', 'Drama, Adolescencia', 'Sam Levinson', 82, 'Inglés', 'EN EMISION', 'HBO'),
+('Money Heist: Korea', '2022-06-24', 'Crimen, Suspense', 'Kim Hong-sun', 77, 'Coreano', 'EN EMISION', 'Netflix'),
+('Black Mirror', '2011-12-04', 'Ciencia Ficción, Distopía', 'Charlie Brooker', 88, 'Inglés', 'EN EMISION', 'Netflix'),
+('The Walking Dead', '2010-10-31', 'Horror, Drama', 'Frank Darabont', 82, 'Inglés', 'TERMINADA', 'AMC'),
+('Ozark', '2017-07-21', 'Crimen, Suspense', 'Bill Dubuque y Mark Williams', 88, 'Inglés', 'TERMINADA', 'Netflix'),
+('Succession', '2018-06-03', 'Drama', 'Jesse Armstrong', 90, 'Inglés', 'TERMINADA', 'HBO'),
+('The Umbrella Academy', '2019-02-15', 'Superhéroes, Acción', 'Steve Blackman', 84, 'Inglés', 'EN EMISION', 'Netflix'),
+('Narcos', '2015-08-28', 'Crimen, Biografía', 'Chris Brancato', 86, 'Español', 'TERMINADA', 'Netflix');
 
 INSERT INTO Episodios (numero, temporada, nombre, serie, FECHA_SALIDA, duracion) VALUES
 -- Breaking Bad
@@ -13,18 +35,448 @@ INSERT INTO Episodios (numero, temporada, nombre, serie, FECHA_SALIDA, duracion)
 (2, 1, 'Cats in the Bag...', 1, '2008-01-27', 48),
 (3, 1, '...And the Bags in the River', 1, '2008-02-10', 47),
 (4, 2, 'Seven Thirty-Seven', 1, '2009-03-08', 47),
-(5, 2, 'Grilled', 1, '2009-03-15', 47),
+(5, 2, 'Grilled', 1, '2009-03-15', 47);
 
--- Stranger Things
-(1, 1, 'The Vanishing of Will Byers', 2, '2016-07-15', 49),
-(2, 1, 'The Weirdo on Maple Street', 2, '2016-07-15', 55),
-(3, 1, 'Holly, Jolly', 2, '2016-07-15', 51),
-(4, 2, 'MADMAX', 2, '2017-10-27', 48),
-(5, 2, 'Trick or Treat, Freak', 2, '2017-10-27', 56),
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Chapter One: The Vanishing of Will Byers', 2, '2016-07-15', '00:48:00'),
+(2, 1, 'Chapter Two: The Weirdo on Maple Street', 2, '2016-07-15', '00:55:00'),
+(3, 1, 'Chapter Three: Holly, Jolly', 2, '2016-07-15', '00:51:00'),
+(4, 1, 'Chapter Four: The Body', 2, '2016-07-15', '00:51:00'),
+(5, 1, 'Chapter Five: The Flea and the Acrobat', 2, '2016-07-15', '00:49:00'),
+(6, 1, 'Chapter Six: The Monster', 2, '2016-07-15', '00:48:00'),
+(7, 1, 'Chapter Seven: The Bathtub', 2, '2016-07-15', '00:41:00'),
+(8, 1, 'Chapter Eight: The Upside Down', 2, '2016-07-15', '00:54:00'),
+(1, 2, 'Chapter One: MADMAX', 2, '2017-10-27', '00:47:00'),
+(2, 2, 'Chapter Two: Trick or Treat, Freak', 2, '2017-10-27', '00:56:00'),
+(3, 2, 'Chapter Three: The Pollywog', 2, '2017-10-27', '00:51:00'),
+(4, 2, 'Chapter Four: Will the Wise', 2, '2017-10-27', '00:45:00'),
+(5, 2, 'Chapter Five: Dig Dug', 2, '2017-10-27', '00:49:00'),
+(6, 2, 'Chapter Six: The Spy', 2, '2017-10-27', '00:52:00'),
+(7, 2, 'Chapter Seven: The Lost Sister', 2, '2017-10-27', '00:45:00'),
+(8, 2, 'Chapter Eight: The Mind Flayer', 2, '2017-10-27', '00:50:00');
 
--- La Casa de Papel
-(1, 1, 'Efectuar lo acordado', 3, '2017-05-02', 50),
-(2, 1, 'Imprudencias letales', 3, '2017-05-09', 41),
-(3, 1, 'Errar al disparar', 3, '2017-05-16', 44),
-(4, 2, 'La cabeza del plan', 3, '2017-10-16', 47),
-(5, 2, 'A contrarreloj', 3, '2017-10-23', 50);
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Winter Is Coming', 3, '2011-04-17', '01:02:00'),
+(2, 1, 'The Kingsroad', 3, '2011-04-24', '00:56:00'),
+(3, 1, 'Lord Snow', 3, '2011-05-01', '00:58:00'),
+(4, 1, 'Cripples, Bastards, and Broken Things', 3, '2011-05-08', '00:58:00'),
+(5, 1, 'The Wolf and the Lion', 3, '2011-05-15', '00:55:00'),
+(6, 1, 'A Golden Crown', 3, '2011-05-22', '00:53:00'),
+(7, 1, 'You Win or You Die', 3, '2011-05-29', '00:58:00'),
+(8, 1, 'The Pointy End', 3, '2011-06-05', '00:59:00'),
+(9, 1, 'Baelor', 3, '2011-06-12', '00:57:00'),
+(10, 1, 'Fire and Blood', 3, '2011-06-19', '00:59:00'),
+(1, 2, 'The North Remembers', 3, '2012-04-01', '00:53:00'),
+(2, 2, 'The Night Lands', 3, '2012-04-08', '00:54:00'),
+(3, 2, 'What Is Dead May Never Die', 3, '2012-04-15', '00:53:00'),
+(4, 2, 'Garden of Bones', 3, '2012-04-22', '00:50:00'),
+(5, 2, 'The Ghost of Harrenhal', 3, '2012-04-29', '00:55:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Chapter 1: The Mandalorian', 4, '2019-11-12', '00:39:00'),
+(2, 1, 'Chapter 2: The Child', 4, '2019-11-15', '00:32:00'),
+(3, 1, 'Chapter 3: The Sin', 4, '2019-11-22', '00:38:00'),
+(4, 1, 'Chapter 4: Sanctuary', 4, '2019-11-29', '00:41:00'),
+(5, 1, 'Chapter 5: The Gunslinger', 4, '2019-12-06', '00:37:00'),
+(6, 1, 'Chapter 6: The Prisoner', 4, '2019-12-13', '00:43:00'),
+(7, 1, 'Chapter 7: The Reckoning', 4, '2019-12-18', '00:47:00'),
+(8, 1, 'Chapter 8: Redemption', 4, '2019-12-27', '00:48:00'),
+(1, 2, 'Chapter 9: The Marshal', 4, '2020-10-30', '00:51:00'),
+(2, 2, 'Chapter 10: The Passenger', 4, '2020-11-06', '00:41:00'),
+(3, 2, 'Chapter 11: The Heiress', 4, '2020-11-13', '00:33:00'),
+(4, 2, 'Chapter 12: The Siege', 4, '2020-11-20', '00:39:00'),
+(5, 2, 'Chapter 13: The Jedi', 4, '2020-11-27', '00:47:00'),
+(6, 2, 'Chapter 14: The Tragedy', 4, '2020-12-04', '00:32:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Episodio 1', 5, '2017-05-02', '00:47:00'),
+(2, 1, 'Episodio 2', 5, '2017-05-09', '00:43:00'),
+(3, 1, 'Episodio 3', 5, '2017-05-16', '00:50:00'),
+(4, 1, 'Episodio 4', 5, '2017-05-23', '00:45:00'),
+(5, 1, 'Episodio 5', 5, '2017-05-30', '00:46:00'),
+(6, 1, 'Episodio 6', 5, '2017-06-06', '00:50:00'),
+(7, 1, 'Episodio 7', 5, '2017-06-13', '00:45:00'),
+(8, 1, 'Episodio 8', 5, '2017-06-20', '00:47:00'),
+(9, 1, 'Episodio 9', 5, '2017-06-27', '00:50:00'),
+(10, 1, 'Episodio 10', 5, '2017-07-04', '00:45:00'),
+(1, 2, 'Episodio 1', 5, '2019-07-19', '00:48:00'),
+(2, 2, 'Episodio 2', 5, '2019-07-19', '00:44:00'),
+(3, 2, 'Episodio 3', 5, '2019-07-19', '00:49:00'),
+(4, 2, 'Episodio 4', 5, '2019-07-19', '00:47:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'The One Where Monica Gets a Roommate', 6, '1994-09-22', '00:22:00'),
+(2, 1, 'The One with the Sonogram at the End', 6, '1994-09-29', '00:22:00'),
+(3, 1, 'The One with the Thumb', 6, '1994-10-06', '00:22:00'),
+(4, 1, 'The One with George Stephanopoulos', 6, '1994-10-13', '00:22:00'),
+(5, 1, 'The One with the East German Laundry Detergent', 6, '1994-10-20', '00:22:00'),
+(6, 1, 'The One with the Butt', 6, '1994-10-27', '00:22:00'),
+(7, 1, 'The One with the Blackout', 6, '1994-11-03', '00:22:00'),
+(8, 1, 'The One Where Nana Dies Twice', 6, '1994-11-10', '00:22:00'),
+(9, 1, 'The One Where Underdog Gets Away', 6, '1994-11-17', '00:22:00'),
+(10, 1, 'The One with the Monkey', 6, '1994-12-15', '00:22:00'),
+(11, 1, 'The One with Mrs. Bing', 6, '1995-01-05', '00:22:00'),
+(12, 1, 'The One with the Dozen Lasagnas', 6, '1995-01-12', '00:22:00'),
+(13, 1, 'The One with the Boobies', 6, '1995-01-19', '00:22:00'),
+(14, 1, 'The One with the Candy Hearts', 6, '1995-02-09', '00:22:00'),
+(15, 1, 'The One with the Stoned Guy', 6, '1995-02-16', '00:22:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Pilot', 7, '2005-03-24', '00:23:00'),
+(2, 1, 'Diversity Day', 7, '2005-03-29', '00:22:00'),
+(3, 1, 'Health Care', 7, '2005-04-05', '00:22:00'),
+(4, 1, 'The Alliance', 7, '2005-04-12', '00:22:00'),
+(5, 1, 'Basketball', 7, '2005-04-19', '00:23:00'),
+(6, 1, 'Hot Girl', 7, '2005-04-26', '00:22:00'),
+(1, 2, 'The Dundies', 7, '2005-09-20', '00:22:00'),
+(2, 2, 'Sexual Harassment', 7, '2005-09-27', '00:22:00'),
+(3, 2, 'Office Olympics', 7, '2005-10-04', '00:22:00'),
+(4, 2, 'The Fire', 7, '2005-10-11', '00:22:00'),
+(5, 2, 'Halloween', 7, '2005-10-18', '00:22:00'),
+(6, 2, 'The Fight', 7, '2005-11-01', '00:22:00'),
+(7, 2, 'The Client', 7, '2005-11-08', '00:22:00'),
+(8, 2, 'Performance Review', 7, '2005-11-15', '00:22:00'),
+(9, 2, 'E-Mail Surveillance', 7, '2005-11-22', '00:22:00'),
+(10, 2, 'Christmas Party', 7, '2005-12-06', '00:22:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Secrets', 8, '2017-12-01', '00:52:00'),
+(2, 1, 'Lies', 8, '2017-12-01', '00:45:00'),
+(3, 1, 'Past and Present', 8, '2017-12-01', '00:47:00'),
+(4, 1, 'Double Lives', 8, '2017-12-01', '00:48:00'),
+(5, 1, 'Truths', 8, '2017-12-01', '00:50:00'),
+(6, 1, 'Sic Mundus Creatus Est', 8, '2017-12-01', '00:51:00'),
+(7, 1, 'Crossroads', 8, '2017-12-01', '00:51:00'),
+(8, 1, 'As You Sow, So Shall You Reap', 8, '2017-12-01', '00:53:00'),
+(9, 1, 'Everything Is Now', 8, '2017-12-01', '00:52:00'),
+(10, 1, 'Alpha and Omega', 8, '2017-12-01', '00:56:00'),
+(1, 2, 'Beginnings and Endings', 8, '2019-06-21', '00:50:00'),
+(2, 2, 'Dark Matter', 8, '2019-06-21', '00:48:00'),
+(3, 2, 'Ghosts', 8, '2019-06-21', '00:47:00'),
+(4, 2, 'The Travelers', 8, '2019-06-21', '00:50:00'),
+(5, 2, 'Lost and Found', 8, '2019-06-21', '00:48:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'The End’s Beginning', 9, '2019-12-20', '00:59:00'),
+(2, 1, 'Four Marks', 9, '2019-12-20', '00:58:00'),
+(3, 1, 'Betrayer Moon', 9, '2019-12-20', '01:03:00'),
+(4, 1, 'Of Banquets, Bastards and Burials', 9, '2019-12-20', '00:59:00'),
+(5, 1, 'Bottled Appetites', 9, '2019-12-20', '00:59:00'),
+(6, 1, 'Rare Species', 9, '2019-12-20', '01:00:00'),
+(7, 1, 'Before a Fall', 9, '2019-12-20', '00:59:00'),
+(8, 1, 'Much More', 9, '2019-12-20', '01:06:00'),
+(1, 2, 'A Grain of Truth', 9, '2021-12-17', '01:07:00'),
+(2, 2, 'Kaer Morhen', 9, '2021-12-17', '00:59:00'),
+(3, 2, 'What Is Lost', 9, '2021-12-17', '00:58:00'),
+(4, 2, 'Redanian Intelligence', 9, '2021-12-17', '00:55:00'),
+(5, 2, 'Turn Your Back', 9, '2021-12-17', '00:56:00'),
+(6, 2, 'Dear Friend', 9, '2021-12-17', '00:56:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'The Name of the Game', 10, '2019-07-26', '01:01:00'),
+(2, 1, 'Cherry', 10, '2019-07-26', '00:56:00'),
+(3, 1, 'Get Some', 10, '2019-07-26', '00:58:00'),
+(4, 1, 'The Female of the Species', 10, '2019-07-26', '01:01:00'),
+(5, 1, 'Good for the Soul', 10, '2019-07-26', '00:58:00'),
+(6, 1, 'The Innocents', 10, '2019-07-26', '00:58:00'),
+(7, 1, 'The Self-Preservation Society', 10, '2019-07-26', '00:57:00'),
+(8, 1, 'You Found Me', 10, '2019-07-26', '01:00:00'),
+(1, 2, 'The Big Ride', 10, '2020-09-04', '00:59:00'),
+(2, 2, 'Proper Preparation and Planning', 10, '2020-09-04', '00:57:00'),
+(3, 2, 'Over the Hill with the Swords of a Thousand Men', 10, '2020-09-04', '00:59:00'),
+(4, 2, 'Nothing Like It in the World', 10, '2020-09-11', '01:02:00'),
+(5, 2, 'We Gotta Go Now', 10, '2020-09-18', '00:58:00'),
+(6, 2, 'The Bloody Doors Off', 10, '2020-09-25', '01:00:00'),
+(7, 2, 'Butcher, Baker, Candlestick Maker', 10, '2020-10-02', '01:02:00'),
+(8, 2, 'What I Know', 10, '2020-10-09', '00:59:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'A Study in Pink', 11, '2010-07-25', '01:28:00'),
+(2, 1, 'The Blind Banker', 11, '2010-08-01', '01:28:00'),
+(3, 1, 'The Great Game', 11, '2010-08-08', '01:29:00'),
+(1, 2, 'A Scandal in Belgravia', 11, '2012-01-01', '01:29:00'),
+(2, 2, 'The Hounds of Baskerville', 11, '2012-01-08', '01:29:00'),
+(3, 2, 'The Reichenbach Fall', 11, '2012-01-15', '01:29:00'),
+(1, 3, 'The Empty Hearse', 11, '2014-01-01', '01:26:00'),
+(2, 3, 'The Sign of Three', 11, '2014-01-05', '01:26:00'),
+(3, 3, 'His Last Vow', 11, '2014-01-12', '01:29:00'),
+(1, 4, 'The Six Thatchers', 11, '2017-01-01', '01:28:00'),
+(2, 4, 'The Lying Detective', 11, '2017-01-08', '01:29:00'),
+(3, 4, 'The Final Problem', 11, '2017-01-15', '01:29:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Uno', 12, '2015-02-08', '00:53:00'),
+(2, 1, 'Mijo', 12, '2015-02-09', '00:47:00'),
+(3, 1, 'Nacho', 12, '2015-02-16', '00:47:00'),
+(4, 1, 'Hero', 12, '2015-02-23', '00:47:00'),
+(5, 1, 'Alpine Shepherd Boy', 12, '2015-03-02', '00:47:00'),
+(6, 1, 'Five-O', 12, '2015-03-09', '00:47:00'),
+(7, 1, 'Bingo', 12, '2015-03-16', '00:47:00'),
+(8, 1, 'RICO', 12, '2015-03-23', '00:47:00'),
+(9, 1, 'Pimento', 12, '2015-03-30', '00:47:00'),
+(10, 1, 'Marco', 12, '2015-04-06', '00:47:00'),
+(1, 2, 'Switch', 12, '2016-02-15', '00:47:00'),
+(2, 2, 'Cobbler', 12, '2016-02-22', '00:47:00'),
+(3, 2, 'Amarillo', 12, '2016-02-29', '00:47:00'),
+(4, 2, 'Gloves Off', 12, '2016-03-07', '00:47:00'),
+(5, 2, 'Rebecca', 12, '2016-03-14', '00:47:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'The Heirs of the Dragon', 13, '2022-08-21', '01:06:00'),
+(2, 1, 'The Rogue Prince', 13, '2022-08-28', '01:05:00'),
+(3, 1, 'Second of His Name', 13, '2022-09-04', '01:03:00'),
+(4, 1, 'King of the Narrow Sea', 13, '2022-09-11', '01:03:00'),
+(5, 1, 'We Light the Way', 13, '2022-09-18', '01:03:00'),
+(6, 1, 'The Princess and the Queen', 13, '2022-09-25', '01:04:00'),
+(7, 1, 'Driftmark', 13, '2022-10-02', '01:02:00'),
+(8, 1, 'The Lord of the Tides', 13, '2022-10-09', '01:03:00'),
+(9, 1, 'The Green Council', 13, '2022-10-16', '01:02:00'),
+(10, 1, 'The Black Queen', 13, '2022-10-23', '01:03:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Pilot', 14, '2005-09-19', '00:22:00'),
+(2, 1, 'Purple Giraffe', 14, '2005-09-26', '00:22:00'),
+(3, 1, 'Sweet Taste of Liberty', 14, '2005-10-03', '00:22:00'),
+(4, 1, 'Return of the Shirt', 14, '2005-10-10', '00:22:00'),
+(5, 1, 'Okay Awesome', 14, '2005-10-17', '00:22:00'),
+(6, 1, 'Slutty Pumpkin', 14, '2005-10-24', '00:22:00'),
+(7, 1, 'Matchmaker', 14, '2005-11-07', '00:22:00'),
+(8, 1, 'The Duel', 14, '2005-11-14', '00:22:00'),
+(9, 1, 'Belly Full of Turkey', 14, '2005-11-21', '00:22:00'),
+(10, 1, 'The Pineapple Incident', 14, '2005-11-28', '00:22:00'),
+(11, 1, 'The Limo', 14, '2005-12-19', '00:22:00'),
+(12, 1, 'Come On', 14, '2006-05-15', '00:22:00'),
+(1, 2, 'Where Were We?', 14, '2006-09-18', '00:22:00'),
+(2, 2, 'The Scorpion and the Toad', 14, '2006-09-25', '00:22:00'),
+(3, 2, 'Brunch', 14, '2006-10-02', '00:22:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Glorious Purpose', 15, '2021-06-09', '00:52:00'),
+(2, 1, 'The Variant', 15, '2021-06-16', '00:54:00'),
+(3, 1, 'Lamentis', 15, '2021-06-23', '00:48:00'),
+(4, 1, 'The Nexus Event', 15, '2021-06-30', '00:50:00'),
+(5, 1, 'Journey Into Mystery', 15, '2021-07-07', '00:51:00'),
+(6, 1, 'For All Time. Always.', 15, '2021-07-14', '00:47:00'),
+(1, 2, 'Ouroboros', 15, '2023-10-06', '00:52:00'),
+(2, 2, 'Breaking Brad', 15, '2023-10-13', '00:51:00'),
+(3, 2, '1893', 15, '2023-10-20', '00:49:00'),
+(4, 2, 'Heart of the TVA', 15, '2023-10-27', '00:50:00'),
+(5, 2, 'Science/Fiction', 15, '2023-11-03', '00:51:00'),
+(6, 2, 'The Looming Crisis', 15, '2023-11-10', '00:48:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Pilot: Part 1', 16, '2004-09-22', '00:42:00'),
+(2, 1, 'Pilot: Part 2', 16, '2004-09-29', '00:43:00'),
+(3, 1, 'Tabula Rasa', 16, '2004-10-06', '00:42:00'),
+(4, 1, 'Walkabout', 16, '2004-10-13', '00:42:00'),
+(5, 1, 'White Rabbit', 16, '2004-10-20', '00:42:00'),
+(6, 1, 'House of the Rising Sun', 16, '2004-10-27', '00:43:00'),
+(7, 1, 'The Moth', 16, '2004-11-03', '00:42:00'),
+(8, 1, 'Confidence Man', 16, '2004-11-10', '00:43:00'),
+(9, 1, 'Solitary', 16, '2004-11-17', '00:42:00'),
+(10, 1, 'Raised by Another', 16, '2004-12-01', '00:42:00'),
+(11, 1, 'All the Best Cowboys Have Daddy Issues', 16, '2004-12-08', '00:43:00'),
+(12, 1, 'Whatever the Case May Be', 16, '2005-01-05', '00:42:00'),
+(13, 1, 'Hearts and Minds', 16, '2005-01-12', '00:42:00'),
+(14, 1, 'Special', 16, '2005-01-19', '00:42:00'),
+(15, 1, 'Homecoming', 16, '2005-02-09', '00:42:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Episode 1', 17, '2013-09-12', '00:58:00'),
+(2, 1, 'Episode 2', 17, '2013-09-19', '00:57:00'),
+(3, 1, 'Episode 3', 17, '2013-09-26', '00:57:00'),
+(4, 1, 'Episode 4', 17, '2013-10-03', '00:57:00'),
+(5, 1, 'Episode 5', 17, '2013-10-10', '00:57:00'),
+(6, 1, 'Episode 6', 17, '2013-10-17', '00:58:00'),
+(1, 2, 'Episode 1', 17, '2014-10-02', '00:59:00'),
+(2, 2, 'Episode 2', 17, '2014-10-09', '00:58:00'),
+(3, 2, 'Episode 3', 17, '2014-10-16', '00:59:00'),
+(4, 2, 'Episode 4', 17, '2014-10-23', '00:59:00'),
+(5, 2, 'Episode 5', 17, '2014-10-30', '00:59:00'),
+(6, 2, 'Episode 6', 17, '2014-11-06', '00:58:00'),
+(1, 3, 'Episode 1', 17, '2016-05-05', '00:59:00'),
+(2, 3, 'Episode 2', 17, '2016-05-12', '00:58:00'),
+(3, 3, 'Episode 3', 17, '2016-05-19', '00:58:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Wolferton Splash', 18, '2016-11-04', '00:58:00'),
+(2, 1, 'Hyde Park Corner', 18, '2016-11-04', '00:31:00'),
+(3, 1, 'Windsor', 18, '2016-11-04', '00:25:00'),
+(4, 1, 'Act of God', 18, '2016-11-04', '00:25:00'),
+(5, 1, 'Smoke and Mirrors', 18, '2016-11-04', '00:25:00'),
+(6, 1, 'Gelignite', 18, '2016-11-04', '00:25:00'),
+(7, 1, 'Scientia Potentia Est', 18, '2016-11-04', '00:25:00'),
+(8, 1, 'Pride & Joy', 18, '2016-11-04', '00:31:00'),
+(9, 1, 'Assassins', 18, '2016-11-04', '00:31:00'),
+(10, 1, 'Gloriana', 18, '2016-11-04', '00:25:00'),
+(1, 2, 'Misadventure', 18, '2017-12-08', '00:58:00'),
+(2, 2, 'A Company of Men', 18, '2017-12-08', '00:31:00'),
+(3, 2, 'Lisbon', 18, '2017-12-08', '00:25:00'),
+(4, 2, 'Beryl', 18, '2017-12-08', '00:25:00'),
+(5, 2, 'Vergangenheit', 18, '2017-12-08', '00:25:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'The Original', 19, '2016-10-02', '01:09:00'),
+(2, 1, 'Chestnut', 19, '2016-10-09', '00:59:00'),
+(3, 1, 'The Stray', 19, '2016-10-16', '00:58:00'),
+(4, 1, 'Dissonance Theory', 19, '2016-10-23', '00:59:00'),
+(5, 1, 'Contrapasso', 19, '2016-10-30', '01:01:00'),
+(6, 1, 'The Adversary', 19, '2016-11-06', '00:59:00'),
+(7, 1, 'Trompe L’Oeil', 19, '2016-11-13', '00:59:00'),
+(8, 1, 'Trace Decay', 19, '2016-11-20', '00:59:00'),
+(9, 1, 'The Well-Tempered Clavier', 19, '2016-11-27', '00:59:00'),
+(10, 1, 'The Bicameral Mind', 19, '2016-12-04', '01:30:00'),
+(1, 2, 'Journey Into Night', 19, '2018-04-22', '00:58:00'),
+(2, 2, 'Reunion', 19, '2018-04-29', '00:59:00'),
+(3, 2, 'Virtù e Fortuna', 19, '2018-05-06', '00:58:00'),
+(4, 2, 'The Riddle of the Sphinx', 19, '2018-05-13', '01:11:00'),
+(5, 2, 'Akane no Mai', 19, '2018-05-20', '00:58:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'The Crocodile\'s Dilemma', 20, '2014-04-15', '00:59:00'),
+(2, 1, 'The Rooster Prince', 20, '2014-04-22', '00:59:00'),
+(3, 1, 'A Muddy Road', 20, '2014-04-29', '00:58:00'),
+(4, 1, 'Eating the Blame', 20, '2014-05-06', '00:59:00'),
+(5, 1, 'The Six Ungraspables', 20, '2014-05-13', '00:59:00'),
+(6, 1, 'Buridan\'s Ass', 20, '2014-05-20', '00:58:00'),
+(7, 1, 'Who Shaves the Barber?', 20, '2014-05-27', '00:59:00'),
+(8, 1, 'The Heap', 20, '2014-06-03', '00:58:00'),
+(1, 2, 'The Hell', 20, '2015-10-12', '00:57:00'),
+(2, 2, 'The Principle of a Leaf', 20, '2015-10-19', '00:59:00'),
+(3, 2, 'The Gift of the Magi', 20, '2015-10-26', '00:58:00'),
+(4, 2, 'The Ducking Chair', 20, '2015-11-02', '00:58:00'),
+(5, 2, 'The Principle of the False', 20, '2015-11-09', '00:59:00'),
+(6, 2, 'The White Doctor', 20, '2015-11-16', '00:59:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Pilot', 21, '2007-09-24', '00:22:00'),
+(2, 1, 'The Big Bran Hypothesis', 21, '2007-10-01', '00:22:00'),
+(3, 1, 'The Fuzzy Logic', 21, '2007-10-08', '00:22:00'),
+(4, 1, 'The Luminous Fish Effect', 21, '2007-10-15', '00:22:00'),
+(5, 1, 'The Hamburger Postulate', 21, '2007-10-22', '00:22:00'),
+(6, 1, 'The Middle Earth Paradigm', 21, '2007-10-29', '00:22:00'),
+(7, 1, 'The Dumpling Paradox', 21, '2007-11-05', '00:22:00'),
+(8, 1, 'The Grasshopper Experiment', 21, '2007-11-12', '00:22:00'),
+(9, 1, 'The Cooper-Hofstadter Polarization', 21, '2007-11-19', '00:22:00'),
+(10, 1, 'The Loobenfeld Decay', 21, '2007-12-10', '00:22:00'),
+(11, 1, 'The Pancake Batter Anomaly', 21, '2007-12-17', '00:22:00'),
+(12, 1, 'The Jerusalem Duality', 21, '2008-01-14', '00:22:00'),
+(13, 1, 'The Bat Jar Conjecture', 21, '2008-02-04', '00:22:00'),
+(14, 1, 'The Shiny Trinket Maneuver', 21, '2008-02-11', '00:22:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Pilot', 22, '2019-06-16', '00:53:00'),
+(2, 1, 'Stuntin\' Like My Daddy', 22, '2019-06-23', '00:55:00'),
+(3, 1, 'Shook Ones Pt. II', 22, '2019-06-30', '00:54:00'),
+(4, 1, 'The Next Episode', 22, '2019-07-07', '00:56:00'),
+(5, 1, '03 Bonnie and Clyde', 22, '2019-07-14', '00:56:00'),
+(6, 1, 'The Trials and Tribulations of Trying to Pee While Depressed', 22, '2019-07-21', '00:57:00'),
+(7, 1, 'Made You Look', 22, '2019-07-28', '00:58:00'),
+(8, 1, 'And Salt the Earth Behind You', 22, '2019-08-04', '00:55:00'),
+(1, 2, 'Trying to Get to Heaven Before They Close the Door', 22, '2022-07-04', '00:56:00'),
+(2, 2, 'Out of Touch', 22, '2022-07-11', '00:57:00'),
+(3, 2, 'You Who Cannot See, Think of Those Who Can', 22, '2022-07-18', '00:58:00'),
+(4, 2, 'Ruminations: Big and Little Bullys', 22, '2022-07-25', '00:59:00'),
+(5, 2, 'All In My Head', 22, '2022-08-01', '00:57:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Episode 1', 23, '2022-06-24', '00:56:00'),
+(2, 1, 'Episode 2', 23, '2022-06-24', '00:58:00'),
+(3, 1, 'Episode 3', 23, '2022-07-01', '00:56:00'),
+(4, 1, 'Episode 4', 23, '2022-07-01', '00:58:00'),
+(5, 1, 'Episode 5', 23, '2022-07-08', '00:56:00'),
+(6, 1, 'Episode 6', 23, '2022-07-08', '00:58:00'),
+(7, 1, 'Episode 7', 23, '2022-07-15', '00:56:00'),
+(8, 1, 'Episode 8', 23, '2022-07-15', '00:59:00'),
+(9, 1, 'Episode 9', 23, '2022-07-22', '00:56:00'),
+(10, 1, 'Episode 10', 23, '2022-07-22', '00:58:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'The National Anthem', 24, '2011-12-04', '00:43:00'),
+(2, 1, 'Fifteen Million Merits', 24, '2011-12-11', '00:59:00'),
+(3, 1, 'The Entire History of You', 24, '2011-12-18', '00:48:00'),
+(1, 2, 'Be Right Back', 24, '2013-02-11', '00:49:00'),
+(2, 2, 'White Bear', 24, '2013-02-18', '00:42:00'),
+(3, 2, 'The Waldo Moment', 24, '2013-02-25', '00:42:00'),
+(1, 3, 'Nosedive', 24, '2016-10-21', '01:03:00'),
+(2, 3, 'Playtest', 24, '2016-10-21', '00:57:00'),
+(3, 3, 'Shut Up and Dance', 24, '2016-10-21', '00:59:00'),
+(4, 3, 'San Junipero', 24, '2016-10-21', '01:00:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Days Gone Bye', 25, '2010-10-31', '00:44:00'),
+(2, 1, 'Guts', 25, '2010-11-07', '00:44:00'),
+(3, 1, 'Tell It to the Frogs', 25, '2010-11-14', '00:44:00'),
+(4, 1, 'Vatos', 25, '2010-11-21', '00:44:00'),
+(5, 1, 'Wildfire', 25, '2010-11-28', '00:44:00'),
+(6, 1, 'TS-19', 25, '2010-12-05', '00:44:00'),
+(1, 2, 'What Lies Ahead', 25, '2011-10-16', '00:43:00'),
+(2, 2, 'Bloodletting', 25, '2011-10-23', '00:43:00'),
+(3, 2, 'Save the Last One', 25, '2011-10-30', '00:43:00'),
+(4, 2, 'Cherokee Rose', 25, '2011-11-06', '00:43:00'),
+(5, 2, 'Chupacabra', 25, '2011-11-13', '00:43:00'),
+(6, 2, 'Secrets', 25, '2011-11-20', '00:43:00'),
+(7, 2, 'Pretty Much Dead Already', 25, '2011-11-27', '00:43:00'),
+(8, 2, 'Nebraska', 25, '2012-02-12', '00:43:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Sugarwood', 26, '2017-07-21', '00:59:00'),
+(2, 1, 'Blue Cat', 26, '2017-07-21', '00:59:00'),
+(3, 1, 'My Dripping Sleep', 26, '2017-07-21', '00:59:00'),
+(4, 1, 'The Gold Coast', 26, '2017-07-21', '00:59:00'),
+(5, 1, 'Ruling Days', 26, '2017-07-21', '00:59:00'),
+(6, 1, 'The Toll', 26, '2017-07-21', '00:59:00'),
+(7, 1, 'Nest', 26, '2017-07-21', '00:59:00'),
+(8, 1, 'Kaleidoscope', 26, '2017-07-21', '00:59:00'),
+(1, 2, 'The House Always Wins', 26, '2018-08-31', '00:59:00'),
+(2, 2, 'The Price of Free and Fair Elections', 26, '2018-08-31', '00:59:00'),
+(3, 2, 'Once a Langmore', 26, '2018-08-31', '00:59:00'),
+(4, 2, 'Show Me a Hero', 26, '2018-08-31', '00:59:00'),
+(5, 2, 'Game Night', 26, '2018-08-31', '00:59:00'),
+(6, 2, 'The Big One', 26, '2018-08-31', '00:59:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Celebration', 27, '2018-06-03', '01:00:00'),
+(2, 1, 'The Law of the Land', 27, '2018-06-10', '00:59:00'),
+(3, 1, 'Sad Sack Wasp Trap', 27, '2018-06-17', '00:59:00'),
+(4, 1, 'Four Thumbs of Flesh', 27, '2018-06-24', '00:59:00'),
+(5, 1, 'The Game Is afoot', 27, '2018-07-01', '00:59:00'),
+(6, 1, 'The War', 27, '2018-07-08', '01:00:00'),
+(7, 1, 'The Big Decision', 27, '2018-07-15', '00:59:00'),
+(8, 1, 'The Last Hurrah', 27, '2018-07-22', '00:59:00'),
+(1, 2, 'The Big Play', 27, '2019-08-11', '01:00:00'),
+(2, 2, 'The Corporate Gamble', 27, '2019-08-18', '00:59:00'),
+(3, 2, 'Not So Fast', 27, '2019-08-25', '00:59:00'),
+(4, 2, 'The Stranger', 27, '2019-09-01', '00:59:00'),
+(5, 2, 'The Edge of Crisis', 27, '2019-09-08', '00:59:00'),
+(6, 2, 'The Final Choice', 27, '2019-09-15', '01:00:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'We Only See Each Other at Weddings and Funerals', 28, '2019-02-15', '00:50:00'),
+(2, 1, 'Run Boy Run', 28, '2019-02-15', '00:50:00'),
+(3, 1, 'The Day That Was', 28, '2019-02-15', '00:49:00'),
+(4, 1, 'Man on the Moon', 28, '2019-02-15', '00:49:00'),
+(5, 1, 'The Five', 28, '2019-02-15', '00:49:00'),
+(6, 1, 'Go! Go! Go!', 28, '2019-02-15', '00:50:00'),
+(7, 1, 'Six Feet Under', 28, '2019-02-15', '00:50:00'),
+(8, 1, 'We Had a Baby', 28, '2019-02-15', '00:50:00'),
+(1, 2, 'The Electric Line', 28, '2020-07-31', '00:51:00'),
+(2, 2, 'After the End', 28, '2020-07-31', '00:51:00'),
+(3, 2, 'Season Two', 28, '2020-07-31', '00:51:00'),
+(4, 2, 'X-Men Edition', 28, '2020-07-31', '00:51:00'),
+(5, 2, 'Next Chapter', 28, '2020-07-31', '00:51:00');
+
+INSERT INTO EPISODIOS (NUMERO, TEMPORADA, NOMBRE, SERIE, FECHA_SALIDA, DURACION) VALUES
+(1, 1, 'Descenso', 29, '2015-08-28', '00:58:00'),
+(2, 1, 'The Sword of Simón Bolívar', 29, '2015-08-28', '00:59:00'),
+(3, 1, 'La Gran Familia', 29, '2015-08-28', '00:59:00'),
+(4, 1, 'The Boss', 29, '2015-08-28', '00:58:00'),
+(5, 1, 'The Unexpected', 29, '2015-08-28', '00:59:00'),
+(6, 1, 'The Rise of Escobar', 29, '2015-08-28', '00:59:00'),
+(7, 1, 'A Strategy in the Mountains', 29, '2015-08-28', '00:59:00'),
+(8, 1, 'El Escudo', 29, '2015-08-28', '00:59:00'),
+(1, 2, 'The Rise of the Medellín Cartel', 29, '2016-09-02', '00:58:00'),
+(2, 2, 'The War', 29, '2016-09-02', '00:59:00'),
+(3, 2, 'The Money', 29, '2016-09-02', '00:59:00'),
+(4, 2, 'The Fall of Medellín', 29, '2016-09-02', '00:59:00'),
+(5, 2, 'The End of the Beginning', 29, '2016-09-02', '00:59:00');
