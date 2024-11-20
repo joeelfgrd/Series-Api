@@ -1,5 +1,7 @@
 package edu.badpals.controlador;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import edu.badpals.modelo.Conexion_App_bbdd;
 import edu.badpals.modelo.Episodio;
 import edu.badpals.modelo.Serie;
@@ -13,6 +15,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
@@ -146,6 +149,29 @@ public class EpisodiosController implements Initializable {
         colDuracion.setCellValueFactory(new PropertyValueFactory<>("duracion"));
     }
 
+    private boolean prepareExportDirectory(String directoryPath) {
+        File directory = new File(directoryPath);
+        if (!directory.exists()) {
+            return directory.mkdirs();
+        }
+        return true;
+    }
+
+    public void toJSON(ActionEvent actionEvent) {
+        cargarEpisodios(Conexion_App_bbdd.getEpisodios(c, this.serie));
+        if (!prepareExportDirectory("data/exportaciones"))
+            return;
+        try {
+            File outputFile = new File("data/exportaciones/episodios.json");
+            ObjectMapper objectMapper = new ObjectMapper();
+            objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
+            objectMapper.writeValue(outputFile, this.episodios);
+            System.out.println("Episodios exportados correctamente a " + outputFile.getPath());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     public void cargarTabla() {
         cargarEpisodios(Conexion_App_bbdd.getEpisodios(c, this.serie));
         setCells();
@@ -166,7 +192,6 @@ public class EpisodiosController implements Initializable {
         alert.setContentText(message);
         alert.showAndWait();
     }
-
     /*
 
     private void cargarSerie() {

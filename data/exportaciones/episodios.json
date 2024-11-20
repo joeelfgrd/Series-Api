@@ -1,0 +1,271 @@
+[ {
+  "id" : 22,
+  "nombre" : "Winter Is Coming",
+  "numero" : 1,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1302991200000,
+  "duracion" : "01:02:00"
+}, {
+  "id" : 23,
+  "nombre" : "The Kingsroad",
+  "numero" : 2,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1303596000000,
+  "duracion" : "00:56:00"
+}, {
+  "id" : 24,
+  "nombre" : "Lord Snow",
+  "numero" : 3,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1304200800000,
+  "duracion" : "00:58:00"
+}, {
+  "id" : 25,
+  "nombre" : "Cripples, Bastards, and Broken Things",
+  "numero" : 4,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1304805600000,
+  "duracion" : "00:58:00"
+}, {
+  "id" : 26,
+  "nombre" : "The Wolf and the Lion",
+  "numero" : 5,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1305410400000,
+  "duracion" : "00:55:00"
+}, {
+  "id" : 27,
+  "nombre" : "A Golden Crown",
+  "numero" : 6,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1306015200000,
+  "duracion" : "00:53:00"
+}, {
+  "id" : 28,
+  "nombre" : "You Win or You Die",
+  "numero" : 7,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1306620000000,
+  "duracion" : "00:58:00"
+}, {
+  "id" : 29,
+  "nombre" : "The Pointy End",
+  "numero" : 8,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1307224800000,
+  "duracion" : "00:59:00"
+}, {
+  "id" : 30,
+  "nombre" : "Baelor",
+  "numero" : 9,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1307829600000,
+  "duracion" : "00:57:00"
+}, {
+  "id" : 31,
+  "nombre" : "Fire and Blood",
+  "numero" : 10,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1308434400000,
+  "duracion" : "00:59:00"
+}, {
+  "id" : 32,
+  "nombre" : "The North Remembers",
+  "numero" : 1,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1333231200000,
+  "duracion" : "00:53:00"
+}, {
+  "id" : 33,
+  "nombre" : "The Night Lands",
+  "numero" : 2,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1333836000000,
+  "duracion" : "00:54:00"
+}, {
+  "id" : 34,
+  "nombre" : "What Is Dead May Never Die",
+  "numero" : 3,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1334440800000,
+  "duracion" : "00:53:00"
+}, {
+  "id" : 35,
+  "nombre" : "Garden of Bones",
+  "numero" : 4,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1335045600000,
+  "duracion" : "00:50:00"
+}, {
+  "id" : 36,
+  "nombre" : "The Ghost of Harrenhal",
+  "numero" : 5,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 3,
+    "nombre" : "Game of Thrones",
+    "estreno" : 1302991200000,
+    "tematica" : "Fantasía, Drama",
+    "director" : "David Benioff y D.B. Weiss",
+    "calificacion" : 85,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1335650400000,
+  "duracion" : "00:55:00"
+} ]

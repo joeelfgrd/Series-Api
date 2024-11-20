@@ -122,6 +122,7 @@ public class Conexion_App_bbdd {
         return true;
     }
 
+
     public Connection crearConexion() {
         try {
             Properties propiedadesConexion = new Properties();

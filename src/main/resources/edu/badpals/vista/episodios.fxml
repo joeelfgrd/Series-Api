@@ -29,7 +29,7 @@
             </Menu>
                 <Menu mnemonicParsing="false" style="-fx-text-fill: #E0E0E0;" text="Exportar">
                     <items>
-                        <MenuItem fx:id="MenuItemExportar" mnemonicParsing="false" text="Exportar a json" />
+                        <MenuItem fx:id="MenuItemExportar" mnemonicParsing="false" onAction="#toJSON" text="Exportar a json" />
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" style="-fx-text-fill: #E0E0E0;" text="Ordenar">
