@@ -67,6 +67,8 @@ public class EpisodiosController implements Initializable {
     @FXML
     private TextField txtDurEp;
 
+
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         // Set row factory for selection
@@ -213,6 +215,8 @@ public class EpisodiosController implements Initializable {
             e.printStackTrace();
         }
     }
+
+
 
     public void cargarTabla() {
         cargarEpisodios(Conexion_App_bbdd.getEpisodios(c, this.serie));

@@ -47,6 +47,64 @@ public class Conexion_App_bbdd {
         return serie;
     }
 
+    public static List<Serie> getSeriebyIdioma(Connection c, String idioma) {
+        List<Serie> series = new ArrayList<>();
+        try {
+            String idiomasql = "SELECT * FROM SERIES WHERE IDIOMA = ?";
+            PreparedStatement ps = c.prepareStatement(idiomasql);
+            ps.setString(1, idioma);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                Serie serie = getSerieFromRS(rs);
+                series.add(serie);
+            }
+            rs.close();
+            ps.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return series;
+    }
+
+    public static List<Serie> getSeriebyEstado(Connection c, String estado) {
+        List<Serie> series = new ArrayList<>();
+        try {
+            String estadosql = "SELECT * FROM SERIES WHERE ESTADO = ?";
+            PreparedStatement ps = c.prepareStatement(estadosql);
+            ps.setString(1, estado);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                Serie serie = getSerieFromRS(rs);
+                series.add(serie);
+            }
+            rs.close();
+            ps.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return series;
+    }
+
+    public static List<Serie> getSeriebyCadena(Connection c, String cadena) {
+        List<Serie> series = new ArrayList<>();
+        try {
+            String cadenasql = "SELECT * FROM SERIES WHERE CADENA = ?";
+            PreparedStatement ps = c.prepareStatement(cadenasql);
+            ps.setString(1, cadena);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                Serie serie = getSerieFromRS(rs);
+                series.add(serie);
+            }
+            rs.close();
+            ps.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return series;
+    }
+
+
     private static Serie getSerieFromRS(ResultSet rs) throws SQLException {
         Serie serie = new Serie();
         serie.setId(rs.getInt("ID"));

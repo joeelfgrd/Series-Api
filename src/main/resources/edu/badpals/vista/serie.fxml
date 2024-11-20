@@ -74,14 +74,14 @@
          </font>
       </Label>
       <TextField fx:id="txtEstadoSerie" layoutX="526.0" layoutY="230.0" />
-      <CheckBox fx:id="chkIdiomaSerie" layoutX="296.0" layoutY="234.0" mnemonicParsing="false" />
-      <CheckBox fx:id="chkEstadoSerie" layoutX="688.0" layoutY="234.0" mnemonicParsing="false" />
+      <CheckBox fx:id="chkIdiomaSerie" layoutX="296.0" layoutY="234.0" mnemonicParsing="false" onAction="#filtrarSeries" />
+      <CheckBox fx:id="chkEstadoSerie" layoutX="688.0" layoutY="234.0" mnemonicParsing="false" onAction="#filtrarSeries" />
       <Label layoutX="733.0" layoutY="230.0" text="Cadena:" textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
       <TextField fx:id="txtCadenaSerie" layoutX="797.0" layoutY="230.0" />
-      <CheckBox fx:id="chkCadenaSerie" layoutX="956.0" layoutY="234.0" mnemonicParsing="false" />
+      <CheckBox fx:id="chkCadenaSerie" layoutX="956.0" layoutY="234.0" mnemonicParsing="false" onAction="#filtrarSeries" />
     </children>
 </Pane>
