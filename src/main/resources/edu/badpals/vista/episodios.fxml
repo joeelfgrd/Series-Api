@@ -9,18 +9,16 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane fx:id="panEpisodios" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #1F1B24;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.badpals.controlador.EpisodiosController">
+<Pane fx:id="panEpisodios" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #37306BFF;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.badpals.controlador.EpisodiosController">
     <children>
         <Label fx:id="lblEpisodio" alignment="CENTER" layoutY="25.0" prefHeight="55.0" prefWidth="276.0" style="-fx-text-fill: #4ECCA3;" text="EPISODIOS" textAlignment="CENTER">
             <font>
                 <Font size="47.0" />
             </font>
         </Label>
-        <ImageView fx:id="imgEpisodio" fitHeight="485.0" fitWidth="466.0" layoutX="1082.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" />
         <Separator layoutY="90.0" opacity="0.3" prefHeight="5.0" prefWidth="1194.0" />
         <MenuBar layoutX="-3.0" prefHeight="25.0" prefWidth="1207.0" style="-fx-text-fill: #E0E0E0;">
             <menus>
@@ -42,7 +40,7 @@
                 </Menu>
             </menus>
         </MenuBar>
-        <TableView fx:id="tableViewEpisodios" layoutX="10.0" layoutY="355.0" prefHeight="378.0" prefWidth="1177.0" style="-fx-background-color: #2E2A33; -fx-border-color: #4ECCA3; -fx-border-radius: #5;" stylesheets="@styles.css">
+        <TableView fx:id="tableViewEpisodios" layoutX="10.0" layoutY="355.0" prefHeight="378.0" prefWidth="1177.0" stylesheets="@styles.css">
             <columns>
                 <TableColumn fx:id="colId" prefWidth="70.0" text="ID" />
                 <TableColumn fx:id="colNumero" prefWidth="67.0" text="Numero" />
@@ -53,12 +51,12 @@
                 <TableColumn fx:id="colDuracion" minWidth="0.0" prefWidth="170.0" text="Duracion" />
             </columns>
         </TableView>
-        <Button fx:id="btnCrearep" layoutX="496.0" layoutY="312.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #4ECCA3; -fx-text-fill: #1F1B24; -fx-background-radius: 15px;" text="Crear" />
-        <Button fx:id="btnDelep" layoutX="701.0" layoutY="312.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #4ECCA3; -fx-text-fill: #1F1B24; -fx-background-radius: 15px;" text="Eliminar" />
-        <Button fx:id="btnModifep" layoutX="597.0" layoutY="312.0" mnemonicParsing="false" style="-fx-background-color: #4ECCA3; -fx-text-fill: #1F1B24; -fx-background-radius: 15px;" text="Modificar" />
-        <TextField fx:id="txtNumEp" layoutX="844.0" layoutY="160.0" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
-        <TextField fx:id="txtFechaDeSalida" layoutX="136.0" layoutY="221.0" prefHeight="27.0" prefWidth="157.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
-        <TextField fx:id="txtTempep" layoutX="844.0" layoutY="207.0" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
+        <Button fx:id="btnCrearep" layoutX="496.0" layoutY="312.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #696CF6FF; -fx-text-fill: #1F1B24; -fx-background-radius: 15px; -fx-border-color: #1e1e1e; -fx-border-radius: 15px;" text="Crear" />
+        <Button fx:id="btnDelep" layoutX="701.0" layoutY="312.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: #696CF6FF; -fx-text-fill: #1F1B24; -fx-background-radius: 15px; -fx-border-color: #1e1e1e; -fx-border-radius: 15px;" text="Eliminar" />
+        <Button fx:id="btnModifep" layoutX="597.0" layoutY="312.0" mnemonicParsing="false" style="-fx-background-color: #696CF6FF; -fx-text-fill: #1F1B24; -fx-background-radius: 15px;-fx-border-color: #1e1e1e; -fx-border-radius: 15px;" text="Modificar" />
+        <TextField fx:id="txtNumEp" layoutX="844.0" layoutY="160.0" prefHeight="25.0" prefWidth="63.0" style="-fx-text-fill: #E0E0E0; -fx-border-color: #1e1e1e; -fx-border-radius: 10px; -fx-background-radius: 10px;" />
+        <TextField fx:id="txtFechaDeSalida" layoutX="136.0" layoutY="221.0" prefHeight="27.0" prefWidth="157.0" style="-fx-text-fill: #E0E0E0; -fx-border-color: #1e1e1e; -fx-border-radius: 10px; -fx-background-radius: 10px;" />
+        <TextField fx:id="txtTempep" layoutX="844.0" layoutY="207.0" prefHeight="27.0" prefWidth="63.0" style="-fx-text-fill: #E0E0E0; -fx-border-color: #1e1e1e; -fx-border-radius: 10px; -fx-background-radius: 10px;" />
         <Label layoutX="38.0" layoutY="131.0" prefHeight="27.0" prefWidth="29.0" style="-fx-text-fill: #E0E0E0;" text="ID:">
             <font>
                 <Font size="17.0" />
@@ -72,7 +70,7 @@
          <font>
             <Font size="16.0" />
          </font></Label>
-        <Label fx:id="lblidSerie" layoutX="138.0" layoutY="132.0" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #4ECCA3; -fx-text-fill: #1F1B24; -fx-background-radius: 10px;" />
+        <Label fx:id="lblidSerie" layoutX="138.0" layoutY="132.0" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #ffffffff; -fx-text-fill: #1F1B24; -fx-background-radius: 10px;" />
         <Label layoutX="736.0" layoutY="161.0" prefHeight="25.0" prefWidth="63.0" style="-fx-text-fill: #E0E0E0;" text="Numero:">
          <font>
             <Font size="16.0" />
@@ -85,7 +83,7 @@
          <font>
             <Font size="16.0" />
          </font></Label>
-        <TextField fx:id="txtNombreep" layoutX="138.0" layoutY="174.0" prefHeight="27.0" prefWidth="424.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
-        <TextField fx:id="txtDurep" layoutX="844.0" layoutY="118.0" prefHeight="27.0" prefWidth="139.0" style="-fx-background-color: #37306B; -fx-text-fill: #E0E0E0; -fx-border-color: #4ECCA3; -fx-border-radius: 10px;" />
+        <TextField fx:id="txtNombreep" layoutX="138.0" layoutY="174.0" prefHeight="27.0" prefWidth="424.0" style="-fx-text-fill: #E0E0E0; -fx-border-color: #1e1e1e; -fx-border-radius: 10px; -fx-background-radius: 10px;" />
+        <TextField fx:id="txtDurep" layoutX="844.0" layoutY="118.0" prefHeight="27.0" prefWidth="139.0" style="-fx-text-fill: #E0E0E0; -fx-border-color: #1e1e1e; -fx-border-radius: 10px; -fx-background-radius: 10px;" />
     </children>
 </Pane>

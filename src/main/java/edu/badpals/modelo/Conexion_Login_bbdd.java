@@ -31,7 +31,6 @@ public class Conexion_Login_bbdd {
         }
     }
 
-    // Método para leer los usuarios desde la base de datos y devolverlos en un mapa (decodificando con LZ78)
     public static Map<String, String> leerUsers() {
         Map<String, String> map = new HashMap<>();
         String query = "SELECT * FROM logins";
