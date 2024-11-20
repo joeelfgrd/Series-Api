@@ -13,6 +13,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.input.MouseButton;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -31,6 +32,7 @@ public class EpisodiosController implements Initializable {
     private Serie serie; // Objeto Serie actual
 
     private List<Episodio> episodios;
+    private Episodio episodio;
 
     @FXML
     private javafx.scene.control.Label lblNameSerieEpisodios; // Etiqueta para mostrar el nombre de la serie
@@ -57,18 +59,36 @@ public class EpisodiosController implements Initializable {
     @FXML
     private TextField txtNumEp;
     @FXML
-    private TextField txtTempep;
+    private TextField txtTempEp;
     @FXML
-    private TextField txtNombreep;
+    private TextField txtNombreEp;
     @FXML
-    private TextField txtSerieep;
+    private TextField txtFechaDeSalidaEp;
     @FXML
-    private TextField txtFechaDeSalidaep;
-    @FXML
-    private TextField txtDurep;
+    private TextField txtDurEp;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        // Set row factory for selection
+        tableViewEpisodios.setOnMouseClicked(event -> {
+            if (!tableViewEpisodios.getSelectionModel().isEmpty() && event.getButton() == MouseButton.PRIMARY && event.getClickCount() == 1) {
+                setEpisodio(tableViewEpisodios.getSelectionModel().getSelectedItem());
+                cargarTextsEpisodio();
+            }
+        });
+    }
+
+    private void cargarTextsEpisodio() {
+        lblidSerie.setText(String.valueOf(this.episodio.getId()));
+        txtNumEp.setText(String.valueOf(this.episodio.getNumero()));
+        txtTempEp.setText(String.valueOf(this.episodio.getTemporada()));
+        txtNombreEp.setText(this.episodio.getNombre());
+        txtFechaDeSalidaEp.setText(String.valueOf(this.episodio.getFechaDeSalida()));
+        txtDurEp.setText(String.valueOf(this.episodio.getDuracion()));
+    }
+
+    private void setEpisodio(Episodio episodio) {
+        this.episodio = episodio;
     }
 
     public void toSerie(ActionEvent actionEvent) {
@@ -86,45 +106,67 @@ public class EpisodiosController implements Initializable {
         }
     }
 
-    public void crearEp(ActionEvent actionEvent){
+    public void modificarEp(ActionEvent actionEvent) {
         Episodio ep = cargarEpisodioTexts();
-        if(ep != null){
-            Conexion_App_bbdd.crearEpisodio(c,ep);
+        if (ep != null){
+            int respuesta = Conexion_App_bbdd.modificarEpisodio(c, ep);
+            if (respuesta == 0) {
+                showWarning("Error Modificar", "El ID Seleccionado no Existe");
+            } else if(respuesta == 2){
+                showWarning("Error Modificar", "La temporada y el numero de episodio ya existen");
+            }
         }
+        cargarTabla();
+    }
+
+    public void eliminarEp(ActionEvent actionEvent) {
+        Episodio ep = cargarEpisodioTexts();
+        if (ep != null && !Conexion_App_bbdd.eliminarEpisodio(c, ep)) {
+            showWarning("Error Eliminar", "El ID Seleccionado no Existe");
+        }
+        cargarTabla();
+    }
+
+    public void crearEp(ActionEvent actionEvent) {
+        Episodio ep = cargarEpisodioTexts();
+        if (ep != null && !Conexion_App_bbdd.crearEpisodio(c, ep)) {
+            showWarning("Error Crear", "La temporada y el numero de episodio ya existen");
+        }
+        cargarTabla();
     }
 
     private Episodio cargarEpisodioTexts() {
         Episodio episodio = new Episodio();
-        if(!Objects.equals(lblidSerie.getText(), "")){
+        if (!Objects.equals(lblidSerie.getText(), "")) {
             episodio.setId(Integer.parseInt(lblidSerie.getText()));
         }
         try {
             episodio.setNumero(Integer.parseInt(txtNumEp.getText()));
         } catch (NumberFormatException e) {
-            showWarning("Numero incorrecto","Escribe un Numero de Episodio correcto");
+            showWarning("Numero incorrecto", "Escribe un Numero de Episodio correcto");
             return null;
         }
         try {
-            episodio.setTemporada(Integer.parseInt(txtTempep.getText()));
+            episodio.setTemporada(Integer.parseInt(txtTempEp.getText()));
         } catch (NumberFormatException e) {
-            showWarning("Numero incorrecto","Escribe un Numero de Temporada correcta");
+            showWarning("Numero incorrecto", "Escribe un Numero de Temporada correcta");
             return null;
         }
 
-        episodio.setNombre(txtNombreep.getText());
+        episodio.setNombre(txtNombreEp.getText());
 
         episodio.setSerie(this.serie);
 
         try {
-            episodio.setFechaDeSalida(Date.valueOf(txtFechaDeSalidaep.getText()));
+            episodio.setFechaDeSalida(Date.valueOf(txtFechaDeSalidaEp.getText()));
         } catch (IllegalArgumentException e) {
-            showWarning("Fecha Incorrecta","Escribe una fecha con el formato Correcto yyyy-[m] m-[d] d");
+            showWarning("Fecha Incorrecta", "Escribe una fecha con el formato Correcto yyyy-[m] m-[d] d");
             return null;
         }
         try {
-            episodio.setDuracion(Time.valueOf(txtDurep.getText()));
+            episodio.setDuracion(Time.valueOf(txtDurEp.getText()));
         } catch (IllegalArgumentException e) {
-            showWarning("Duracion Incorrecta","Escribe una Duracion con el formato Correcto hh:mm:ss");
+            showWarning("Duracion Incorrecta", "Escribe una Duracion con el formato Correcto hh:mm:ss");
             return null;
         }
         return episodio;
