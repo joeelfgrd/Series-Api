@@ -1,16 +1,17 @@
 module edu.badpals.controlador {
     requires javafx.controls;
     requires javafx.fxml;
-    requires java.sql;
-    requires jdk.compiler;
-    requires com.fasterxml.jackson.annotation;
+    requires java.net.http;
+    requires org.json;
+    requires jdom2;
     requires com.fasterxml.jackson.databind;
     requires com.fasterxml.jackson.dataformat.xml;
-
+    requires java.sql;
 
     opens edu.badpals.controlador to javafx.fxml;
     exports edu.badpals.controlador;
-    exports edu.badpals to javafx.graphics;
+    exports edu.badpals;
+    opens edu.badpals to javafx.fxml;
     exports edu.badpals.modelo;
-    opens edu.badpals.modelo to javafx.fxml;
+    opens edu.badpals.modelo to com.fasterxml.jackson.databind, javafx.fxml;
 }
