@@ -40,6 +40,8 @@ public class Conexion_App_bbdd {
                 serie.setCadena(rs.getString("CADENA"));
                 series.add(serie);
             }
+            rs.close();
+            ps.close();
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -65,11 +67,34 @@ public class Conexion_App_bbdd {
                 episodio.setDuracion(rs.getTime("DURACION"));
                 episodios.add(episodio);
             }
+            rs.close();
+            ps.close();
 
         } catch (Exception e) {
             e.printStackTrace();
         }
         return episodios;
+    }
+
+    public static boolean crearEpisodio(Connection c, Episodio episodio){
+        boolean ejecutado = false;
+        try {
+            String stringSQL = "INSERT INTO Episodios (numero, temporada, nombre, serie, FECHA_SALIDA, duracion) VALUES" +
+                    " (?,?,?,?,?,?)";
+            PreparedStatement ps = c.prepareStatement(stringSQL);
+            ps.setInt(1, episodio.getNumero());
+            ps.setInt(2, episodio.getTemporada());
+            ps.setString(3, episodio.getNombre());
+            ps.setObject(4, episodio.getSerie());
+            ps.setDate(5, episodio.getFechaDeSalida());
+            ps.setTime(6, episodio.getDuracion());
+
+            ejecutado = ps.execute();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return ejecutado;
     }
 
     public void cerrarConexion(Connection c) {

@@ -1,6 +1,7 @@
 package edu.badpals.modelo;
 
-import java.util.Date;
+import java.sql.Time;
+import java.sql.Date;
 
 public class Episodio {
     private int id;
@@ -9,14 +10,14 @@ public class Episodio {
     private int temporada;
     private Serie serie;
     private Date fechaDeSalida;
-    private Date duracion;
+    private Time duracion;
 
     // Constructor vacío
     public Episodio() {
     }
 
     // Constructor con parámetros
-    public Episodio(int id, String nombre, int numero, int temporada, Serie serie, Date fechaDeSalida, Date duracion) {
+    public Episodio(int id, String nombre, int numero, int temporada, Serie serie, Date fechaDeSalida, Time duracion) {
         this.id = id;
         this.nombre = nombre;
         this.numero = numero;
@@ -75,11 +76,11 @@ public class Episodio {
         this.fechaDeSalida = fechaDeSalida;
     }
 
-    public Date getDuracion() {
+    public Time getDuracion() {
         return duracion;
     }
 
-    public void setDuracion(Date duracion) {
+    public void setDuracion(Time duracion) {
         this.duracion = duracion;
     }
 
