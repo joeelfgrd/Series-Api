@@ -9,3 +9,6 @@ Filtrar por temporada
 Quitar ordenar del menuBar
 Exportar a json
 Retocar graficamente la vista de episodios
+--PELICULAS--
+filtrar por cadena estado e idioma
+ordenar por calificacion y fecha de estreno
