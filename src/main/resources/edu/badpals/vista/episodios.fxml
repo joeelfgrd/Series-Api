@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
@@ -7,52 +8,67 @@
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
 <Pane fx:id="panEpisodios" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="919.0" style="-fx-background-color: #a5a5a5;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.badpals.controlador.EpisodiosController">
     <children>
-        <Label fx:id="lblEpisodio" alignment="CENTER" layoutX="-1.0" layoutY="30.0" prefHeight="86.0" prefWidth="318.0" text="EPISODIOS" textAlignment="CENTER">
+        <Label fx:id="lblEpisodio" alignment="CENTER" layoutY="25.0" prefHeight="55.0" prefWidth="276.0" text="EPISODIOS" textAlignment="CENTER">
             <font>
                 <Font size="47.0" />
             </font>
         </Label>
         <ImageView fx:id="imgEpisodio" fitHeight="485.0" fitWidth="466.0" layoutX="1082.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" />
-        <Separator layoutX="-2.0" layoutY="113.0" prefHeight="8.0" prefWidth="919.0" />
+        <Separator layoutY="90.0" prefHeight="8.0" prefWidth="919.0" />
       <MenuBar layoutX="-3.0" prefHeight="17.0" prefWidth="925.0">
         <menus>
+            <Menu fx:id="MenuVolverSeries" mnemonicParsing="false" text="Volver a Series" />
           <Menu mnemonicParsing="false" text="Exportar">
             <items>
-              <MenuItem mnemonicParsing="false" text="Exportar a json" />
+              <MenuItem fx:id="MenuItemExportar" mnemonicParsing="false" text="Exportar a json" />
             </items>
           </Menu>
             <Menu mnemonicParsing="false" text="Ordenar">
                <items>
-                  <MenuItem mnemonicParsing="false" text="Temporada" />
-                  <MenuItem mnemonicParsing="false" text="Duracion" />
+                  <MenuItem fx:id="MenuItemOrdTemp" mnemonicParsing="false" text="Temporada" />
+                  <MenuItem fx:id="MenuItemOrdDur" mnemonicParsing="false" text="Duracion" />
                </items>
             </Menu>
-          <Menu mnemonicParsing="false" text="Filtrar">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Temporada" />
-            </items>
-          </Menu>
-          <Menu mnemonicParsing="false" text="Modificar" />
-            <Menu mnemonicParsing="false" text="Eliminar" />
-            <Menu mnemonicParsing="false" text="Crear" />
         </menus>
       </MenuBar>
-      <TableView fx:id="tableViewEpisodios" layoutX="13.0" layoutY="159.0" prefHeight="574.0" prefWidth="893.0">
+      <TableView fx:id="tableViewEpisodios" layoutX="13.0" layoutY="374.0" prefHeight="359.0" prefWidth="893.0">
         <columns>
           <TableColumn fx:id="colId" prefWidth="70.0" text="ID" />
           <TableColumn fx:id="colNumero" prefWidth="67.0" text="Numero" />
             <TableColumn fx:id="colTemporada" prefWidth="93.0" text="Temporada" />
             <TableColumn fx:id="colNombre" prefWidth="200.0" text="Nombre" />
             <TableColumn fx:id="colSerie" minWidth="0.0" prefWidth="204.0" text="Serie" />
-            <TableColumn fx:id="colFechaDeSalida" minWidth="5.0" prefWidth="156.0" text="Estreno" />
-            <TableColumn fx:id="colDuracion" minWidth="0.0" prefWidth="101.0" text="Duracion" />
+            <TableColumn fx:id="colFechaDeSalida" minWidth="5.0" prefWidth="138.0" text="Estreno" />
+            <TableColumn fx:id="colDuracion" minWidth="0.0" prefWidth="119.0" text="Duracion" />
         </columns>
       </TableView>
+      <Button fx:id="btnCrearep" layoutX="346.0" layoutY="324.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="Crear" />
+      <Button fx:id="btnDelep" layoutX="506.0" layoutY="324.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="Eliminar" />
+      <Button fx:id="btnModifep" layoutX="426.0" layoutY="324.0" mnemonicParsing="false" text="Modificar" />
+      <TextField layoutX="90.0" layoutY="152.0" />
+      <TextField layoutX="465.0" layoutY="173.0" />
+      <TextField layoutX="465.0" layoutY="109.0" />
+      <TextField layoutX="111.0" layoutY="186.0" />
+      <Label layoutX="36.0" layoutY="122.0" text="ID:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="221.0" text="Nombre:" />
+      <Label layoutX="30.0" layoutY="190.0" text="Temporada:" />
+      <Label fx:id="lblidSerie" layoutX="62.0" layoutY="122.0" prefHeight="17.0" prefWidth="46.0" style="-fx-background-color: #ffffff;" />
+      <Label layoutX="31.0" layoutY="156.0" prefHeight="17.0" prefWidth="53.0" text="Numero:" />
+      <Label layoutX="635.0" layoutY="123.0" text="Duracion:" />
+      <Label layoutX="412.0" layoutY="177.0" text="Estreno:" />
+      <Label layoutX="426.0" layoutY="113.0" text="Serie:" />
+      <TextField layoutX="93.0" layoutY="217.0" />
+      <TextField layoutX="692.0" layoutY="118.0" />
     </children>
 </Pane>

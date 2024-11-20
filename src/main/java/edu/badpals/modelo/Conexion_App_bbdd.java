@@ -13,7 +13,7 @@ public class Conexion_App_bbdd {
         try {
             Properties propiedadesConexion = new Properties();
             propiedadesConexion.setProperty("user", "root");
-            propiedadesConexion.setProperty("password", "renaido");
+            propiedadesConexion.setProperty("password", "root");
             return DriverManager.getConnection(urldb, propiedadesConexion);
         } catch (SQLException e) {
             e.printStackTrace();

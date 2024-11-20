@@ -10,7 +10,7 @@ public class Conexion_Login_bbdd {
     public Connection crearConexion() throws SQLException {
         Properties propiedadesConexion = new Properties();
         propiedadesConexion.setProperty("user", "root");
-        propiedadesConexion.setProperty("password", "renaido");
+        propiedadesConexion.setProperty("password", "root");
         return DriverManager.getConnection(urldb, propiedadesConexion);
     }
     public static void crearUser(String user, String pswd) {
