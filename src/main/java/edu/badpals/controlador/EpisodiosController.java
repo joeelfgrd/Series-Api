@@ -9,6 +9,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
+import javafx.scene.control.MenuItem;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -51,26 +52,26 @@ public class EpisodiosController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
     }
 
-
-    public void toSerie(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("serie.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 919, 750);
-        Stage stage = (Stage) ((javafx.scene.Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setScene(scene);
-        stage.show();
-        stage.setMaximized(false);
-        stage.setResizable(false);
-        stage.setTitle("Series");
-
-        SerieController controller = fxmlLoader.getController();
-        controller.setSerie(this.serie);
+    public void toSerie(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/serie.fxml"));
+            Scene scene = new Scene(fxmlLoader.load(), 919, 750);
+            Stage stage = (Stage) ((MenuItem) actionEvent.getSource()).getParentPopup().getOwnerWindow();
+            stage.setScene(scene);
+            stage.show();
+            stage.setMaximized(false);
+            stage.setResizable(false);
+            stage.setTitle("Series");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void setSerie(Serie serie) {
         this.serie = serie;
     }
 
-    public void cargarEpisodios(List<Episodio> episodios){
+    public void cargarEpisodios(List<Episodio> episodios) {
         setEpisodios(episodios);
         tableViewEpisodios.getItems().setAll(episodios);
     }
@@ -86,7 +87,7 @@ public class EpisodiosController implements Initializable {
     }
 
     public void cargarTabla() {
-        cargarEpisodios(Conexion_App_bbdd.getEpisodios(c,this.serie));
+        cargarEpisodios(Conexion_App_bbdd.getEpisodios(c, this.serie));
         setCells();
     }
 

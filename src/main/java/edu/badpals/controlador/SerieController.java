@@ -94,15 +94,19 @@ public class SerieController {
         }
     }
 
-    public void toLogin(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/login.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 500, 600);
-        Stage stage = (Stage) ((MenuItem) actionEvent.getSource()).getParentPopup().getOwnerWindow();
-        stage.setScene(scene);
-        stage.show();
-        stage.setMaximized(false);
-        stage.setResizable(false);
-        stage.setTitle("Login");
+    public void toLogin(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/edu/badpals/vista/login.fxml"));
+            Scene scene = new Scene(fxmlLoader.load(), 500, 600);
+            Stage stage = (Stage) ((MenuItem) actionEvent.getSource()).getParentPopup().getOwnerWindow();
+            stage.setScene(scene);
+            stage.show();
+            stage.setMaximized(false);
+            stage.setResizable(false);
+            stage.setTitle("Login");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void showWarning(String title, String message) {
