@@ -9,18 +9,6 @@ public class Conexion_App_bbdd {
 
     private String urldb = "jdbc:mysql://localhost:3306/app_series";
 
-    public Connection crearConexion() {
-        try {
-            Properties propiedadesConexion = new Properties();
-            propiedadesConexion.setProperty("user", "root");
-            propiedadesConexion.setProperty("password", "root");
-            return DriverManager.getConnection(urldb, propiedadesConexion);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
     public static List<Serie> getSeries(Connection c) {
         List<Serie> series = new ArrayList<>();
         try {
@@ -28,16 +16,7 @@ public class Conexion_App_bbdd {
             PreparedStatement ps = c.prepareStatement(stringSQL);
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
-                Serie serie = new Serie();
-                serie.setId(rs.getInt("ID"));
-                serie.setNombre(rs.getString("NOMBRE"));
-                serie.setEstreno(rs.getDate("FECHA_ESTRENO"));
-                serie.setTematica(rs.getString("TEMATICA"));
-                serie.setDirector(rs.getString("DIRECTOR"));
-                serie.setCalificacion(rs.getInt("RATING"));
-                serie.setIdioma(rs.getString("IDIOMA"));
-                serie.setEstado(Estado.valueOf(rs.getString("ESTADO").replace(" ", "_")));
-                serie.setCadena(rs.getString("CADENA"));
+                Serie serie = getSerieFromRS(rs);
                 series.add(serie);
             }
             rs.close();
@@ -47,6 +26,39 @@ public class Conexion_App_bbdd {
             e.printStackTrace();
         }
         return series;
+    }
+
+    public static Serie getSerie(Connection c, String nombre) {
+        Serie serie = new Serie();
+        try {
+            String stringSQL = "SELECT * FROM SERIES WHERE NOMBRE = ?";
+            PreparedStatement ps = c.prepareStatement(stringSQL);
+            ps.setString(1, nombre);
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+                serie = getSerieFromRS(rs);
+            }
+            rs.close();
+            ps.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return serie;
+    }
+
+    private static Serie getSerieFromRS(ResultSet rs) throws SQLException {
+        Serie serie = new Serie();
+        serie.setId(rs.getInt("ID"));
+        serie.setNombre(rs.getString("NOMBRE"));
+        serie.setEstreno(rs.getDate("FECHA_ESTRENO"));
+        serie.setTematica(rs.getString("TEMATICA"));
+        serie.setDirector(rs.getString("DIRECTOR"));
+        serie.setCalificacion(rs.getInt("RATING"));
+        serie.setIdioma(rs.getString("IDIOMA"));
+        serie.setEstado(Estado.valueOf(rs.getString("ESTADO").replace(" ", "_")));
+        serie.setCadena(rs.getString("CADENA"));
+        return serie;
     }
 
     public static List<Episodio> getEpisodios(Connection c, Serie serie) {
@@ -76,25 +88,50 @@ public class Conexion_App_bbdd {
         return episodios;
     }
 
-    public static boolean crearEpisodio(Connection c, Episodio episodio){
+    public static boolean crearEpisodio(Connection c, Episodio episodio) {
         boolean ejecutado = false;
         try {
-            String stringSQL = "INSERT INTO Episodios (numero, temporada, nombre, serie, FECHA_SALIDA, duracion) VALUES" +
-                    " (?,?,?,?,?,?)";
-            PreparedStatement ps = c.prepareStatement(stringSQL);
-            ps.setInt(1, episodio.getNumero());
-            ps.setInt(2, episodio.getTemporada());
-            ps.setString(3, episodio.getNombre());
-            ps.setObject(4, episodio.getSerie());
-            ps.setDate(5, episodio.getFechaDeSalida());
-            ps.setTime(6, episodio.getDuracion());
 
-            ejecutado = ps.execute();
+            if (checkEpisodio(c,episodio)) {
+                String stringSQL = "INSERT INTO Episodios (numero, temporada, nombre, serie, FECHA_SALIDA, duracion) VALUES" +
+                        " (?,?,?,?,?,?)";
+                PreparedStatement ps = c.prepareStatement(stringSQL);
+                ps.setInt(1, episodio.getNumero());
+                ps.setInt(2, episodio.getTemporada());
+                ps.setString(3, episodio.getNombre());
+                ps.setInt(4, episodio.getSerie().getId());
+                ps.setDate(5, episodio.getFechaDeSalida());
+                ps.setTime(6, episodio.getDuracion());
+                ejecutado = ps.execute();
+                ps.close();
+            }
 
         } catch (Exception e) {
             e.printStackTrace();
         }
         return ejecutado;
+    }
+
+    private static boolean checkEpisodio(Connection c, Episodio episodio) {
+        try {
+            String stringCheckNumeroTemp = "SELECT * FROM EPISODIOS WHERE serie = ? temporada = ? numero = ?";
+            PreparedStatement ps = c.prepareStatement(stringCheckNumeroTemp);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return true;
+    }
+
+    public Connection crearConexion() {
+        try {
+            Properties propiedadesConexion = new Properties();
+            propiedadesConexion.setProperty("user", "root");
+            propiedadesConexion.setProperty("password", "root");
+            return DriverManager.getConnection(urldb, propiedadesConexion);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     public void cerrarConexion(Connection c) {

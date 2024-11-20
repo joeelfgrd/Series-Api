@@ -9,16 +9,17 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
-import javafx.scene.control.MenuItem;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
+import java.sql.Date;
+import java.sql.Time;
 import java.util.List;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 public class EpisodiosController implements Initializable {
@@ -48,6 +49,21 @@ public class EpisodiosController implements Initializable {
     @FXML
     private TableColumn<Episodio, Integer> colDuracion;
 
+    @FXML
+    private Label lblidSerie;
+    @FXML
+    private TextField txtNumEp;
+    @FXML
+    private TextField txtTempep;
+    @FXML
+    private TextField txtNombreep;
+    @FXML
+    private TextField txtSerieep;
+    @FXML
+    private TextField txtFechaDeSalidaep;
+    @FXML
+    private TextField txtDurep;
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
     }
@@ -65,6 +81,50 @@ public class EpisodiosController implements Initializable {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void crearEp(ActionEvent actionEvent){
+        Episodio ep = cargarEpisodioTexts();
+        if(ep != null){
+            Conexion_App_bbdd.crearEpisodio(c,ep);
+        }
+    }
+
+    private Episodio cargarEpisodioTexts() {
+        Episodio episodio = new Episodio();
+        if(!Objects.equals(lblidSerie.getText(), "")){
+            episodio.setId(Integer.parseInt(lblidSerie.getText()));
+        }
+        try {
+            episodio.setNumero(Integer.parseInt(txtNumEp.getText()));
+        } catch (NumberFormatException e) {
+            showWarning("Numero incorrecto","Escribe un Numero de Episodio correcto");
+            return null;
+        }
+        try {
+            episodio.setTemporada(Integer.parseInt(txtTempep.getText()));
+        } catch (NumberFormatException e) {
+            showWarning("Numero incorrecto","Escribe un Numero de Temporada correcta");
+            return null;
+        }
+
+        episodio.setNombre(txtNombreep.getText());
+
+        episodio.setSerie(this.serie);
+
+        try {
+            episodio.setFechaDeSalida(Date.valueOf(txtFechaDeSalidaep.getText()));
+        } catch (IllegalArgumentException e) {
+            showWarning("Fecha Incorrecta","Escribe una fecha con el formato Correcto yyyy-[m] m-[d] d");
+            return null;
+        }
+        try {
+            episodio.setDuracion(Time.valueOf(txtDurep.getText()));
+        } catch (IllegalArgumentException e) {
+            showWarning("Duracion Incorrecta","Escribe una Duracion con el formato Correcto hh:mm:ss");
+            return null;
+        }
+        return episodio;
     }
 
     public void setSerie(Serie serie) {
@@ -97,6 +157,14 @@ public class EpisodiosController implements Initializable {
 
     public void setEpisodios(List<Episodio> episodios) {
         this.episodios = episodios;
+    }
+
+    public static void showWarning(String title, String message) {
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle(title);
+        alert.setHeaderText(null);
+        alert.setContentText(message);
+        alert.showAndWait();
     }
 
     /*
