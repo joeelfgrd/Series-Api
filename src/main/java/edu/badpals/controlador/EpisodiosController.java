@@ -204,7 +204,7 @@ public class EpisodiosController implements Initializable {
         if (!prepareExportDirectory("data/exportaciones"))
             return;
         try {
-            File outputFile = new File("data/exportaciones/episodios.json");
+            File outputFile = new File("data/exportaciones/episodios" + this.serie.getNombre() + ".json");
             ObjectMapper objectMapper = new ObjectMapper();
             objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
             objectMapper.writeValue(outputFile, this.episodios);
