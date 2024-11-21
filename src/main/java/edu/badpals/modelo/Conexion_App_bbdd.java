@@ -8,24 +8,26 @@ import java.util.Properties;
 
 public class Conexion_App_bbdd {
 
-    private String urldb = "jdbc:mysql://localhost:3306/app_series";
+    private final String URLDB = "jdbc:mysql://localhost:3306/app_series";
 
     public Connection crearConexion() {
         try {
             Properties propiedadesConexion = new Properties();
             propiedadesConexion.setProperty("user", "root");
             propiedadesConexion.setProperty("password", "root");
-            return DriverManager.getConnection(urldb, propiedadesConexion);
+            Connection c = DriverManager.getConnection(URLDB, propiedadesConexion);
+            System.out.println("Conexion establecida");
+            return c;
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
     }
 
-    public void cerrarConexion(Connection c) {
+    public static void cerrarConexion(Connection c) {
         try {
             c.close();
-            System.out.println("Conexión cerrada en series");
+            System.out.println("Conexión cerrada");
         } catch (SQLException e) {
             e.printStackTrace();
         }

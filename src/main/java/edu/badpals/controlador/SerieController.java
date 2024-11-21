@@ -21,7 +21,7 @@ import java.util.List;
 
 public class SerieController {
     private Conexion_App_bbdd cbd = new Conexion_App_bbdd();
-    private Connection c = cbd.crearConexion();
+    private Connection c;
     private Serie serie;
 
     @FXML
@@ -69,6 +69,7 @@ public class SerieController {
 
     @FXML
     public void initialize() {
+        c = cbd.crearConexion();
         setCells();
         imgViewLogo.setImage(new Image(getClass().getResource("/img/logo.png").toExternalForm()));
         cargarSeries(Conexion_App_bbdd.getSeries(c));
@@ -131,6 +132,7 @@ public class SerieController {
             stage.setMaximized(false);
             stage.setResizable(false);
             stage.setTitle("Login");
+            Conexion_App_bbdd.cerrarConexion(c);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -152,6 +154,7 @@ public class SerieController {
                 stage.setMaximized(false);
                 stage.setResizable(false);
                 stage.setTitle("Episodios");
+                Conexion_App_bbdd.cerrarConexion(c);
             } catch (Exception e) {
                 e.printStackTrace();
             }

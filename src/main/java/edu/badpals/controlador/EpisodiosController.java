@@ -28,7 +28,7 @@ import java.util.ResourceBundle;
 
 public class EpisodiosController implements Initializable {
     private Conexion_App_bbdd cbd = new Conexion_App_bbdd();
-    private Connection c = cbd.crearConexion();
+    private Connection c;
     private Serie serie; // Objeto Serie actual
 
     private List<Episodio> episodios;
@@ -66,6 +66,7 @@ public class EpisodiosController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        this.c = cbd.crearConexion();
         setCells();
         // Set row factory for selection
         tableViewEpisodios.setOnMouseClicked(event -> {
@@ -106,6 +107,7 @@ public class EpisodiosController implements Initializable {
             stage.setMaximized(false);
             stage.setResizable(false);
             stage.setTitle("Series");
+            Conexion_App_bbdd.cerrarConexion(c);
         } catch (IOException e) {
             e.printStackTrace();
         }

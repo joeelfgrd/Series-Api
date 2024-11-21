@@ -6,13 +6,14 @@ import java.util.Map;
 import java.util.Properties;
 
 public class Conexion_Login_bbdd {
-    private String urldb = "jdbc:mysql://localhost:3306/login";
+    private final String URLDB = "jdbc:mysql://localhost:3306/login";
     public Connection crearConexion() throws SQLException {
         Properties propiedadesConexion = new Properties();
         propiedadesConexion.setProperty("user", "root");
         propiedadesConexion.setProperty("password", "root");
-        return DriverManager.getConnection(urldb, propiedadesConexion);
+        return DriverManager.getConnection(URLDB, propiedadesConexion);
     }
+
     public static void crearUser(String user, String pswd) {
         String query = "INSERT INTO logins (USUARIO, PASSWD) VALUES (?, ?)";
         try (Connection conn = new Conexion_Login_bbdd().crearConexion();
@@ -24,6 +25,9 @@ public class Conexion_Login_bbdd {
             stmt.setString(1, encodedUser);
             stmt.setString(2, encodedPswd);
             stmt.executeUpdate();  // Ejecutar la inserción
+            stmt.close();
+            conn.close();
+
 
             System.out.println("Usuario registrado correctamente");
         } catch (SQLException e) {
@@ -47,13 +51,12 @@ public class Conexion_Login_bbdd {
 
                 map.put(user, pswd);
             }
+            rs.close();
+            stmt.close();
+            conn.close();
         } catch (SQLException e) {
             System.out.println("Error al leer los usuarios: " + e.getMessage());
         }
         return map;
-    }
-    public void cerrarConexion(Connection conn) throws SQLException {
-        conn.close();
-        System.out.println("Conexión cerrada en login");
     }
 }
