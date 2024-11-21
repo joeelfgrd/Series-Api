@@ -1,0 +1,253 @@
+[ {
+  "id" : 37,
+  "nombre" : "Chapter 1: The Mandalorian",
+  "numero" : 1,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1573513200000,
+  "duracion" : "00:39:00"
+}, {
+  "id" : 38,
+  "nombre" : "Chapter 2: The Child",
+  "numero" : 2,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1573772400000,
+  "duracion" : "00:32:00"
+}, {
+  "id" : 39,
+  "nombre" : "Chapter 3: The Sin",
+  "numero" : 3,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1574377200000,
+  "duracion" : "00:38:00"
+}, {
+  "id" : 40,
+  "nombre" : "Chapter 4: Sanctuary",
+  "numero" : 4,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1574982000000,
+  "duracion" : "00:41:00"
+}, {
+  "id" : 41,
+  "nombre" : "Chapter 5: The Gunslinger",
+  "numero" : 5,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1575586800000,
+  "duracion" : "00:37:00"
+}, {
+  "id" : 42,
+  "nombre" : "Chapter 6: The Prisoner",
+  "numero" : 6,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1576191600000,
+  "duracion" : "00:43:00"
+}, {
+  "id" : 43,
+  "nombre" : "Chapter 7: The Reckoning",
+  "numero" : 7,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1576623600000,
+  "duracion" : "00:47:00"
+}, {
+  "id" : 44,
+  "nombre" : "Chapter 8: Redemption",
+  "numero" : 8,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1577401200000,
+  "duracion" : "00:48:00"
+}, {
+  "id" : 45,
+  "nombre" : "Chapter 9: The Marshal",
+  "numero" : 1,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1604012400000,
+  "duracion" : "00:51:00"
+}, {
+  "id" : 46,
+  "nombre" : "Chapter 10: The Passenger",
+  "numero" : 2,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1604617200000,
+  "duracion" : "00:41:00"
+}, {
+  "id" : 47,
+  "nombre" : "Chapter 11: The Heiress",
+  "numero" : 3,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1605222000000,
+  "duracion" : "00:33:00"
+}, {
+  "id" : 48,
+  "nombre" : "Chapter 12: The Siege",
+  "numero" : 4,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1605826800000,
+  "duracion" : "00:39:00"
+}, {
+  "id" : 49,
+  "nombre" : "Chapter 13: The Jedi",
+  "numero" : 5,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1606431600000,
+  "duracion" : "00:47:00"
+}, {
+  "id" : 50,
+  "nombre" : "Chapter 14: The Tragedy",
+  "numero" : 6,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 4,
+    "nombre" : "The Mandalorian",
+    "estreno" : 1573513200000,
+    "tematica" : "Ciencia Ficción, Aventura",
+    "director" : "Jon Favreau",
+    "calificacion" : 90,
+    "idioma" : "Inglés",
+    "estado" : "EN_EMISION",
+    "cadena" : "Disney+"
+  },
+  "fechaDeSalida" : 1607036400000,
+  "duracion" : "00:32:00"
+} ]

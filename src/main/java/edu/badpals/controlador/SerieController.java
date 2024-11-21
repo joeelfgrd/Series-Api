@@ -9,6 +9,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseButton;
 import javafx.stage.Stage;
 
@@ -16,6 +18,7 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 
 public class SerieController {
     Conexion_App_bbdd cbd = new Conexion_App_bbdd();
@@ -61,19 +64,26 @@ public class SerieController {
     private CheckBox chkEstadoSerie;
     @FXML
     private CheckBox chkCadenaSerie;
+    @FXML
+    private ImageView imgViewLogo;
+
+    /*Image miImagen = new Image(Objects.requireNonNull(getClass().getResourceAsStream(logoapp.png)));*/
+
 
     @FXML
     public void initialize() {
-        setCells();
-        cargarSeries(Conexion_App_bbdd.getSeries(c));
+    setCells();
+     imgViewLogo.setImage(new Image(getClass().getResourceAsStream("/edu/badpals/vista/logoapp.png")));
+        // Other initialization code
+    cargarSeries(Conexion_App_bbdd.getSeries(c));
 
-        // Set row factory for selection
-        tableViewSeries.setOnMouseClicked(event -> {
-            if (!tableViewSeries.getSelectionModel().isEmpty() && event.getButton() == MouseButton.PRIMARY && event.getClickCount() == 1) {
-                setSerie(tableViewSeries.getSelectionModel().getSelectedItem());
-            }
-        });
-    }
+    // Set row factory for selection
+    tableViewSeries.setOnMouseClicked(event -> {
+        if (!tableViewSeries.getSelectionModel().isEmpty() && event.getButton() == MouseButton.PRIMARY && event.getClickCount() == 1) {
+            setSerie(tableViewSeries.getSelectionModel().getSelectedItem());
+        }
+    });
+}
 
     public void setSerie(Serie serie) {
         this.serie = serie;

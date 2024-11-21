@@ -9,10 +9,12 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #37306BFF;" stylesheets="@stylesSeries.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.badpals.controlador.SerieController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #635D8CFF;" stylesheets="@stylesSeries.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.badpals.controlador.SerieController">
     <children>
         <!-- Botón "Ver Episodios" con diseño minimalista y elegante -->
         <Button fx:id="btnVerEpisodios" layoutX="1029.0" layoutY="698.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#toEpisodios" prefHeight="38.0" prefWidth="157.0" style="-fx-background-color: #6675E3; -fx-text-fill: white; -fx-border-color: #333333; -fx-border-width: 1px; -fx-border-radius: 5px; -fx-background-radius: 5px; -fx-font-size: 18px;" text="VER EPISODIOS" textFill="WHITE">
@@ -33,14 +35,14 @@
                <items>
                       <Menu mnemonicParsing="false" text="Calificacion">
                           <items>
-                              <MenuItem fx:id="menuItemCalAsc" onAction="#ordenarTablaCalAsc" mnemonicParsing="false" text="Calificacion asc" />
-                        <MenuItem fx:id="menuItemCalDes" onAction="#ordenarTablaCalDes" mnemonicParsing="false" text="Calificacion desc" />
+                              <MenuItem fx:id="menuItemCalAsc" mnemonicParsing="false" onAction="#ordenarTablaCalAsc" text="Calificacion asc" />
+                        <MenuItem fx:id="menuItemCalDes" mnemonicParsing="false" onAction="#ordenarTablaCalDes" text="Calificacion desc" />
                           </items>
                       </Menu>
                   <Menu mnemonicParsing="false" text="Fecha Estreno">
                      <items>
-                        <MenuItem fx:id="menuItemNewOld" onAction="#ordenarTablaEstrenoDesc" mnemonicParsing="false" text="Nuevo-Antiguo" />
-                        <MenuItem fx:id="menuItemOldNew" onAction="#ordenarTablaEstrenoAsc" mnemonicParsing="false" text="Antiguo-Nuevo" />
+                        <MenuItem fx:id="menuItemNewOld" mnemonicParsing="false" onAction="#ordenarTablaEstrenoDesc" text="Nuevo-Antiguo" />
+                        <MenuItem fx:id="menuItemOldNew" mnemonicParsing="false" onAction="#ordenarTablaEstrenoAsc" text="Antiguo-Nuevo" />
                      </items>
                   </Menu>
                </items>
@@ -83,5 +85,10 @@
       </Label>
       <TextField fx:id="txtCadenaSerie" layoutX="797.0" layoutY="230.0" />
       <CheckBox fx:id="chkCadenaSerie" layoutX="956.0" layoutY="234.0" mnemonicParsing="false" onAction="#filtrarSeries" />
+      <ImageView fx:id="imgViewLogo" fitHeight="150.0" fitWidth="312.0" layoutX="432.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@logoapp.png" />
+            </image>
+        </ImageView>
     </children>
 </Pane>

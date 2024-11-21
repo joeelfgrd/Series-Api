@@ -14,7 +14,7 @@
 }
 
 .table-row-cell:selected {
-    -fx-background-color: #4ECCA3; /* Fondo de la fila seleccionada */
+    -fx-background-color: #fae574; /* Fondo de la fila seleccionada */
     -fx-text-fill: #000000FF; /* Texto en fila seleccionada */
 }
 

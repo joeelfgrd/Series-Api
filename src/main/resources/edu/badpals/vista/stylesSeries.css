@@ -9,11 +9,12 @@
 .table-row-cell {
     -fx-background-color: transparent; /* Fondo por defecto */
     -fx-control-inner-background: #b1adbf; /* Fondo de las celdas */
+    -fx-control-inner-background: #33bbda; /* Fondo de las celdas */
 }
 
 /* Fila seleccionada */
 .table-row-cell:selected {
-    -fx-background-color: #4ECCA3; /* Fondo de la fila seleccionada */
+    -fx-background-color: #fae574; /* Fondo de la fila seleccionada */
     -fx-text-fill: #000000FF; /* Texto en fila seleccionada */
 }
 

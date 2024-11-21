@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="500.0" prefWidth="400.0" spacing="25.0" style="-fx-background-color: #37306BFF;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.badpals.controlador.LoginController">
+<VBox alignment="CENTER" prefHeight="500.0" prefWidth="400.0" spacing="25.0" style="-fx-background-color: #635D8CFF;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.badpals.controlador.LoginController">
     <children>
         <!-- Título principal -->
         <Label fx:id="lblLogin" style="-fx-text-fill: #4ECCA3FF;" text="TV Series" textAlignment="CENTER">
