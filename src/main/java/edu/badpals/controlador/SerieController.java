@@ -18,18 +18,17 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.util.Date;
 import java.util.List;
-import java.util.Objects;
 
 public class SerieController {
-    Conexion_App_bbdd cbd = new Conexion_App_bbdd();
-    Connection c = cbd.crearConexion();
-    Serie serie;
+    private Conexion_App_bbdd cbd = new Conexion_App_bbdd();
+    private Connection c = cbd.crearConexion();
+    private Serie serie;
 
     @FXML
-    Button btnVerEpisodios; // Campo de texto para el nombre de usuario
+    private Button btnVerEpisodios; // Campo de texto para el nombre de usuario
 
     @FXML
-    MenuBar menuBarSeries; // Campo de texto para la contraseña
+    private MenuBar menuBarSeries; // Campo de texto para la contraseña
 
     @FXML
     private TableView<Serie> tableViewSeries; // Campo de texto para la contraseña
@@ -67,23 +66,20 @@ public class SerieController {
     @FXML
     private ImageView imgViewLogo;
 
-    /*Image miImagen = new Image(Objects.requireNonNull(getClass().getResourceAsStream(logoapp.png)));*/
-
 
     @FXML
     public void initialize() {
-    setCells();
-     imgViewLogo.setImage(new Image(getClass().getResourceAsStream("/edu/badpals/vista/logoapp.png")));
-        // Other initialization code
-    cargarSeries(Conexion_App_bbdd.getSeries(c));
+        setCells();
+        imgViewLogo.setImage(new Image(getClass().getResource("/img/logo.png").toExternalForm()));
+        cargarSeries(Conexion_App_bbdd.getSeries(c));
 
-    // Set row factory for selection
-    tableViewSeries.setOnMouseClicked(event -> {
-        if (!tableViewSeries.getSelectionModel().isEmpty() && event.getButton() == MouseButton.PRIMARY && event.getClickCount() == 1) {
-            setSerie(tableViewSeries.getSelectionModel().getSelectedItem());
-        }
-    });
-}
+        // Set row factory for selection
+        tableViewSeries.setOnMouseClicked(event -> {
+            if (!tableViewSeries.getSelectionModel().isEmpty() && event.getButton() == MouseButton.PRIMARY && event.getClickCount() == 1) {
+                setSerie(tableViewSeries.getSelectionModel().getSelectedItem());
+            }
+        });
+    }
 
     public void setSerie(Serie serie) {
         this.serie = serie;

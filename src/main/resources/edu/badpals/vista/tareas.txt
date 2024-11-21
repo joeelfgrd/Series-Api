@@ -1,7 +1,8 @@
 --SERIES--
 Redimensionar correctamente la tabla Series para cada dato
 Arreglar graficamente la vista de series
-filtrar por cadena estado e idioma
 
 --EPISODIOS--
 Retocar graficamente la vista de episodios
+
+RECORDAR QUE NO SE PUEDE ORDENAR CON UN FILTRO, SE PODRIA SI NO TUVIESEMOS QUE USAR LA CONEXION A BBDD

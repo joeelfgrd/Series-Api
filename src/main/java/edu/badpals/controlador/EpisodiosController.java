@@ -27,15 +27,12 @@ import java.util.Objects;
 import java.util.ResourceBundle;
 
 public class EpisodiosController implements Initializable {
-    Conexion_App_bbdd cbd = new Conexion_App_bbdd();
-    Connection c = cbd.crearConexion();
+    private Conexion_App_bbdd cbd = new Conexion_App_bbdd();
+    private Connection c = cbd.crearConexion();
     private Serie serie; // Objeto Serie actual
 
     private List<Episodio> episodios;
     private Episodio episodio;
-
-    @FXML
-    private javafx.scene.control.Label lblNameSerieEpisodios; // Etiqueta para mostrar el nombre de la serie
 
     @FXML
     private TableView<Episodio> tableViewEpisodios;

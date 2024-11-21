@@ -87,7 +87,7 @@
       <CheckBox fx:id="chkCadenaSerie" layoutX="956.0" layoutY="234.0" mnemonicParsing="false" onAction="#filtrarSeries" />
       <ImageView fx:id="imgViewLogo" fitHeight="150.0" fitWidth="312.0" layoutX="432.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@logoapp.png" />
+                <Image url="@../../../../../../data/img/logo.png" />
             </image>
         </ImageView>
     </children>
