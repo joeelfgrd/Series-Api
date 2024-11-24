@@ -29,7 +29,10 @@ json.
 La aplicación obtiene los datos desde dos bases de datos diferentes:
 
 - **Base de datos Login**: Almacena las credenciales encriptadas de los usuarios para el inicio de sesión.
+![E_R_Login](src/main/resources/img/E-R-Login_ddbb.png)
 - **Base de datos app_series**: Almacena la información de las series de televisión, y sus episodios.
+![E_R_Series](src/main/resources/img/E-R-Series_ddbb.png)
+- En general trabajamos con 3 tablas,la tabla series,la tabla episodios y la tabla usuarios.
 
 ### 1.4 Tecnologías utilizadas
 
@@ -52,7 +55,7 @@ responsabilidad clara:
 - **Vista**: Los archivos **FXML** definen la interfaz gráfica. Esta capa gestiona lo que el usuario ve y con lo que
   interactúa.
 - **Controlador**: Gestiona la interacción entre el modelo y la vista. Los controladores son responsables de manejar
-  eventos de usuario (como el CRUDA) y procesar los datos obtenidos desde el modelo.
+  eventos de usuario (como el CRUD) y procesar los datos obtenidos desde el modelo.
 
 ## <u>Estructura del código</u>
 
