@@ -1,0 +1,5761 @@
+[ {
+  "id" : 22159,
+  "nombre" : "Indian General Election, NSAs New Image, POM Wonderful LLC v. Coca-Cola Co.",
+  "numero" : 1,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1398549600000,
+  "duracion" : "00:19:03"
+}, {
+  "id" : 22160,
+  "nombre" : "Death Penalty, François Hollande, the Sultan of Brunei",
+  "numero" : 2,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1399154400000,
+  "duracion" : "00:01:05"
+}, {
+  "id" : 22161,
+  "nombre" : "Bill Nye, the U.S. Senate Election in Kentucky, Global Warming Controversy",
+  "numero" : 3,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1399759200000,
+  "duracion" : "00:11:15"
+}, {
+  "id" : 22162,
+  "nombre" : "Fareed Zakaria, General Motors, Right to Be Forgotten",
+  "numero" : 4,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1400364000000,
+  "duracion" : "00:00:30"
+}, {
+  "id" : 22163,
+  "nombre" : "Net Neutrality, Tony Abbott, 87th Scripps National Spelling Bee",
+  "numero" : 5,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1401573600000,
+  "duracion" : "00:29:33"
+}, {
+  "id" : 22164,
+  "nombre" : "FIFA and the World Cup, Bashar al-Assad",
+  "numero" : 6,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1402178400000,
+  "duracion" : "00:44:35"
+}, {
+  "id" : 22165,
+  "nombre" : "Stephen Hawking, Immigration Reform, Washington Redskins",
+  "numero" : 7,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1402783200000,
+  "duracion" : "00:01:16"
+}, {
+  "id" : 22166,
+  "nombre" : "Steve Buscemi, Monarchies, Dr. Oz & Regulation of Dietary Supplements",
+  "numero" : 8,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1403388000000,
+  "duracion" : "00:59:47"
+}, {
+  "id" : 22167,
+  "nombre" : "Pepe Julian Onziema, LGBT Rights in Uganda, Hobby Lobby",
+  "numero" : 9,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1403992800000,
+  "duracion" : "00:15:10"
+}, {
+  "id" : 22168,
+  "nombre" : "Wealth Gap, CIAs Image, Warren G. Hardings Love Letters",
+  "numero" : 10,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1405202400000,
+  "duracion" : "00:42:13"
+}, {
+  "id" : 22169,
+  "nombre" : "Israeli-Palestinian Conflict, Commonwealth Games, Americas Prisons",
+  "numero" : 11,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1405807200000,
+  "duracion" : "00:06:36"
+}, {
+  "id" : 22170,
+  "nombre" : "Nuclear Weapons and the United States",
+  "numero" : 12,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1406412000000,
+  "duracion" : "00:54:18"
+}, {
+  "id" : 22171,
+  "nombre" : "Argentine Debt Restructuring, Native Advertising",
+  "numero" : 13,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1407016800000,
+  "duracion" : "00:51:29"
+}, {
+  "id" : 22172,
+  "nombre" : "Payday Loans, Russias Ban on Food Imports",
+  "numero" : 14,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1407621600000,
+  "duracion" : "00:59:40"
+}, {
+  "id" : 22173,
+  "nombre" : "Police Militarization in Ferguson, Gender Pay Gap",
+  "numero" : 15,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1408226400000,
+  "duracion" : "00:44:39"
+}, {
+  "id" : 22174,
+  "nombre" : "Student Loan Debt, Russian Space Geckos",
+  "numero" : 16,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1410040800000,
+  "duracion" : "00:02:58"
+}, {
+  "id" : 22175,
+  "nombre" : "Scottish Independence, Ray Rice, Corporations Misuse of Twitter",
+  "numero" : 17,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1410645600000,
+  "duracion" : "00:13:56"
+}, {
+  "id" : 22176,
+  "nombre" : "The U.S. Trade Embargo with Cuba, Miss America Pageant",
+  "numero" : 18,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1411250400000,
+  "duracion" : "00:59:35"
+}, {
+  "id" : 22177,
+  "nombre" : "Drone Strikes, Ayn Rand, Kansas State Budget Shortfall",
+  "numero" : 19,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1411855200000,
+  "duracion" : "00:34:15"
+}, {
+  "id" : 22178,
+  "nombre" : "2022 Winter Olympics, Hong Kong protests, Brazilian elections & Civil Forfeiture",
+  "numero" : 20,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1412460000000,
+  "duracion" : "00:48:13"
+}, {
+  "id" : 22179,
+  "nombre" : "Military Translators, Supreme Court",
+  "numero" : 21,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1413669600000,
+  "duracion" : "00:35:27"
+}, {
+  "id" : 22180,
+  "nombre" : "Sugar in Food, Dr. Jane Goodall, Doug Ford",
+  "numero" : 22,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1414274400000,
+  "duracion" : "00:42:17"
+}, {
+  "id" : 22181,
+  "nombre" : "U.S. State Legislatures, ALEC",
+  "numero" : 23,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1414882800000,
+  "duracion" : "00:49:45"
+}, {
+  "id" : 22182,
+  "nombre" : "State Lotteries, Erdogan, Salmon Cannon",
+  "numero" : 24,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1415487600000,
+  "duracion" : "00:42:21"
+}, {
+  "id" : 45262,
+  "nombre" : "Marketing to Doctors",
+  "numero" : 1,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1423350000000,
+  "duracion" : "00:51:25"
+}, {
+  "id" : 117730,
+  "nombre" : "Tobacco",
+  "numero" : 2,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1423954800000,
+  "duracion" : "00:03:39"
+}, {
+  "id" : 117731,
+  "nombre" : "Elected Judges",
+  "numero" : 3,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1424559600000,
+  "duracion" : "00:21:12"
+}, {
+  "id" : 117732,
+  "nombre" : "Infrastructure",
+  "numero" : 4,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1425164400000,
+  "duracion" : "00:10:38"
+}, {
+  "id" : 117733,
+  "nombre" : "U.S. Territories",
+  "numero" : 5,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1425769200000,
+  "duracion" : "00:09:17"
+}, {
+  "id" : 117734,
+  "nombre" : "The NCAA",
+  "numero" : 6,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1426374000000,
+  "duracion" : "00:54:07"
+}, {
+  "id" : 131196,
+  "nombre" : "Municipal Violations",
+  "numero" : 7,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1426978800000,
+  "duracion" : "00:24:38"
+}, {
+  "id" : 151614,
+  "nombre" : "Government Surveillance",
+  "numero" : 8,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1428184800000,
+  "duracion" : "00:24:29"
+}, {
+  "id" : 151615,
+  "nombre" : "The IRS",
+  "numero" : 9,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1428789600000,
+  "duracion" : "00:47:46"
+}, {
+  "id" : 151616,
+  "nombre" : "Patents",
+  "numero" : 10,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1429394400000,
+  "duracion" : "00:56:14"
+}, {
+  "id" : 151617,
+  "nombre" : "Fashion",
+  "numero" : 11,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1429999200000,
+  "duracion" : "00:59:20"
+}, {
+  "id" : 151618,
+  "nombre" : "Standardized Testing",
+  "numero" : 12,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1430604000000,
+  "duracion" : "00:58:46"
+}, {
+  "id" : 151619,
+  "nombre" : "Paid Family Leave",
+  "numero" : 13,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1431208800000,
+  "duracion" : "00:54:11"
+}, {
+  "id" : 151620,
+  "nombre" : "Chickens",
+  "numero" : 14,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1431813600000,
+  "duracion" : "00:19:27"
+}, {
+  "id" : 151621,
+  "nombre" : "FIFA II",
+  "numero" : 15,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1433023200000,
+  "duracion" : "00:17:09"
+}, {
+  "id" : 151622,
+  "nombre" : "Bail",
+  "numero" : 16,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1433628000000,
+  "duracion" : "00:47:14"
+}, {
+  "id" : 151623,
+  "nombre" : "Torture",
+  "numero" : 17,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1434232800000,
+  "duracion" : "00:49:43"
+}, {
+  "id" : 151624,
+  "nombre" : "Online Harassment",
+  "numero" : 18,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1434837600000,
+  "duracion" : "00:28:32"
+}, {
+  "id" : 157286,
+  "nombre" : "Transgender Rights",
+  "numero" : 19,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1435442400000,
+  "duracion" : "00:58:27"
+}, {
+  "id" : 181903,
+  "nombre" : "Stadiums",
+  "numero" : 20,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1436652000000,
+  "duracion" : "00:10:53"
+}, {
+  "id" : 181904,
+  "nombre" : "Food Waste",
+  "numero" : 21,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1437256800000,
+  "duracion" : "00:14:17"
+}, {
+  "id" : 181905,
+  "nombre" : "Mandatory Minimums",
+  "numero" : 22,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1437861600000,
+  "duracion" : "00:31:15"
+}, {
+  "id" : 201099,
+  "nombre" : "Washington DC Statehood",
+  "numero" : 23,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1438466400000,
+  "duracion" : "00:17:36"
+}, {
+  "id" : 202575,
+  "nombre" : "Sex Education",
+  "numero" : 24,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1439071200000,
+  "duracion" : "00:05:29"
+}, {
+  "id" : 202576,
+  "nombre" : "Televangelists",
+  "numero" : 25,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1439676000000,
+  "duracion" : "00:06:28"
+}, {
+  "id" : 202577,
+  "nombre" : "LGBT Anti-Discrimination",
+  "numero" : 26,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1440280800000,
+  "duracion" : "00:55:03"
+}, {
+  "id" : 202578,
+  "nombre" : "Public Defenders",
+  "numero" : 27,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1442095200000,
+  "duracion" : "00:24:45"
+}, {
+  "id" : 203359,
+  "nombre" : "Migrant Crisis",
+  "numero" : 28,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1443304800000,
+  "duracion" : "00:09:29"
+}, {
+  "id" : 203445,
+  "nombre" : "Mental Health",
+  "numero" : 29,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1443909600000,
+  "duracion" : "00:55:24"
+}, {
+  "id" : 203446,
+  "nombre" : "North Dakota",
+  "numero" : 30,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1444514400000,
+  "duracion" : "00:09:50"
+}, {
+  "id" : 203447,
+  "nombre" : "Canada",
+  "numero" : 31,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1445119200000,
+  "duracion" : "00:42:06"
+}, {
+  "id" : 203448,
+  "nombre" : "Elections/Medicaid Gap",
+  "numero" : 32,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1446332400000,
+  "duracion" : "00:58:34"
+}, {
+  "id" : 232828,
+  "nombre" : "Prisoner Re-Entry",
+  "numero" : 33,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1446937200000,
+  "duracion" : "00:49:03"
+}, {
+  "id" : 232829,
+  "nombre" : "Pennies",
+  "numero" : 35,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1448146800000,
+  "duracion" : "00:23:32"
+}, {
+  "id" : 232831,
+  "nombre" : "Daily Fantasy",
+  "numero" : 34,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1447542000000,
+  "duracion" : "00:34:09"
+}, {
+  "id" : 530393,
+  "nombre" : "Voting",
+  "numero" : 1,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1455404400000,
+  "duracion" : "00:29:29"
+}, {
+  "id" : 563476,
+  "nombre" : "Abortion Laws",
+  "numero" : 2,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1456009200000,
+  "duracion" : "00:31:24"
+}, {
+  "id" : 563477,
+  "nombre" : "Donald Trump",
+  "numero" : 3,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1456614000000,
+  "duracion" : "00:50:32"
+}, {
+  "id" : 573803,
+  "nombre" : "Special Districts",
+  "numero" : 4,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1457218800000,
+  "duracion" : "00:09:49"
+}, {
+  "id" : 591619,
+  "nombre" : "The Wall",
+  "numero" : 6,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1458428400000,
+  "duracion" : "00:25:35"
+}, {
+  "id" : 614055,
+  "nombre" : "Political Fundraising",
+  "numero" : 7,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1459634400000,
+  "duracion" : "00:33:53"
+}, {
+  "id" : 622453,
+  "nombre" : "Credit Reports",
+  "numero" : 8,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1460239200000,
+  "duracion" : "00:03:43"
+}, {
+  "id" : 630801,
+  "nombre" : "Lead",
+  "numero" : 9,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1460844000000,
+  "duracion" : "00:37:38"
+}, {
+  "id" : 638059,
+  "nombre" : "Puerto Rico",
+  "numero" : 10,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1461448800000,
+  "duracion" : "00:13:46"
+}, {
+  "id" : 653024,
+  "nombre" : "Encryption",
+  "numero" : 5,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1457823600000,
+  "duracion" : "00:07:34"
+}, {
+  "id" : 663488,
+  "nombre" : "Scientific Studies",
+  "numero" : 11,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1462658400000,
+  "duracion" : "00:29:05"
+}, {
+  "id" : 671672,
+  "nombre" : "911",
+  "numero" : 12,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1463263200000,
+  "duracion" : "00:14:17"
+}, {
+  "id" : 687507,
+  "nombre" : "Primaries and Caucuses",
+  "numero" : 13,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1463868000000,
+  "duracion" : "00:56:01"
+}, {
+  "id" : 716200,
+  "nombre" : "Debt Buyers",
+  "numero" : 14,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1465077600000,
+  "duracion" : "00:00:25"
+}, {
+  "id" : 741336,
+  "nombre" : "Money",
+  "numero" : 15,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1465682400000,
+  "duracion" : "00:25:54"
+}, {
+  "id" : 760856,
+  "nombre" : "United Kingdom",
+  "numero" : 16,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1466287200000,
+  "duracion" : "00:10:48"
+}, {
+  "id" : 774426,
+  "nombre" : "Doping",
+  "numero" : 17,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1466892000000,
+  "duracion" : "00:23:20"
+}, {
+  "id" : 821586,
+  "nombre" : "Republican National Convention",
+  "numero" : 18,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1469311200000,
+  "duracion" : "00:44:30"
+}, {
+  "id" : 831143,
+  "nombre" : "DNC vs. RNC",
+  "numero" : 19,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1469916000000,
+  "duracion" : "00:22:53"
+}, {
+  "id" : 837343,
+  "nombre" : "Journalism",
+  "numero" : 20,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1470520800000,
+  "duracion" : "00:07:59"
+}, {
+  "id" : 845797,
+  "nombre" : "Auto Lending",
+  "numero" : 21,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1471125600000,
+  "duracion" : "00:29:00"
+}, {
+  "id" : 853641,
+  "nombre" : "Charter Schools",
+  "numero" : 22,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1471730400000,
+  "duracion" : "00:12:30"
+}, {
+  "id" : 886116,
+  "nombre" : "Scandals",
+  "numero" : 23,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1474754400000,
+  "duracion" : "00:58:17"
+}, {
+  "id" : 897594,
+  "nombre" : "Police Accountability",
+  "numero" : 24,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1475359200000,
+  "duracion" : "00:57:55"
+}, {
+  "id" : 899908,
+  "nombre" : "Guantánamo",
+  "numero" : 25,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1475964000000,
+  "duracion" : "00:54:45"
+}, {
+  "id" : 906522,
+  "nombre" : "Third Parties",
+  "numero" : 26,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1476568800000,
+  "duracion" : "00:01:25"
+}, {
+  "id" : 911627,
+  "nombre" : "Drugs",
+  "numero" : 27,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1477173600000,
+  "duracion" : "00:50:02"
+}, {
+  "id" : 922123,
+  "nombre" : "School Segregation",
+  "numero" : 28,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1477778400000,
+  "duracion" : "00:30:38"
+}, {
+  "id" : 931764,
+  "nombre" : "Multi-level Marketing",
+  "numero" : 29,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1478386800000,
+  "duracion" : "00:31:07"
+}, {
+  "id" : 939452,
+  "nombre" : "President-Elect Trump",
+  "numero" : 30,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1478991600000,
+  "duracion" : "00:17:53"
+}, {
+  "id" : 992941,
+  "nombre" : "Trump vs. Truth",
+  "numero" : 1,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1486854000000,
+  "duracion" : "00:21:02"
+}, {
+  "id" : 1031859,
+  "nombre" : "Vladimir Putin and Russia–United States relations",
+  "numero" : 2,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1487458800000,
+  "duracion" : "00:01:47"
+}, {
+  "id" : 1034459,
+  "nombre" : "Patient Protection and Affordable Care Act",
+  "numero" : 3,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1488063600000,
+  "duracion" : "00:20:56"
+}, {
+  "id" : 1045318,
+  "nombre" : "Tibetan Sovereignty & Human Rights",
+  "numero" : 4,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1488668400000,
+  "duracion" : "00:51:04"
+}, {
+  "id" : 1046393,
+  "nombre" : "American Health Care Act",
+  "numero" : 5,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1489273200000,
+  "duracion" : "00:28:39"
+}, {
+  "id" : 1050338,
+  "nombre" : "US Federal Budget",
+  "numero" : 6,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1489878000000,
+  "duracion" : "00:42:28"
+}, {
+  "id" : 1063342,
+  "nombre" : "Cannabis in the United States",
+  "numero" : 7,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1491084000000,
+  "duracion" : "00:00:23"
+}, {
+  "id" : 1063344,
+  "nombre" : "Gerrymandering in the United States",
+  "numero" : 8,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1491688800000,
+  "duracion" : "00:32:09"
+}, {
+  "id" : 1086734,
+  "nombre" : "2017 French Presidential Election",
+  "numero" : 9,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1492293600000,
+  "duracion" : "00:01:54"
+}, {
+  "id" : 1089323,
+  "nombre" : "Ivanka Trump & Jared Kushner",
+  "numero" : 10,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1492898400000,
+  "duracion" : "00:58:22"
+}, {
+  "id" : 1109751,
+  "nombre" : "Net Neutrality in the United States",
+  "numero" : 11,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1494108000000,
+  "duracion" : "00:08:58"
+}, {
+  "id" : 1109752,
+  "nombre" : "Dialysis and DaVita",
+  "numero" : 12,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1494712800000,
+  "duracion" : "00:26:02"
+}, {
+  "id" : 1119034,
+  "nombre" : "Stupid Watergate",
+  "numero" : 13,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1495317600000,
+  "duracion" : "00:58:29"
+}, {
+  "id" : 1140048,
+  "nombre" : "Paris Agreement",
+  "numero" : 14,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1496527200000,
+  "duracion" : "00:54:09"
+}, {
+  "id" : 1150961,
+  "nombre" : "Brexit II",
+  "numero" : 15,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1497132000000,
+  "duracion" : "00:37:45"
+}, {
+  "id" : 1157928,
+  "nombre" : "Coal",
+  "numero" : 16,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1497736800000,
+  "duracion" : "00:28:28"
+}, {
+  "id" : 1164924,
+  "nombre" : "Vaccine Safety",
+  "numero" : 17,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1498341600000,
+  "duracion" : "00:29:10"
+}, {
+  "id" : 1172669,
+  "nombre" : "Local News",
+  "numero" : 18,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1498946400000,
+  "duracion" : "00:21:21"
+}, {
+  "id" : 1208192,
+  "nombre" : "Alex Jones",
+  "numero" : 19,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1501365600000,
+  "duracion" : "00:09:39"
+}, {
+  "id" : 1221416,
+  "nombre" : "United States Border Patrol",
+  "numero" : 20,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1501970400000,
+  "duracion" : "00:27:05"
+}, {
+  "id" : 1225811,
+  "nombre" : "North Korea-United States Relations",
+  "numero" : 21,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1502575200000,
+  "duracion" : "00:27:49"
+}, {
+  "id" : 1234548,
+  "nombre" : "Nuclear Waste",
+  "numero" : 22,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1503180000000,
+  "duracion" : "00:48:09"
+}, {
+  "id" : 1238234,
+  "nombre" : "Presidential Pardon of Joe Arpaio",
+  "numero" : 23,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1504994400000,
+  "duracion" : "00:38:32"
+}, {
+  "id" : 1267139,
+  "nombre" : "Corporate Consolidation",
+  "numero" : 24,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1506204000000,
+  "duracion" : "00:40:28"
+}, {
+  "id" : 1276137,
+  "nombre" : "Forensic Science",
+  "numero" : 25,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1506808800000,
+  "duracion" : "00:23:25"
+}, {
+  "id" : 1277322,
+  "nombre" : "Confederate Monuments",
+  "numero" : 26,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1507413600000,
+  "duracion" : "00:27:27"
+}, {
+  "id" : 1281405,
+  "nombre" : "Equifax Breach",
+  "numero" : 27,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1508018400000,
+  "duracion" : "00:56:17"
+}, {
+  "id" : 1290780,
+  "nombre" : "Floods",
+  "numero" : 28,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1509228000000,
+  "duracion" : "00:28:04"
+}, {
+  "id" : 1315152,
+  "nombre" : "Economic Development",
+  "numero" : 29,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1509836400000,
+  "duracion" : "00:18:35"
+}, {
+  "id" : 1315153,
+  "nombre" : "The Trump Presidency",
+  "numero" : 30,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1510441200000,
+  "duracion" : "00:10:01"
+}, {
+  "id" : 1385191,
+  "nombre" : "Trump vs. The World",
+  "numero" : 1,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1518908400000,
+  "duracion" : "00:05:45"
+}, {
+  "id" : 1385193,
+  "nombre" : "Italian Election",
+  "numero" : 2,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1519513200000,
+  "duracion" : "00:50:13"
+}, {
+  "id" : 1394972,
+  "nombre" : "NRATV",
+  "numero" : 3,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1520118000000,
+  "duracion" : "00:46:57"
+}, {
+  "id" : 1400990,
+  "nombre" : "Cryptocurrencies",
+  "numero" : 4,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1520722800000,
+  "duracion" : "00:14:49"
+}, {
+  "id" : 1412583,
+  "nombre" : "Mike Pence",
+  "numero" : 5,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1521327600000,
+  "duracion" : "00:20:55"
+}, {
+  "id" : 1413547,
+  "nombre" : "Immigration Courts",
+  "numero" : 6,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1522533600000,
+  "duracion" : "00:21:01"
+}, {
+  "id" : 1419030,
+  "nombre" : "Crisis Pregnancy Centers",
+  "numero" : 7,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1523138400000,
+  "duracion" : "00:20:48"
+}, {
+  "id" : 1421608,
+  "nombre" : "Corporate Taxes",
+  "numero" : 8,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1523743200000,
+  "duracion" : "00:43:02"
+}, {
+  "id" : 1430628,
+  "nombre" : "Iran Deal",
+  "numero" : 9,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1524348000000,
+  "duracion" : "00:32:17"
+}, {
+  "id" : 1438793,
+  "nombre" : "Giuliani",
+  "numero" : 10,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1525557600000,
+  "duracion" : "00:44:28"
+}, {
+  "id" : 1438794,
+  "nombre" : "Venezuela",
+  "numero" : 11,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1526162400000,
+  "duracion" : "00:12:10"
+}, {
+  "id" : 1448913,
+  "nombre" : "Rehab",
+  "numero" : 12,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1526767200000,
+  "duracion" : "00:46:13"
+}, {
+  "id" : 1459724,
+  "nombre" : "Guardianship",
+  "numero" : 13,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1527976800000,
+  "duracion" : "00:37:42"
+}, {
+  "id" : 1459754,
+  "nombre" : "Stupid Watergate",
+  "numero" : 14,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1528581600000,
+  "duracion" : "00:44:39"
+}, {
+  "id" : 1459755,
+  "nombre" : "Xi Jinping",
+  "numero" : 15,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1529186400000,
+  "duracion" : "00:41:03"
+}, {
+  "id" : 1459756,
+  "nombre" : "2018 Mexican Elections",
+  "numero" : 16,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1529791200000,
+  "duracion" : "00:22:12"
+}, {
+  "id" : 1470495,
+  "nombre" : "Gene Editing",
+  "numero" : 17,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1530396000000,
+  "duracion" : "00:51:56"
+}, {
+  "id" : 1487341,
+  "nombre" : "Workplace Sexual Harassment",
+  "numero" : 18,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1532815200000,
+  "duracion" : "00:50:52"
+}, {
+  "id" : 1487342,
+  "nombre" : "Prosecutors",
+  "numero" : 19,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1533420000000,
+  "duracion" : "00:55:32"
+}, {
+  "id" : 1492658,
+  "nombre" : "Astroturfing",
+  "numero" : 20,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1534024800000,
+  "duracion" : "00:56:41"
+}, {
+  "id" : 1492659,
+  "nombre" : "Trade",
+  "numero" : 21,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1534629600000,
+  "duracion" : "00:11:47"
+}, {
+  "id" : 1515619,
+  "nombre" : "Felony Disenfranchisement",
+  "numero" : 22,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1536444000000,
+  "duracion" : "00:23:08"
+}, {
+  "id" : 1518385,
+  "nombre" : "Brazilian Elections",
+  "numero" : 25,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1538863200000,
+  "duracion" : "00:43:35"
+}, {
+  "id" : 1518386,
+  "nombre" : "Saudi Arabia",
+  "numero" : 26,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1539468000000,
+  "duracion" : "00:17:31"
+}, {
+  "id" : 1518387,
+  "nombre" : "State Attorneys General",
+  "numero" : 27,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1540677600000,
+  "duracion" : "00:15:00"
+}, {
+  "id" : 1519028,
+  "nombre" : "Facebook",
+  "numero" : 23,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1537653600000,
+  "duracion" : "00:55:15"
+}, {
+  "id" : 1519029,
+  "nombre" : "Brett Kavanaugh",
+  "numero" : 24,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1538258400000,
+  "duracion" : "00:53:59"
+}, {
+  "id" : 1536314,
+  "nombre" : "Trump Administration Family Separation Policy",
+  "numero" : 28,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1541286000000,
+  "duracion" : "00:36:35"
+}, {
+  "id" : 1547636,
+  "nombre" : "Drain the Swamp",
+  "numero" : 29,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1541890800000,
+  "duracion" : "00:50:41"
+}, {
+  "id" : 1547637,
+  "nombre" : "Authoritarianism",
+  "numero" : 30,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1542495600000,
+  "duracion" : "00:53:28"
+}, {
+  "id" : 1586318,
+  "nombre" : "Brexit",
+  "numero" : 1,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1550358000000,
+  "duracion" : "00:52:10"
+}, {
+  "id" : 1586335,
+  "nombre" : "Psychics",
+  "numero" : 2,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1550962800000,
+  "duracion" : "00:26:12"
+}, {
+  "id" : 1586336,
+  "nombre" : "Robocalls",
+  "numero" : 4,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1552172400000,
+  "duracion" : "00:33:58"
+}, {
+  "id" : 1586337,
+  "nombre" : "Public Shaming",
+  "numero" : 5,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1552777200000,
+  "duracion" : "00:46:14"
+}, {
+  "id" : 1602776,
+  "nombre" : "Automation",
+  "numero" : 3,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1551567600000,
+  "duracion" : "00:23:39"
+}, {
+  "id" : 1615070,
+  "nombre" : "WWE",
+  "numero" : 6,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1553986800000,
+  "duracion" : "00:15:51"
+}, {
+  "id" : 1616814,
+  "nombre" : "Mobile Homes",
+  "numero" : 7,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1554588000000,
+  "duracion" : "00:17:46"
+}, {
+  "id" : 1618609,
+  "nombre" : "Opioids II",
+  "numero" : 8,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1555192800000,
+  "duracion" : "00:00:55"
+}, {
+  "id" : 1618610,
+  "nombre" : "Mueller Report",
+  "numero" : 9,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1555797600000,
+  "duracion" : "00:12:03"
+}, {
+  "id" : 1618611,
+  "nombre" : "Lethal Injection",
+  "numero" : 10,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1557007200000,
+  "duracion" : "00:16:35"
+}, {
+  "id" : 1618612,
+  "nombre" : "Green New Deal",
+  "numero" : 11,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1557612000000,
+  "duracion" : "00:38:59"
+}, {
+  "id" : 1618613,
+  "nombre" : "Death Investigations",
+  "numero" : 12,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1558216800000,
+  "duracion" : "00:47:08"
+}, {
+  "id" : 1645539,
+  "nombre" : "Medical Device Design",
+  "numero" : 13,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1559426400000,
+  "duracion" : "00:57:43"
+}, {
+  "id" : 1647778,
+  "nombre" : "ERA",
+  "numero" : 14,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1560031200000,
+  "duracion" : "00:56:34"
+}, {
+  "id" : 1654777,
+  "nombre" : "Impeachment",
+  "numero" : 15,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1560636000000,
+  "duracion" : "00:29:11"
+}, {
+  "id" : 1655825,
+  "nombre" : "Everest",
+  "numero" : 16,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1561240800000,
+  "duracion" : "00:28:06"
+}, {
+  "id" : 1659726,
+  "nombre" : "Warehouses",
+  "numero" : 17,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1561845600000,
+  "duracion" : "00:59:48"
+}, {
+  "id" : 1672021,
+  "nombre" : "Boris Johnson",
+  "numero" : 18,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1564264800000,
+  "duracion" : "00:01:30"
+}, {
+  "id" : 1674379,
+  "nombre" : "Prison Labor",
+  "numero" : 19,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1564869600000,
+  "duracion" : "00:54:16"
+}, {
+  "id" : 1677339,
+  "nombre" : "Gurbanguly Berdimuhamedov",
+  "numero" : 20,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1565474400000,
+  "duracion" : "00:18:06"
+}, {
+  "id" : 1679699,
+  "nombre" : "Bias in Medicine",
+  "numero" : 21,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1566079200000,
+  "duracion" : "00:36:56"
+}, {
+  "id" : 1689859,
+  "nombre" : "Filibuster",
+  "numero" : 22,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1567893600000,
+  "duracion" : "00:27:00"
+}, {
+  "id" : 1692338,
+  "nombre" : "Legal Immigration",
+  "numero" : 23,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1568498400000,
+  "duracion" : "00:18:46"
+}, {
+  "id" : 1693414,
+  "nombre" : "Compounding Pharmacies",
+  "numero" : 24,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1569708000000,
+  "duracion" : "00:37:21"
+}, {
+  "id" : 1705398,
+  "nombre" : "One Child Policy",
+  "numero" : 25,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1570312800000,
+  "duracion" : "00:50:51"
+}, {
+  "id" : 1708809,
+  "nombre" : "Weather",
+  "numero" : 26,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1570917600000,
+  "duracion" : "00:13:39"
+}, {
+  "id" : 1717923,
+  "nombre" : "Trump & Syria",
+  "numero" : 27,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1572127200000,
+  "duracion" : "00:45:15"
+}, {
+  "id" : 1725925,
+  "nombre" : "Voting Machines",
+  "numero" : 28,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1572735600000,
+  "duracion" : "00:16:16"
+}, {
+  "id" : 1725926,
+  "nombre" : "SLAPP Suits",
+  "numero" : 29,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1573340400000,
+  "duracion" : "00:14:28"
+}, {
+  "id" : 1725927,
+  "nombre" : "The Census",
+  "numero" : 30,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1573945200000,
+  "duracion" : "00:12:46"
+}, {
+  "id" : 1790280,
+  "nombre" : "Medicare for All",
+  "numero" : 1,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1581807600000,
+  "duracion" : "00:54:46"
+}, {
+  "id" : 1791223,
+  "nombre" : "Modi",
+  "numero" : 2,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1582412400000,
+  "duracion" : "00:40:45"
+}, {
+  "id" : 1797999,
+  "nombre" : "Coronavirus",
+  "numero" : 3,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1583017200000,
+  "duracion" : "00:10:20"
+}, {
+  "id" : 1798000,
+  "nombre" : "Sheriffs",
+  "numero" : 4,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1583622000000,
+  "duracion" : "00:53:05"
+}, {
+  "id" : 1798001,
+  "nombre" : "Coronavirus II",
+  "numero" : 5,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1584226800000,
+  "duracion" : "00:14:48"
+}, {
+  "id" : 1802446,
+  "nombre" : "Coronavirus III",
+  "numero" : 6,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1585436400000,
+  "duracion" : "00:33:48"
+}, {
+  "id" : 1811625,
+  "nombre" : "OAN",
+  "numero" : 7,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1586037600000,
+  "duracion" : "00:12:53"
+}, {
+  "id" : 1811626,
+  "nombre" : "Coronavirus IV: Essential Workers",
+  "numero" : 8,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1586642400000,
+  "duracion" : "00:59:03"
+}, {
+  "id" : 1814238,
+  "nombre" : "Coronavirus V: Misinformation",
+  "numero" : 9,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1587247200000,
+  "duracion" : "00:50:18"
+}, {
+  "id" : 1833410,
+  "nombre" : "Coronavirus VI: Testing",
+  "numero" : 10,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1588456800000,
+  "duracion" : "00:09:34"
+}, {
+  "id" : 1833411,
+  "nombre" : "USPS",
+  "numero" : 11,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1589061600000,
+  "duracion" : "00:49:44"
+}, {
+  "id" : 1833412,
+  "nombre" : "Coronavirus VII: Sports",
+  "numero" : 12,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1589666400000,
+  "duracion" : "00:44:19"
+}, {
+  "id" : 1842761,
+  "nombre" : "Voting By Mail",
+  "numero" : 13,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1590876000000,
+  "duracion" : "00:04:04"
+}, {
+  "id" : 1857825,
+  "nombre" : "Police",
+  "numero" : 14,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1591480800000,
+  "duracion" : "00:47:17"
+}, {
+  "id" : 1857826,
+  "nombre" : "Facial Recognition",
+  "numero" : 15,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1592085600000,
+  "duracion" : "00:53:55"
+}, {
+  "id" : 1864478,
+  "nombre" : "Coronavirus VIII: Prisons & Jails",
+  "numero" : 16,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1592690400000,
+  "duracion" : "00:19:42"
+}, {
+  "id" : 1867393,
+  "nombre" : "Coronavirus IX: Evictions",
+  "numero" : 17,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1593295200000,
+  "duracion" : "00:11:59"
+}, {
+  "id" : 1880085,
+  "nombre" : "Coronavirus: Conspiracy Theories",
+  "numero" : 18,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1595109600000,
+  "duracion" : "00:45:01"
+}, {
+  "id" : 1885221,
+  "nombre" : "China & Uighurs",
+  "numero" : 19,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1595714400000,
+  "duracion" : "00:48:47"
+}, {
+  "id" : 1889474,
+  "nombre" : "U.S. History",
+  "numero" : 20,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1596319200000,
+  "duracion" : "00:01:39"
+}, {
+  "id" : 1898053,
+  "nombre" : "Juries",
+  "numero" : 21,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1597528800000,
+  "duracion" : "00:09:16"
+}, {
+  "id" : 1901980,
+  "nombre" : "Border Wall II",
+  "numero" : 22,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1598133600000,
+  "duracion" : "00:35:36"
+}, {
+  "id" : 1904411,
+  "nombre" : "RNC 2020 & Kenosha",
+  "numero" : 23,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1598738400000,
+  "duracion" : "00:40:26"
+}, {
+  "id" : 1915391,
+  "nombre" : "The Supreme Court",
+  "numero" : 24,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1601157600000,
+  "duracion" : "00:53:54"
+}, {
+  "id" : 1918726,
+  "nombre" : "Election 2020",
+  "numero" : 25,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1601762400000,
+  "duracion" : "00:22:10"
+}, {
+  "id" : 1929031,
+  "nombre" : "The World Health Organization",
+  "numero" : 26,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1602972000000,
+  "duracion" : "00:09:23"
+}, {
+  "id" : 1929433,
+  "nombre" : "Asylum",
+  "numero" : 27,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1603576800000,
+  "duracion" : "00:03:01"
+}, {
+  "id" : 1938858,
+  "nombre" : "Trump & the Coronavirus and William Barr",
+  "numero" : 28,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1604185200000,
+  "duracion" : "00:05:35"
+}, {
+  "id" : 1940521,
+  "nombre" : "Election Results 2020",
+  "numero" : 29,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1604790000000,
+  "duracion" : "00:03:51"
+}, {
+  "id" : 1946043,
+  "nombre" : "Trump & Election Results",
+  "numero" : 30,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1605394800000,
+  "duracion" : "00:29:30"
+}, {
+  "id" : 2009205,
+  "nombre" : "The Next Pandemic",
+  "numero" : 1,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1613257200000,
+  "duracion" : "00:39:31"
+}, {
+  "id" : 2017234,
+  "nombre" : "Meatpacking",
+  "numero" : 2,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1613862000000,
+  "duracion" : "00:48:31"
+}, {
+  "id" : 2017235,
+  "nombre" : "Raids",
+  "numero" : 3,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1614466800000,
+  "duracion" : "00:01:47"
+}, {
+  "id" : 2019598,
+  "nombre" : "Unemployment",
+  "numero" : 4,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1615071600000,
+  "duracion" : "00:20:43"
+}, {
+  "id" : 2023640,
+  "nombre" : "Tucker Carlson",
+  "numero" : 5,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1615676400000,
+  "duracion" : "00:05:52"
+}, {
+  "id" : 2034034,
+  "nombre" : "Plastics",
+  "numero" : 6,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1616281200000,
+  "duracion" : "00:36:06"
+}, {
+  "id" : 2039005,
+  "nombre" : "The National Debt",
+  "numero" : 7,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1617487200000,
+  "duracion" : "00:10:26"
+}, {
+  "id" : 2040895,
+  "nombre" : "Long-Term Care",
+  "numero" : 8,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1618092000000,
+  "duracion" : "00:27:11"
+}, {
+  "id" : 2043410,
+  "nombre" : "Bankruptcy",
+  "numero" : 9,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1618696800000,
+  "duracion" : "00:05:46"
+}, {
+  "id" : 2055182,
+  "nombre" : "Covid Vaccines",
+  "numero" : 10,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1619906400000,
+  "duracion" : "00:35:43"
+}, {
+  "id" : 2055183,
+  "nombre" : "Hair",
+  "numero" : 11,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1620511200000,
+  "duracion" : "00:00:34"
+}, {
+  "id" : 2062285,
+  "nombre" : "Stand Your Ground",
+  "numero" : 12,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1621116000000,
+  "duracion" : "00:52:03"
+}, {
+  "id" : 2074290,
+  "nombre" : "Sponsored Content",
+  "numero" : 13,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1621720800000,
+  "duracion" : "00:06:35"
+}, {
+  "id" : 2087953,
+  "nombre" : "Asian Americans",
+  "numero" : 14,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1622930400000,
+  "duracion" : "00:24:39"
+}, {
+  "id" : 2087954,
+  "nombre" : "Prison Heat",
+  "numero" : 15,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1623535200000,
+  "duracion" : "00:23:50"
+}, {
+  "id" : 2093204,
+  "nombre" : "PACE",
+  "numero" : 16,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1624140000000,
+  "duracion" : "00:56:11"
+}, {
+  "id" : 2108491,
+  "nombre" : "Health Care Sharing Ministries",
+  "numero" : 17,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1624744800000,
+  "duracion" : "00:00:20"
+}, {
+  "id" : 2112885,
+  "nombre" : "Housing Discrimination",
+  "numero" : 18,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1627164000000,
+  "duracion" : "00:09:34"
+}, {
+  "id" : 2119791,
+  "nombre" : "Ambulances",
+  "numero" : 19,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1627768800000,
+  "duracion" : "00:41:28"
+}, {
+  "id" : 2122109,
+  "nombre" : "Opioids III: The Sacklers",
+  "numero" : 20,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1628373600000,
+  "duracion" : "00:48:38"
+}, {
+  "id" : 2124496,
+  "nombre" : "Ransomware",
+  "numero" : 21,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1628978400000,
+  "duracion" : "00:15:43"
+}, {
+  "id" : 2133448,
+  "nombre" : "Afghanistan",
+  "numero" : 22,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1629583200000,
+  "duracion" : "00:51:03"
+}, {
+  "id" : 2142863,
+  "nombre" : "Lukashenko",
+  "numero" : 23,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1631397600000,
+  "duracion" : "00:09:28"
+}, {
+  "id" : 2149456,
+  "nombre" : "Voting Rights",
+  "numero" : 24,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1632607200000,
+  "duracion" : "00:18:36"
+}, {
+  "id" : 2149457,
+  "nombre" : "PFAS",
+  "numero" : 25,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1633212000000,
+  "duracion" : "00:18:02"
+}, {
+  "id" : 2149458,
+  "nombre" : "Misinformation",
+  "numero" : 26,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1633816800000,
+  "duracion" : "00:15:31"
+}, {
+  "id" : 2175543,
+  "nombre" : "Taiwan",
+  "numero" : 27,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1635026400000,
+  "duracion" : "00:58:30"
+}, {
+  "id" : 2175544,
+  "nombre" : "Homelessness",
+  "numero" : 28,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1635631200000,
+  "duracion" : "00:55:34"
+}, {
+  "id" : 2182440,
+  "nombre" : "The Power Grid",
+  "numero" : 29,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1636239600000,
+  "duracion" : "00:31:45"
+}, {
+  "id" : 2185800,
+  "nombre" : "Union Busting",
+  "numero" : 30,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1636844400000,
+  "duracion" : "00:29:06"
+}, {
+  "id" : 2246887,
+  "nombre" : "Critical Race Theory",
+  "numero" : 1,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1645311600000,
+  "duracion" : "00:18:35"
+}, {
+  "id" : 2257168,
+  "nombre" : "Sex Work",
+  "numero" : 2,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1645916400000,
+  "duracion" : "00:56:37"
+}, {
+  "id" : 2267299,
+  "nombre" : "Wrongful Convictions",
+  "numero" : 3,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1646521200000,
+  "duracion" : "00:07:04"
+}, {
+  "id" : 2268915,
+  "nombre" : "Tickets",
+  "numero" : 4,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1647126000000,
+  "duracion" : "00:00:44"
+}, {
+  "id" : 2275789,
+  "nombre" : "Harm Reduction",
+  "numero" : 5,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1648335600000,
+  "duracion" : "00:10:47"
+}, {
+  "id" : 2284760,
+  "nombre" : "Trucks",
+  "numero" : 6,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1648936800000,
+  "duracion" : "00:46:26"
+}, {
+  "id" : 2286527,
+  "nombre" : "Data Brokers",
+  "numero" : 7,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1649541600000,
+  "duracion" : "00:52:34"
+}, {
+  "id" : 2290555,
+  "nombre" : "Police Interrogations",
+  "numero" : 8,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1650146400000,
+  "duracion" : "00:26:53"
+}, {
+  "id" : 2306504,
+  "nombre" : "Environmental Racism",
+  "numero" : 9,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1651356000000,
+  "duracion" : "00:46:40"
+}, {
+  "id" : 2306505,
+  "nombre" : "Abortion Ruling / Philippines Election",
+  "numero" : 10,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1651960800000,
+  "duracion" : "00:43:39"
+}, {
+  "id" : 2307403,
+  "nombre" : "Utilities",
+  "numero" : 11,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1652565600000,
+  "duracion" : "00:36:02"
+}, {
+  "id" : 2307404,
+  "nombre" : "Subway",
+  "numero" : 12,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1653170400000,
+  "duracion" : "00:07:42"
+}, {
+  "id" : 2322924,
+  "nombre" : "School Police",
+  "numero" : 13,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1654380000000,
+  "duracion" : "00:27:38"
+}, {
+  "id" : 2322925,
+  "nombre" : "Tech Monopolies",
+  "numero" : 14,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1654984800000,
+  "duracion" : "00:04:48"
+}, {
+  "id" : 2325463,
+  "nombre" : "Rent",
+  "numero" : 15,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1655589600000,
+  "duracion" : "00:01:08"
+}, {
+  "id" : 2330118,
+  "nombre" : "Water",
+  "numero" : 16,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1656194400000,
+  "duracion" : "00:15:21"
+}, {
+  "id" : 2353922,
+  "nombre" : "Inflation",
+  "numero" : 17,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1658613600000,
+  "duracion" : "00:54:40"
+}, {
+  "id" : 2354392,
+  "nombre" : "Mental Health Care",
+  "numero" : 18,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1659218400000,
+  "duracion" : "00:35:43"
+}, {
+  "id" : 2354393,
+  "nombre" : "Monkeypox",
+  "numero" : 19,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1659823200000,
+  "duracion" : "00:21:16"
+}, {
+  "id" : 2354394,
+  "nombre" : "Afghanistan",
+  "numero" : 20,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1660428000000,
+  "duracion" : "00:30:44"
+}, {
+  "id" : 2354395,
+  "nombre" : "Carbon Offsets",
+  "numero" : 21,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1661032800000,
+  "duracion" : "00:24:01"
+}, {
+  "id" : 2374127,
+  "nombre" : "Law & Order",
+  "numero" : 22,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1662847200000,
+  "duracion" : "00:49:44"
+}, {
+  "id" : 2374128,
+  "nombre" : "Bolsonaro",
+  "numero" : 23,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1664056800000,
+  "duracion" : "00:21:58"
+}, {
+  "id" : 2382585,
+  "nombre" : "Museums",
+  "numero" : 24,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1664661600000,
+  "duracion" : "00:42:10"
+}, {
+  "id" : 2382586,
+  "nombre" : "Crime Reporting",
+  "numero" : 25,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1665266400000,
+  "duracion" : "00:21:04"
+}, {
+  "id" : 2391186,
+  "nombre" : "Transgender Rights II",
+  "numero" : 26,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1665871200000,
+  "duracion" : "00:39:32"
+}, {
+  "id" : 2391187,
+  "nombre" : "Bail Reform",
+  "numero" : 27,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1667080800000,
+  "duracion" : "00:55:09"
+}, {
+  "id" : 2391188,
+  "nombre" : "Election Subversion",
+  "numero" : 28,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1667689200000,
+  "duracion" : "00:08:52"
+}, {
+  "id" : 2391189,
+  "nombre" : "The Monarchy",
+  "numero" : 29,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1668294000000,
+  "duracion" : "00:47:29"
+}, {
+  "id" : 2423116,
+  "nombre" : "Qatar World Cup",
+  "numero" : 30,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1668898800000,
+  "duracion" : "00:26:22"
+}, {
+  "id" : 2475601,
+  "nombre" : "Psychedelic Assisted Therapy",
+  "numero" : 1,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1676761200000,
+  "duracion" : "00:17:32"
+}, {
+  "id" : 2493106,
+  "nombre" : "Artificial Intelligence",
+  "numero" : 2,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1677366000000,
+  "duracion" : "00:20:32"
+}, {
+  "id" : 2493109,
+  "nombre" : "Ron DeSantis",
+  "numero" : 3,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1677970800000,
+  "duracion" : "00:54:23"
+}, {
+  "id" : 2496487,
+  "nombre" : "TANF",
+  "numero" : 4,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1678575600000,
+  "duracion" : "00:48:21"
+}, {
+  "id" : 2501421,
+  "nombre" : "Timeshares",
+  "numero" : 5,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1679180400000,
+  "duracion" : "00:09:11"
+}, {
+  "id" : 2509019,
+  "nombre" : "Solitary Confinement",
+  "numero" : 6,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1680386400000,
+  "duracion" : "00:23:21"
+}, {
+  "id" : 2509924,
+  "nombre" : "Homeowners Associations",
+  "numero" : 7,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1680991200000,
+  "duracion" : "00:51:24"
+}, {
+  "id" : 2514749,
+  "nombre" : "Farmworkers",
+  "numero" : 8,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1681596000000,
+  "duracion" : "00:29:03"
+}, {
+  "id" : 2519188,
+  "nombre" : "Cryptocurrencies II",
+  "numero" : 9,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1682200800000,
+  "duracion" : "00:25:38"
+}, {
+  "id" : 2524468,
+  "nombre" : "Biden and The Border",
+  "numero" : 10,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1682805600000,
+  "duracion" : "00:01:40"
+}, {
+  "id" : 2653724,
+  "nombre" : "Prison Health Care",
+  "numero" : 11,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1696111200000,
+  "duracion" : "00:15:02"
+}, {
+  "id" : 2661360,
+  "nombre" : "Homeschooling",
+  "numero" : 12,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1696716000000,
+  "duracion" : "00:45:16"
+}, {
+  "id" : 2661361,
+  "nombre" : "Food Safety",
+  "numero" : 13,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1697320800000,
+  "duracion" : "00:54:19"
+}, {
+  "id" : 2662846,
+  "nombre" : "McKinsey",
+  "numero" : 14,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1697925600000,
+  "duracion" : "00:42:04"
+}, {
+  "id" : 2662847,
+  "nombre" : "Chocolate",
+  "numero" : 15,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1698530400000,
+  "duracion" : "00:10:01"
+}, {
+  "id" : 2667095,
+  "nombre" : "Abortion Rights",
+  "numero" : 16,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1699138800000,
+  "duracion" : "00:02:31"
+}, {
+  "id" : 2671048,
+  "nombre" : "Israel-Hamas War",
+  "numero" : 17,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1699743600000,
+  "duracion" : "00:23:08"
+}, {
+  "id" : 2671049,
+  "nombre" : "Dollar Stores",
+  "numero" : 18,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1700348400000,
+  "duracion" : "00:02:23"
+}, {
+  "id" : 2687698,
+  "nombre" : "Organ & Body Donations",
+  "numero" : 19,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1701558000000,
+  "duracion" : "00:22:23"
+}, {
+  "id" : 2691685,
+  "nombre" : "Freight Trains",
+  "numero" : 20,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1702162800000,
+  "duracion" : "00:44:15"
+}, {
+  "id" : 2697056,
+  "nombre" : "Elon Musk",
+  "numero" : 21,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1702767600000,
+  "duracion" : "00:49:26"
+}, {
+  "id" : 2744577,
+  "nombre" : "Supreme Court",
+  "numero" : 1,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1708210800000,
+  "duracion" : "00:15:38"
+}, {
+  "id" : 2764945,
+  "nombre" : "Pig Butchering Scams",
+  "numero" : 2,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1708815600000,
+  "duracion" : "00:43:54"
+}, {
+  "id" : 2764946,
+  "nombre" : "Boeing",
+  "numero" : 3,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1709420400000,
+  "duracion" : "00:43:43"
+}, {
+  "id" : 2774823,
+  "nombre" : "State Medical Boards",
+  "numero" : 4,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1710025200000,
+  "duracion" : "00:21:59"
+}, {
+  "id" : 2783487,
+  "nombre" : "Student Loans",
+  "numero" : 5,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1710630000000,
+  "duracion" : "00:51:00"
+}, {
+  "id" : 2795455,
+  "nombre" : "Food Delivery Apps",
+  "numero" : 6,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1711839600000,
+  "duracion" : "00:22:16"
+}, {
+  "id" : 2800245,
+  "nombre" : "Lethal Injections",
+  "numero" : 7,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1712440800000,
+  "duracion" : "00:41:30"
+}, {
+  "id" : 2812437,
+  "nombre" : "Medicaid",
+  "numero" : 8,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1713045600000,
+  "duracion" : "00:35:49"
+}, {
+  "id" : 2812438,
+  "nombre" : "UFOs",
+  "numero" : 9,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1713650400000,
+  "duracion" : "00:33:15"
+}, {
+  "id" : 2831347,
+  "nombre" : "Public Libraries",
+  "numero" : 10,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1714860000000,
+  "duracion" : "00:12:21"
+}, {
+  "id" : 2851180,
+  "nombre" : "Opioid Settlements",
+  "numero" : 11,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1715464800000,
+  "duracion" : "00:10:47"
+}, {
+  "id" : 2851181,
+  "nombre" : "Corn",
+  "numero" : 12,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1716069600000,
+  "duracion" : "00:26:32"
+}, {
+  "id" : 2865710,
+  "nombre" : "Indian Elections",
+  "numero" : 13,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1717279200000,
+  "duracion" : "00:51:01"
+}, {
+  "id" : 2899661,
+  "nombre" : "Deep Sea Mining",
+  "numero" : 14,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1717884000000,
+  "duracion" : "00:10:27"
+}, {
+  "id" : 2899662,
+  "nombre" : "Trumps Second Term",
+  "numero" : 15,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1718488800000,
+  "duracion" : "00:01:50"
+}, {
+  "id" : 2900464,
+  "nombre" : "UK Elections",
+  "numero" : 16,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1719093600000,
+  "duracion" : "00:31:48"
+}, {
+  "id" : 2925519,
+  "nombre" : "Migrant Crime",
+  "numero" : 17,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1721512800000,
+  "duracion" : "00:38:08"
+}, {
+  "id" : 2942006,
+  "nombre" : "The West Bank",
+  "numero" : 18,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1722117600000,
+  "duracion" : "00:20:05"
+}, {
+  "id" : 2953589,
+  "nombre" : "RFK Jr.",
+  "numero" : 19,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1722722400000,
+  "duracion" : "00:34:28"
+}, {
+  "id" : 2962257,
+  "nombre" : "Hawaii",
+  "numero" : 20,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1723327200000,
+  "duracion" : "00:25:40"
+}, {
+  "id" : 2962258,
+  "nombre" : "Hospice",
+  "numero" : 21,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1723932000000,
+  "duracion" : "00:34:30"
+}, {
+  "id" : 2982166,
+  "nombre" : "School Lunch",
+  "numero" : 22,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1725746400000,
+  "duracion" : "00:08:41"
+}, {
+  "id" : 3000392,
+  "nombre" : "Disability Benefits",
+  "numero" : 23,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1726956000000,
+  "duracion" : "00:44:23"
+}, {
+  "id" : 3005105,
+  "nombre" : "Federal Courts",
+  "numero" : 24,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1727560800000,
+  "duracion" : "00:59:23"
+}, {
+  "id" : 3010988,
+  "nombre" : "Traffic Stops",
+  "numero" : 25,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1728165600000,
+  "duracion" : "00:29:17"
+}, {
+  "id" : 3020710,
+  "nombre" : "Election Subversion 2024",
+  "numero" : 26,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1728770400000,
+  "duracion" : "00:02:05"
+}, {
+  "id" : 3028381,
+  "nombre" : "Mass Deportation/Lee Greenwood",
+  "numero" : 27,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1729980000000,
+  "duracion" : "00:38:39"
+}, {
+  "id" : 3031759,
+  "nombre" : "Trumps Businesses",
+  "numero" : 28,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1730588400000,
+  "duracion" : "00:47:21"
+}, {
+  "id" : 3037402,
+  "nombre" : "Trumps Reelection",
+  "numero" : 29,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1731193200000,
+  "duracion" : "00:53:35"
+}, {
+  "id" : 3043048,
+  "nombre" : "TikTok Ban",
+  "numero" : 30,
+  "temporada" : 11,
+  "serie" : {
+    "id" : 263,
+    "nombre" : "Last Week Tonight with John Oliver",
+    "estreno" : 1398549600000,
+    "tematica" : "Comedy",
+    "director" : "Coen Brothers",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "EN_EMISION",
+    "cadena" : "HBO"
+  },
+  "fechaDeSalida" : 1731798000000,
+  "duracion" : "00:31:49"
+} ]

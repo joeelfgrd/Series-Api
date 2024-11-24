@@ -1,0 +1,2017 @@
+[ {
+  "id" : 189,
+  "nombre" : "Pilot",
+  "numero" : 1,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1317506400000,
+  "duracion" : "00:37:30"
+}, {
+  "id" : 190,
+  "nombre" : "Grace",
+  "numero" : 2,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1318111200000,
+  "duracion" : "00:49:17"
+}, {
+  "id" : 191,
+  "nombre" : "Clean Skin",
+  "numero" : 3,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1318716000000,
+  "duracion" : "00:10:50"
+}, {
+  "id" : 192,
+  "nombre" : "Semper I",
+  "numero" : 4,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1319320800000,
+  "duracion" : "00:34:16"
+}, {
+  "id" : 193,
+  "nombre" : "Blind Spot",
+  "numero" : 5,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1319925600000,
+  "duracion" : "00:11:50"
+}, {
+  "id" : 194,
+  "nombre" : "The Good Soldier",
+  "numero" : 6,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1320534000000,
+  "duracion" : "00:24:09"
+}, {
+  "id" : 195,
+  "nombre" : "The Weekend",
+  "numero" : 7,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1321138800000,
+  "duracion" : "00:46:54"
+}, {
+  "id" : 196,
+  "nombre" : "Achilles Heel",
+  "numero" : 8,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1321743600000,
+  "duracion" : "00:43:17"
+}, {
+  "id" : 197,
+  "nombre" : "Crossfire",
+  "numero" : 9,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1322348400000,
+  "duracion" : "00:45:56"
+}, {
+  "id" : 198,
+  "nombre" : "Representative Brody",
+  "numero" : 10,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1322953200000,
+  "duracion" : "00:41:52"
+}, {
+  "id" : 199,
+  "nombre" : "The Vest",
+  "numero" : 11,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1323558000000,
+  "duracion" : "00:24:32"
+}, {
+  "id" : 200,
+  "nombre" : "Marine One",
+  "numero" : 12,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1324162800000,
+  "duracion" : "00:58:25"
+}, {
+  "id" : 201,
+  "nombre" : "The Smile",
+  "numero" : 1,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1348956000000,
+  "duracion" : "00:57:21"
+}, {
+  "id" : 202,
+  "nombre" : "Beirut is Back",
+  "numero" : 2,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1349560800000,
+  "duracion" : "00:49:16"
+}, {
+  "id" : 203,
+  "nombre" : "State of Independence",
+  "numero" : 3,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1350165600000,
+  "duracion" : "00:09:54"
+}, {
+  "id" : 204,
+  "nombre" : "New Car Smell",
+  "numero" : 4,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1350770400000,
+  "duracion" : "00:44:12"
+}, {
+  "id" : 205,
+  "nombre" : "Q&A",
+  "numero" : 5,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1351375200000,
+  "duracion" : "00:19:10"
+}, {
+  "id" : 206,
+  "nombre" : "A Gettysburg Address",
+  "numero" : 6,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1351983600000,
+  "duracion" : "00:00:35"
+}, {
+  "id" : 207,
+  "nombre" : "The Clearing",
+  "numero" : 7,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1352588400000,
+  "duracion" : "00:33:47"
+}, {
+  "id" : 208,
+  "nombre" : "Ill Fly Away",
+  "numero" : 8,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1353193200000,
+  "duracion" : "00:08:35"
+}, {
+  "id" : 209,
+  "nombre" : "Two Hats",
+  "numero" : 9,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1353798000000,
+  "duracion" : "00:24:09"
+}, {
+  "id" : 210,
+  "nombre" : "Broken Hearts",
+  "numero" : 10,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1354402800000,
+  "duracion" : "00:40:04"
+}, {
+  "id" : 211,
+  "nombre" : "In Memoriam",
+  "numero" : 11,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1355007600000,
+  "duracion" : "00:41:48"
+}, {
+  "id" : 212,
+  "nombre" : "The Choice",
+  "numero" : 12,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1355612400000,
+  "duracion" : "00:51:12"
+}, {
+  "id" : 213,
+  "nombre" : "Tin Man is Down",
+  "numero" : 1,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1380405600000,
+  "duracion" : "00:23:11"
+}, {
+  "id" : 214,
+  "nombre" : "Uh... Oh... Ah...",
+  "numero" : 2,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1381010400000,
+  "duracion" : "00:53:58"
+}, {
+  "id" : 215,
+  "nombre" : "Tower of David",
+  "numero" : 3,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1381615200000,
+  "duracion" : "00:03:20"
+}, {
+  "id" : 216,
+  "nombre" : "Game On",
+  "numero" : 4,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1382220000000,
+  "duracion" : "00:28:42"
+}, {
+  "id" : 217,
+  "nombre" : "The Yoga Play",
+  "numero" : 5,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1382824800000,
+  "duracion" : "00:22:46"
+}, {
+  "id" : 218,
+  "nombre" : "Still Positive",
+  "numero" : 6,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1383433200000,
+  "duracion" : "00:58:06"
+}, {
+  "id" : 219,
+  "nombre" : "Gerontion",
+  "numero" : 7,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1384038000000,
+  "duracion" : "00:43:05"
+}, {
+  "id" : 220,
+  "nombre" : "A Red Wheelbarrow",
+  "numero" : 8,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1384642800000,
+  "duracion" : "00:00:15"
+}, {
+  "id" : 221,
+  "nombre" : "One Last Thing",
+  "numero" : 9,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1385247600000,
+  "duracion" : "00:25:30"
+}, {
+  "id" : 222,
+  "nombre" : "Good Night",
+  "numero" : 10,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1385852400000,
+  "duracion" : "00:06:59"
+}, {
+  "id" : 223,
+  "nombre" : "Big Man in Tehran",
+  "numero" : 11,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1386457200000,
+  "duracion" : "00:46:11"
+}, {
+  "id" : 224,
+  "nombre" : "The Star",
+  "numero" : 12,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1387062000000,
+  "duracion" : "00:10:15"
+}, {
+  "id" : 225,
+  "nombre" : "The Drone Queen",
+  "numero" : 1,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1412460000000,
+  "duracion" : "00:18:05"
+}, {
+  "id" : 226,
+  "nombre" : "Trylon and Perisphere",
+  "numero" : 2,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1412460000000,
+  "duracion" : "00:43:13"
+}, {
+  "id" : 227,
+  "nombre" : "Shalwar Kameez",
+  "numero" : 3,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1413064800000,
+  "duracion" : "00:57:12"
+}, {
+  "id" : 228,
+  "nombre" : "Iron in the Fire",
+  "numero" : 4,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1413669600000,
+  "duracion" : "00:04:28"
+}, {
+  "id" : 229,
+  "nombre" : "About a Boy",
+  "numero" : 5,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1414274400000,
+  "duracion" : "00:59:44"
+}, {
+  "id" : 230,
+  "nombre" : "From A to B and Back Again",
+  "numero" : 6,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1414882800000,
+  "duracion" : "00:03:00"
+}, {
+  "id" : 14043,
+  "nombre" : "Redux",
+  "numero" : 7,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1415487600000,
+  "duracion" : "00:09:28"
+}, {
+  "id" : 14044,
+  "nombre" : "Halfway to a Donut",
+  "numero" : 8,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1416092400000,
+  "duracion" : "00:51:14"
+}, {
+  "id" : 14045,
+  "nombre" : "Theres Something Else Going On",
+  "numero" : 9,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1416697200000,
+  "duracion" : "00:18:21"
+}, {
+  "id" : 14046,
+  "nombre" : "13 Hours in Islamabad",
+  "numero" : 10,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1417906800000,
+  "duracion" : "00:17:08"
+}, {
+  "id" : 14047,
+  "nombre" : "Krieg Nicht Lieb",
+  "numero" : 11,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1418511600000,
+  "duracion" : "00:02:13"
+}, {
+  "id" : 14048,
+  "nombre" : "Long Time Coming",
+  "numero" : 12,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1419116400000,
+  "duracion" : "00:02:29"
+}, {
+  "id" : 202563,
+  "nombre" : "Separation Anxiety",
+  "numero" : 1,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1443909600000,
+  "duracion" : "00:04:05"
+}, {
+  "id" : 202564,
+  "nombre" : "The Tradition of Hospitality",
+  "numero" : 2,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1444514400000,
+  "duracion" : "00:00:52"
+}, {
+  "id" : 202565,
+  "nombre" : "Super Powers",
+  "numero" : 3,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1445119200000,
+  "duracion" : "00:51:04"
+}, {
+  "id" : 203897,
+  "nombre" : "Why is This Night Different?",
+  "numero" : 4,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1445724000000,
+  "duracion" : "00:48:31"
+}, {
+  "id" : 203898,
+  "nombre" : "Better Call Saul",
+  "numero" : 5,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1446332400000,
+  "duracion" : "00:53:33"
+}, {
+  "id" : 203899,
+  "nombre" : "Parabiosis",
+  "numero" : 6,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1446937200000,
+  "duracion" : "00:59:01"
+}, {
+  "id" : 203900,
+  "nombre" : "Oriole",
+  "numero" : 7,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1447542000000,
+  "duracion" : "00:59:40"
+}, {
+  "id" : 203901,
+  "nombre" : "All About Allison",
+  "numero" : 8,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1448146800000,
+  "duracion" : "00:37:05"
+}, {
+  "id" : 203903,
+  "nombre" : "New Normal",
+  "numero" : 10,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1449356400000,
+  "duracion" : "00:42:02"
+}, {
+  "id" : 203905,
+  "nombre" : "A False Glimmer",
+  "numero" : 12,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1450566000000,
+  "duracion" : "00:37:03"
+}, {
+  "id" : 316119,
+  "nombre" : "The Litvinov Ruse",
+  "numero" : 9,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1448751600000,
+  "duracion" : "00:13:14"
+}, {
+  "id" : 455542,
+  "nombre" : "Our Man in Damascus",
+  "numero" : 11,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1449961200000,
+  "duracion" : "00:14:08"
+}, {
+  "id" : 893163,
+  "nombre" : "Fair Game",
+  "numero" : 1,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1484434800000,
+  "duracion" : "00:25:23"
+}, {
+  "id" : 945990,
+  "nombre" : "The Man in the Basement",
+  "numero" : 2,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1485039600000,
+  "duracion" : "00:03:02"
+}, {
+  "id" : 945991,
+  "nombre" : "The Covenant",
+  "numero" : 3,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1485644400000,
+  "duracion" : "00:36:54"
+}, {
+  "id" : 945992,
+  "nombre" : "A Flash of Light",
+  "numero" : 4,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1486854000000,
+  "duracion" : "00:12:42"
+}, {
+  "id" : 945993,
+  "nombre" : "Casus Belli",
+  "numero" : 5,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1487458800000,
+  "duracion" : "00:14:31"
+}, {
+  "id" : 945994,
+  "nombre" : "The Return",
+  "numero" : 6,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1488063600000,
+  "duracion" : "00:25:15"
+}, {
+  "id" : 945995,
+  "nombre" : "Imminent Risk",
+  "numero" : 7,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1488668400000,
+  "duracion" : "00:52:59"
+}, {
+  "id" : 945996,
+  "nombre" : "Alt.Truth",
+  "numero" : 8,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1489273200000,
+  "duracion" : "00:14:04"
+}, {
+  "id" : 945997,
+  "nombre" : "Sock Puppets",
+  "numero" : 9,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1489878000000,
+  "duracion" : "00:57:57"
+}, {
+  "id" : 945998,
+  "nombre" : "The Flag House",
+  "numero" : 10,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1490482800000,
+  "duracion" : "00:40:23"
+}, {
+  "id" : 1066378,
+  "nombre" : "R is for Romeo",
+  "numero" : 11,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1491084000000,
+  "duracion" : "00:46:35"
+}, {
+  "id" : 1066379,
+  "nombre" : "America First",
+  "numero" : 12,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1491688800000,
+  "duracion" : "00:27:55"
+}, {
+  "id" : 1372787,
+  "nombre" : "Enemy of the State",
+  "numero" : 1,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1518303600000,
+  "duracion" : "00:12:18"
+}, {
+  "id" : 1381167,
+  "nombre" : "Rebel Rebel",
+  "numero" : 2,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1518908400000,
+  "duracion" : "00:46:19"
+}, {
+  "id" : 1383243,
+  "nombre" : "Standoff",
+  "numero" : 3,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1519513200000,
+  "duracion" : "00:01:07"
+}, {
+  "id" : 1391495,
+  "nombre" : "Like Bad at Things",
+  "numero" : 4,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1520118000000,
+  "duracion" : "00:12:39"
+}, {
+  "id" : 1391496,
+  "nombre" : "Active Measures",
+  "numero" : 5,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1520722800000,
+  "duracion" : "00:35:07"
+}, {
+  "id" : 1391497,
+  "nombre" : "Species Jump",
+  "numero" : 6,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1521327600000,
+  "duracion" : "00:51:17"
+}, {
+  "id" : 1402807,
+  "nombre" : "Andante",
+  "numero" : 7,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1521932400000,
+  "duracion" : "00:29:43"
+}, {
+  "id" : 1420858,
+  "nombre" : "Lies, Amplifiers, F**king Twitter",
+  "numero" : 8,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1522533600000,
+  "duracion" : "00:16:35"
+}, {
+  "id" : 1420859,
+  "nombre" : "Useful Idiot",
+  "numero" : 9,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1523138400000,
+  "duracion" : "00:44:33"
+}, {
+  "id" : 1420860,
+  "nombre" : "Clarity",
+  "numero" : 10,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1523743200000,
+  "duracion" : "00:17:44"
+}, {
+  "id" : 1420861,
+  "nombre" : "Paean to the People",
+  "numero" : 12,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1524952800000,
+  "duracion" : "00:19:48"
+}, {
+  "id" : 1423935,
+  "nombre" : "All In",
+  "numero" : 11,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1524348000000,
+  "duracion" : "00:42:28"
+}, {
+  "id" : 1690456,
+  "nombre" : "Deception Indicated",
+  "numero" : 1,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1581202800000,
+  "duracion" : "00:10:38"
+}, {
+  "id" : 1785492,
+  "nombre" : "Catch and Release",
+  "numero" : 2,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1581807600000,
+  "duracion" : "00:56:24"
+}, {
+  "id" : 1785493,
+  "nombre" : "False Friends",
+  "numero" : 3,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1582412400000,
+  "duracion" : "00:35:05"
+}, {
+  "id" : 1797083,
+  "nombre" : "Chalk One Up",
+  "numero" : 4,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1583017200000,
+  "duracion" : "00:54:23"
+}, {
+  "id" : 1797084,
+  "nombre" : "Chalk Two Down",
+  "numero" : 5,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1583622000000,
+  "duracion" : "00:14:11"
+}, {
+  "id" : 1798997,
+  "nombre" : "Two Minutes",
+  "numero" : 6,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1584226800000,
+  "duracion" : "00:55:20"
+}, {
+  "id" : 1798998,
+  "nombre" : "F**ker Shot Me",
+  "numero" : 7,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1584831600000,
+  "duracion" : "00:55:23"
+}, {
+  "id" : 1798999,
+  "nombre" : "Threnody(s)",
+  "numero" : 8,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1585436400000,
+  "duracion" : "00:28:33"
+}, {
+  "id" : 1801026,
+  "nombre" : "In Full Flight",
+  "numero" : 9,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1586037600000,
+  "duracion" : "00:48:05"
+}, {
+  "id" : 1801027,
+  "nombre" : "Designated Driver",
+  "numero" : 10,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1586642400000,
+  "duracion" : "00:53:45"
+}, {
+  "id" : 1801028,
+  "nombre" : "The English Teacher",
+  "numero" : 11,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1587247200000,
+  "duracion" : "00:46:18"
+}, {
+  "id" : 1801029,
+  "nombre" : "Prisoners of War",
+  "numero" : 12,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1587852000000,
+  "duracion" : "00:31:58"
+}, {
+  "id" : 3065560,
+  "nombre" : "Pilot",
+  "numero" : 1,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1111618800000,
+  "duracion" : "00:23:00"
+}, {
+  "id" : 3065561,
+  "nombre" : "Diversity Day",
+  "numero" : 2,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1112047200000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065562,
+  "nombre" : "Health Care",
+  "numero" : 3,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1112652000000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065563,
+  "nombre" : "The Alliance",
+  "numero" : 4,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1113256800000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065564,
+  "nombre" : "Basketball",
+  "numero" : 5,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1113861600000,
+  "duracion" : "00:23:00"
+}, {
+  "id" : 3065565,
+  "nombre" : "Hot Girl",
+  "numero" : 6,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1114466400000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065566,
+  "nombre" : "The Dundies",
+  "numero" : 1,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1127167200000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065567,
+  "nombre" : "Sexual Harassment",
+  "numero" : 2,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1127772000000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065568,
+  "nombre" : "Office Olympics",
+  "numero" : 3,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1128376800000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065569,
+  "nombre" : "The Fire",
+  "numero" : 4,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1128981600000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065570,
+  "nombre" : "Halloween",
+  "numero" : 5,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1129586400000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065571,
+  "nombre" : "The Fight",
+  "numero" : 6,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1130799600000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065572,
+  "nombre" : "The Client",
+  "numero" : 7,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1131404400000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065573,
+  "nombre" : "Performance Review",
+  "numero" : 8,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1132009200000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065574,
+  "nombre" : "E-Mail Surveillance",
+  "numero" : 9,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1132614000000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 3065575,
+  "nombre" : "Christmas Party",
+  "numero" : 10,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "Homeland",
+    "estreno" : 1317506400000,
+    "tematica" : "Drama, Thriller, Espionage",
+    "director" : "Peter Jackson",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "Paramount+ with Showtime"
+  },
+  "fechaDeSalida" : 1133823600000,
+  "duracion" : "00:22:00"
+} ]
