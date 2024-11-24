@@ -74,7 +74,6 @@ public class SerieController {
         //imgViewLogo.setImage(new Image(getClass().getResource("/img/logo.png").toExternalForm()));
         cargarSeries(Conexion_App_bbdd.getSeries(c));
 
-        // Set row factory for selection
         tableViewSeries.setOnMouseClicked(event -> {
             if (!tableViewSeries.getSelectionModel().isEmpty() && event.getButton() == MouseButton.PRIMARY && event.getClickCount() == 1) {
                 setSerie(tableViewSeries.getSelectionModel().getSelectedItem());

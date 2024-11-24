@@ -157,9 +157,9 @@ cd C:\Users\nombredeusuario\Escritorio
 
 ### 3.Sitúate en el directorio:
 
-    ```bash
-    cd Directorio
-    ```
+```bash
+  cd Directorio
+```
 
 ### 4.Instala los requisitos:
 
@@ -220,12 +220,12 @@ git --version
 
 ```bash
     cd Series-Api
-  ```
+```
 
 ### 7. Instala las dependencias del proyecto:
 
 ```bash
-    mvn  install
+    mvn install
 ```
 
 ### 8. Ejecuta la aplicación:
@@ -241,8 +241,7 @@ git --version
 
 ```bash
     
- java --module-path C:\javafx-sdk-17.0.13\lib --add-modules javafx.controls,javafx.fxml -jar
-.\target\original-controlador-1.0-SNAPSHOT.jar
+ java --module-path C:\javafx-sdk-17.0.13\lib --add-modules javafx.controls,javafx.fxml -jar .\target\original-controlador-1.0-SNAPSHOT.jar
 ```
 
 ## Notas:
@@ -256,104 +255,78 @@ git --version
 ## Inicio de Sesión
 
 1. Al abrir la aplicación, se mostrará la pantalla de inicio de sesión.
-   ![Inicio sesion app](src/main/resources/img/Login1.png)
+![Inicio sesion app](src/main/resources/img/Login.png)
 2. Introduce tus credenciales (usuario y contraseña) y haz clic en **Acceder**.
-
 - Si intentas acceder con credenciales incorrectas, se mostrará un mensaje de error.
 - Si no tienes una cuenta, puedes registrarte haciendo clic en **Registrarse**.
-  ![Inicio sesion app](src/main/resources/img/login2.png)
-- Cuando creas una contraseña e usuario, esta se cifrará y almacenará para proteger tu información.
+  ![Inicio sesion app](src/main/resources/img/Login2.png)
+- Cuando creas una contraseña e usuario,antes de guardarse en la base de datos, esta se cifrará y almacenará para proteger tu información.
   ![Inicio sesion app](src/main/resources/img/cifrado.png)
 
-3. Después de iniciar sesión correctamente, se mostrará una ventana para restaurar la sesión anterior o iniciar una
-   nueva.
-   ![Inicio sesion app](src/main/resources/img/Login3.png)
-
-- Si eliges **Aceptar**, se cargarán los datos de la sesión anterior.
-  ![Inicio sesion app](src/main/resources/img/Login4.png)
-- Si eliges **Cancelar**, se mostrará la pantalla principal de la aplicación.
-
-4. Busca una serie por su nombre en el campo de búsqueda y haz clic en **Buscar**.
-   ![Inicio sesion app](src/main/resources/img/Busqueda.png)
-5. Si pulsas en ver episodios, se mostrará una lista con los episodios de la serie seleccionada ordenados por temporada
-   y número de episodio.
+3. Si accedes con éxito, se mostrará la pantalla principal de la aplicación.
+   ![Inicio sesion app](src/main/resources/img/Series.png)
+4. Desde aqui puedes ver la lista de las series disponibles.
+   ![Inicio sesion app](src/main/resources/img/Series2.png)
+5. Puedes filtrar en base a idioma,estado y cadena,tambien puedes filtrar por varios a la vez.Tan solo tienes que poner por lo que quieres filtrar y seleccionar el checkbox.
+   ![Inicio sesion app](src/main/resources/img/Filtrado.png)
+   ![Inicio sesion app](src/main/resources/img/Filtrado2.png)
+6. Puedes ordenar las series en base a calificacion y fecha de estreno, tanto de forma ascendente como descendente.
+   ![Inicio sesion app](src/main/resources/img/Ordenacion.png)
+7. Al clicar en una serie,se mostraran los episodios de la misma cuando le demos al boton,en caso contrario salta un mensaje de error.
+   ![Inicio sesion app](src/main/resources/img/Episodios.png)
    ![Inicio sesion app](src/main/resources/img/Episodios2.png)
-6. Si pulsas en **Ver Cast** , se mostrará una lista con los actores que participan en la serie y los personajes que
-   interpretan.
-   ![Inicio sesion app](src/main/resources/img/Cast.png)
+8. Puedes seleccionar un episodio y modificarlo.
+   ![Inicio sesion app](src/main/resources/img/Modificar.png)
+9. Puedes seleccionar un episodio y eliminarlo.
+   ![Inicio sesion app](src/main/resources/img/Eliminar.png)
+10. Puedes exportar los episodios de una serie a un archivo JSON.
+    ![Inicio sesion app](src/main/resources/img/Exportar.png)
+11. Tambien permite crear un nuevo episodio.
+    ![Inicio sesion app](src/main/resources/img/Crear.png)
+12. Es posible navegar entre las vistas de series,episodios y reparto utilizando los botones del menuBar.
+    ![Inicio sesion app](src/main/resources/img/moverse.png)
 
 # Tiempo dedicado
 
-- **Víctor Sánchez Nogueira**: 38 horas
+- **Víctor Sánchez Nogueira**: 
 - Tareas:
-    - Caché
-    - JSONHandler
-    - Controlador(Login y LinkPaginas)
-    - Conexion
-    - Encriptado de contraseñas
-    - Exportaciones (BIN TXT XML)
+    
 
-- **Joel Figueirido Molares**: 31 horas
-- Tareas:
-    - Interfaz gráfica
-    - Controlador(Episodios y Cast)
-    - Exportaciones JSON
-    - JSONHandler
-    - Conexion
-    - Documentación
+- **Joel Figueirido Molares**: 
 
 # Extras Realizados
 
-1. **Ordenación de resultados** de las consultas y almacenaje de los datos.
+1. **Ordenación de resultados** Ordenación de resultados de las consultas y almacenaje de los datos (se introducirá un menú que consultará al usuario el criterio de ordenación).
 
-- Las series aparecen ordenadas por temporada y número de episodio.
+- Se permite ordenar las series en funcion de su calificacion y fecha de estreno,de forma ascendente o descendente.
+- El seleccionado se realiza desde un menu desplegable que se muestra al usuario en el menuBar,en el que se puede seleccionar la ordenacion deseada.
 
 2. **Control de errores** (errores de ficheros, consultas sin resultados...).
 
-- Se muestran mensajes de error si no se encuentran resultados o si hay problemas con los ficheros.
 - Se manejan excepciones para evitar fallos en la aplicación.
 - Si el usuario introduce credenciales incorrectas, se muestra un mensaje de error.
 - Si el usuario borra el paquete data,este se genera automáticamente.
 - Si el usuario borra todos los usuarios,se puede crear uno nuevo sin problemas.
 
-3. **Uso de la aplicación offline** (en lugar de recurrir a la API, carga de ficheros en caché)
-
-- Se almacenan los datos de las series en un archivo XML para poder acceder a ellos sin conexión.
-- Si no hay conexión a Internet, la aplicación carga los datos de las series desde el archivo XML.
-
-4. **Almacenamiento del último estado de ejecución** de la aplicación (última consulta y resultados devueltos)
-
-- Se guarda el estado de la aplicación y despues de iniciar sesión, se pregunta al usuario si desea restaurar la sesión
-  anterior.
-- Si el usuario acepta, se cargan los datos de la sesión anterior.
-- Si el usuario cancela, se muestra la pantalla principal de la aplicación.
-
-5. Adición de un login (control de acceso restringido) con usuario y contraseña contenidos en un fichero de Properties.
-
-- Se añade un sistema de inicio de sesión con credenciales almacenadas en un archivo Users.txt.
+3. **Adición de un login** (control de acceso restringido) con usuario y contraseña. Se realizará a través de una BBDD distinta, que almacene la información de los usuarios. Se incorporan las premisas mínimas de seguridad para el acceso.
+- Se añade un sistema de inicio de sesión con credenciales almacenadas en una base de datos aparte de la de series llamada Login.
 - Los usuarios deben autenticarse para acceder a la aplicación.
 - Si el usuario no tiene una cuenta, puede registrarse y crear un nuevo usuario.
 
-6. Si el contenido se encripta
-
-- Las contraseñas se cifran antes de ser almacenadas en el archivo Users.txt.
-- Se utiliza el algoritmo de cifrado LZ78 para proteger la información de los usuarios.
-
 # Propuestas de Mejora
 
-- **Mejora de la interfaz gráfica** para hacerla más atractiva y fácil de usar.
-- **Añadir más funcionalidades** como la posibilidad de marcar series como favoritas, ver recomendaciones
+- **Mejora de la interfaz gráfica** para hacerla mas intuitiva,tal vez cambiar el tipo de filtrado por unos combobox en los que aparezcan las opciones de filtrado.
+- **Añadir más funcionalidades** desde poder buscar una serie por su nombre como la posibilidad de marcar series como favoritas, ver recomendaciones
   personalizadas, etc.
-- **Incluir un sistema de notificaciones** para informar a los usuarios sobre nuevas series, episodios, etc.
-- **Mejorar el sistema de búsqueda** para que los usuarios puedan buscar series por género, año de estreno, etc.
-- **Añadir soporte para más idiomas** para que la aplicación pueda ser utilizada por usuarios de todo el mundo.
-- **Implementar un sistema de valoración** para que los usuarios puedan calificar las series y dejar comentarios.
+- **Añadir un sistema de seguimiento** En el que los usuarios podrían decir que series han visto y cuales no,ademas de poder marcar episodios como vistos.
+- **Modificar el codigo para que se ajuste a mas dispositivos** en mi caso tuve que redimensionar la ventana para que se viera bien en mi portatil ya que tenia una pantalla mas pequeña que la de clase.
+- **Implementar un sistema de valoración** para que los usuarios puedan calificar las series y dejar comentarios que otra gente pueda ver y comentar.De esta forma podriamos crear un sistema de valoracion nuevo en funcion de los gustos de la gente,tal vez poniendo las tipicas estrellitas de valoracion.
 - **Incluir un sistema de recomendaciones** para sugerir series similares a las que le gustan al usuario.
+- **Añadir la funcionalidad de poder ver los episodios** Tal vez redirigiendo a una plataforma externa.
 
 # Conclusiones
 
-- En este proyecto,hemos aprendido a utilizar y manejar javafx,hemos aprendido a crear una interfaz gráfica de usuario y
-  a conectarla con la lógica de negocio.
+- En este proyecto,hemos mejorado nuestra habilidad manejando javafx,como ya sabiamos mas o menos comoa funcionaba,en este proyecto hemos tratado más la parte visual de la aplicación,tratando de hacerla agradable para el usuario,destacar la intervencion de juan carlos el profesor de la interfaces el que nos ayudó con la gestion de colores elegida.
 - Hemos aprendido a trabajar con archivos XML y a almacenar datos en caché para mejorar el rendimiento de la aplicación.
 - Nos gustaría que las especificaciones de los requisitos hubieran sido mas detalladas desde el principio,comenzando por
   la eleccion de la api a utilizar.
