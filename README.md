@@ -65,6 +65,7 @@ responsabilidad clara:
    visualización de mensajes en la interfaz gráfica
     - Método clave:
         - **`showWarning`**: Muestra un mensaje de advertencia en la interfaz gráfica.
+        - **`showMessage`**: Muestra un mensaje de información en la interfaz gráfica como que se creó correctamente un episodio .
 2. **`EpisodiosController`**: Controlador para la vista de episodios. Se encarga de mostrar la lista de episodios de una
    serie y gestionar las operaciones CRUD.
     - Métodos clave:
