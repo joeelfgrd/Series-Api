@@ -45,6 +45,7 @@ public class LoginController {
         if (usuarios.containsKey(decodedUser) && usuarios.get(decodedUser).equals(decodedPwd)) {
             toSerie(actionEvent);
         } else {
+            Controlador.showWarning("Error en inicio de sesión","Usuario o contraseña incorrectos,vuelva a intentarlo o registre uno nuevo");
             System.out.println("Usuario o contraseña incorrectos");
         }
     }
