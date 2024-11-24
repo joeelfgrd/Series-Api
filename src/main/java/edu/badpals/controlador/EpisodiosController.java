@@ -113,25 +113,26 @@ public class EpisodiosController implements Initializable {
         }
     }
 
-    public void crearEp(ActionEvent actionEvent) {
+public void crearEp(ActionEvent actionEvent) {
     Episodio ep = cargarEpisodioTexts();
     if (ep != null) {
-        if (Conexion_App_bbdd.crearEpisodio(c, ep)){
-            Controlador.showMessage("Creacion", "Episodio creado con éxito");
-        } else {
-            Controlador.showWarning("Error Crear", "Error al crear el episodio");
+        boolean creado = Conexion_App_bbdd.crearEpisodio(c, ep);
+        if (!creado) {
+            Controlador.showWarning("Error Crear", "La temporada y el numero de episodio ya existen");
+            return;
         }
+        Controlador.showMessage("CREACION", "Episodio creado con exito");
+        cargarTabla();
     }
-    cargarTabla();
 }
 
     public void modificarEp(ActionEvent actionEvent) {
         Episodio ep = cargarEpisodioTexts();
-        if (ep != null){
+        if (ep != null) {
             int respuesta = Conexion_App_bbdd.modificarEpisodio(c, ep);
             if (respuesta == 0) {
                 Controlador.showWarning("Error Modificar", "El ID Seleccionado no Existe");
-            } else if(respuesta == 2){
+            } else if (respuesta == 2) {
                 Controlador.showWarning("Error Modificar", "La temporada y el numero de episodio ya existen");
             }
         }

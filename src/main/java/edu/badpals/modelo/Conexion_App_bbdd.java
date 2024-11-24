@@ -211,28 +211,26 @@ public class Conexion_App_bbdd {
     }
 
     public static boolean crearEpisodio(Connection c, Episodio episodio) {
-        boolean ejecutado = false;
-        try {
-
-            if (!checkEpisodio(c, episodio)) {
-                String stringSQL = "INSERT INTO Episodios (numero, temporada, nombre, serie, FECHA_SALIDA, duracion) VALUES" +
-                        " (?,?,?,?,?,?)";
-                PreparedStatement ps = c.prepareStatement(stringSQL);
-                ps.setInt(1, episodio.getNumero());
-                ps.setInt(2, episodio.getTemporada());
-                ps.setString(3, episodio.getNombre());
-                ps.setInt(4, episodio.getSerie().getId());
-                ps.setDate(5, episodio.getFechaDeSalida());
-                ps.setTime(6, episodio.getDuracion());
-                ejecutado = ps.execute();
-                ps.close();
-            }
-
-        } catch (Exception e) {
-            e.printStackTrace();
+    boolean ejecutado = false;
+    try {
+        if (!checkEpisodio(c, episodio)) {
+            String stringSQL = "INSERT INTO Episodios (numero, temporada, nombre, serie, FECHA_SALIDA, duracion) VALUES (?, ?, ?, ?, ?, ?)";
+            PreparedStatement ps = c.prepareStatement(stringSQL);
+            ps.setInt(1, episodio.getNumero());
+            ps.setInt(2, episodio.getTemporada());
+            ps.setString(3, episodio.getNombre());
+            ps.setInt(4, episodio.getSerie().getId());
+            ps.setDate(5, episodio.getFechaDeSalida());
+            ps.setTime(6, episodio.getDuracion());
+            ps.executeUpdate();
+            ejecutado = true;
+            ps.close();
         }
-        return ejecutado;
+    } catch (Exception e) {
+        e.printStackTrace();
     }
+    return ejecutado;
+}
 
     private static boolean checkEpisodio(Connection c, Episodio episodio) {
         boolean hasNext = true;
