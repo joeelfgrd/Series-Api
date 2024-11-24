@@ -1,9 +1,3 @@
-mvn clean package
-
-java --module-path C:\javafx-sdk-17.0.13\lib --add-modules javafx.controls,javafx.fxml -jar
-.\target\original-controlador-1.0-SNAPSHOT.jar
-substituir la ruta del javafx
-
 # Proyecto de Aplicación de Series de TV
 
 Autores: **Víctor Sánchez Nogueira** y **Joel Figueirido Molares**
@@ -264,27 +258,34 @@ git --version
   ![Inicio sesion app](src/main/resources/img/cifrado.png)
 
 3. Si accedes con éxito, se mostrará la pantalla principal de la aplicación.
-   ![Inicio sesion app](src/main/resources/img/Series.png)
+   ![Inicio sesion app](src/main/resources/img/PanPrinc.png)
 4. Desde aqui puedes ver la lista de las series disponibles.
-   ![Inicio sesion app](src/main/resources/img/Series2.png)
+   ![Inicio sesion app](src/main/resources/img/ListSeries.png)
 5. Puedes filtrar en base a idioma,estado y cadena,tambien puedes filtrar por varios a la vez.Tan solo tienes que poner por lo que quieres filtrar y seleccionar el checkbox.
    ![Inicio sesion app](src/main/resources/img/Filtrado.png)
    ![Inicio sesion app](src/main/resources/img/Filtrado2.png)
 6. Puedes ordenar las series en base a calificacion y fecha de estreno, tanto de forma ascendente como descendente.
    ![Inicio sesion app](src/main/resources/img/Ordenacion.png)
-7. Al clicar en una serie,se mostraran los episodios de la misma cuando le demos al boton,en caso contrario salta un mensaje de error.
-   ![Inicio sesion app](src/main/resources/img/Episodios.png)
-   ![Inicio sesion app](src/main/resources/img/Episodios2.png)
+7. Al clicar en una serie,se mostraran los episodios de la misma cuando le demos al boton,en caso de no tener clicada ninguna serie salta un mensaje de error.
+   ![Inicio sesion app](src/main/resources/img/Series.png)
+   ![Inicio sesion app](src/main/resources/img/Series2.png)
 8. Puedes seleccionar un episodio y modificarlo.
    ![Inicio sesion app](src/main/resources/img/Modificar.png)
+   ![Inicio sesion app](src/main/resources/img/Modificar2.png)
 9. Puedes seleccionar un episodio y eliminarlo.
    ![Inicio sesion app](src/main/resources/img/Eliminar.png)
 10. Puedes exportar los episodios de una serie a un archivo JSON.
     ![Inicio sesion app](src/main/resources/img/Exportar.png)
-11. Tambien permite crear un nuevo episodio.
+    ![Inicio sesion app](src/main/resources/img/Exportar2.png)
+11. También permite crear un nuevo episodio.
+ - Aquí vemos como se crearon los episodios en diferentes temporadas con los datos indicados
     ![Inicio sesion app](src/main/resources/img/Crear.png)
+ - Si algún campo ya está repetido en la base de datos,capturamos el error.
+    ![Inicio sesion app](src/main/resources/img/Crear2.png)
 12. Es posible navegar entre las vistas de series,episodios y reparto utilizando los botones del menuBar.
-    ![Inicio sesion app](src/main/resources/img/moverse.png)
+    ![Inicio sesion app](src/main/resources/img/Moverse.png)
+    ![Inicio sesion app](src/main/resources/img/Moverse2.png)
+    ![Inicio sesion app](src/main/resources/img/Moverse3.png)
 
 # Tiempo dedicado
 
@@ -298,7 +299,7 @@ git --version
 
 1. **Ordenación de resultados** Ordenación de resultados de las consultas y almacenaje de los datos (se introducirá un menú que consultará al usuario el criterio de ordenación).
 
-- Se permite ordenar las series en funcion de su calificacion y fecha de estreno,de forma ascendente o descendente.
+- Se permite ordenar las series en función de su calificación y fecha de estreno,de forma ascendente o descendente.
 - El seleccionado se realiza desde un menu desplegable que se muestra al usuario en el menuBar,en el que se puede seleccionar la ordenacion deseada.
 
 2. **Control de errores** (errores de ficheros, consultas sin resultados...).
@@ -314,25 +315,18 @@ git --version
 - Si el usuario no tiene una cuenta, puede registrarse y crear un nuevo usuario.
 
 # Propuestas de Mejora
-
+- **Posibilidad de crear nuevas series** no lo tuvimos en cuenta porque consideramos demasiado pesado para el usuario tener que crear la serie con todos los episodios,pero en una posible mejora lo consideramos importante.
 - **Mejora de la interfaz gráfica** para hacerla mas intuitiva,tal vez cambiar el tipo de filtrado por unos combobox en los que aparezcan las opciones de filtrado.
 - **Añadir más funcionalidades** desde poder buscar una serie por su nombre como la posibilidad de marcar series como favoritas, ver recomendaciones
   personalizadas, etc.
 - **Añadir un sistema de seguimiento** En el que los usuarios podrían decir que series han visto y cuales no,ademas de poder marcar episodios como vistos.
 - **Modificar el codigo para que se ajuste a mas dispositivos** en mi caso tuve que redimensionar la ventana para que se viera bien en mi portatil ya que tenia una pantalla mas pequeña que la de clase.
-- **Implementar un sistema de valoración** para que los usuarios puedan calificar las series y dejar comentarios que otra gente pueda ver y comentar.De esta forma podriamos crear un sistema de valoracion nuevo en funcion de los gustos de la gente,tal vez poniendo las tipicas estrellitas de valoracion.
+- **Implementar un sistema de valoración** para que los usuarios puedan calificar las series y dejar comentarios que otra gente pueda ver y comentar.De esta forma podríamos crear un sistema de valoración nuevo en función de los gustos de la gente,tal vez poniendo las típicas estrellitas de valoración.
 - **Incluir un sistema de recomendaciones** para sugerir series similares a las que le gustan al usuario.
 - **Añadir la funcionalidad de poder ver los episodios** Tal vez redirigiendo a una plataforma externa.
 
 # Conclusiones
 
-- En este proyecto,hemos mejorado nuestra habilidad manejando javafx,como ya sabiamos mas o menos comoa funcionaba,en este proyecto hemos tratado más la parte visual de la aplicación,tratando de hacerla agradable para el usuario,destacar la intervencion de juan carlos el profesor de la interfaces el que nos ayudó con la gestion de colores elegida.
-- Hemos aprendido a trabajar con archivos XML y a almacenar datos en caché para mejorar el rendimiento de la aplicación.
-- Nos gustaría que las especificaciones de los requisitos hubieran sido mas detalladas desde el principio,comenzando por
-  la eleccion de la api a utilizar.
-- También nos gustaría haber tenido mas especificaciones sobre algun extra,ya que no sabíamos si era necesario
-  implementar todos los extras ni tampoco como podiamos hacerlo,ya que usamos cosas que no dimos en clase,como el
-  cifrado de contraseñas asi como el mismo javafx,ya que empezamos a ciegas.
-- En general,ha sido un proyecto interesante a la par que desquiciante debido a la cantidad de configuraciones y
-  problemas que hemos tenido que solucionar tanto de java como tal,como de javafx y maven ademas de incompatibilidades
-  entre si.
+- En este proyecto,hemos mejorado nuestra habilidad manejando javafx,como ya sabíamos más o menos como funcionaba,en este proyecto hemos tratado más la parte visual de la aplicación,ya que la parte funcional nos resultó mas facil que en el anterior,tratando de hacerla agradable para el usuario,cabe destacar la intervencion de juan carlos el profesor de la interfaces al que acudimos a preguntar sobre la gestion de colores elegida.
+- También nos sirvió para practicar las consultas sql a la base de datos,ya que realizamos todo el CRUD.
+- Lo del jar sigue dando un poco de pereza hacerlo pero está bien para no olvidarse de como se hace.

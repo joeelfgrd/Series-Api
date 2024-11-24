@@ -1,0 +1,4303 @@
+[ {
+  "id" : 1314,
+  "nombre" : "Pailaka",
+  "numero" : 1,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1284933600000,
+  "duracion" : "00:48:37"
+}, {
+  "id" : 1315,
+  "nombre" : "Ohana",
+  "numero" : 2,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1285538400000,
+  "duracion" : "00:11:46"
+}, {
+  "id" : 1316,
+  "nombre" : "Malama Ka Aina",
+  "numero" : 3,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1286143200000,
+  "duracion" : "00:25:04"
+}, {
+  "id" : 1317,
+  "nombre" : "Lanakila",
+  "numero" : 4,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1286748000000,
+  "duracion" : "00:03:18"
+}, {
+  "id" : 1318,
+  "nombre" : "Nalowale",
+  "numero" : 5,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1287352800000,
+  "duracion" : "00:00:38"
+}, {
+  "id" : 1319,
+  "nombre" : "Koolauloa",
+  "numero" : 6,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1287957600000,
+  "duracion" : "00:03:35"
+}, {
+  "id" : 1320,
+  "nombre" : "Hoapono",
+  "numero" : 7,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1288566000000,
+  "duracion" : "00:23:58"
+}, {
+  "id" : 1321,
+  "nombre" : "Manao",
+  "numero" : 8,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1289170800000,
+  "duracion" : "00:41:27"
+}, {
+  "id" : 1322,
+  "nombre" : "Poipu",
+  "numero" : 9,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1289775600000,
+  "duracion" : "00:28:24"
+}, {
+  "id" : 1324,
+  "nombre" : "Palekaiko",
+  "numero" : 11,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1291590000000,
+  "duracion" : "00:44:54"
+}, {
+  "id" : 1325,
+  "nombre" : "Hana aa Makehewa",
+  "numero" : 12,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1292194800000,
+  "duracion" : "00:02:14"
+}, {
+  "id" : 1326,
+  "nombre" : "Ke Kinohi",
+  "numero" : 13,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1294009200000,
+  "duracion" : "00:39:54"
+}, {
+  "id" : 1327,
+  "nombre" : "He Kane Hewaole",
+  "numero" : 14,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1295218800000,
+  "duracion" : "00:13:01"
+}, {
+  "id" : 1328,
+  "nombre" : "Kai Ee",
+  "numero" : 15,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1295737200000,
+  "duracion" : "00:32:13"
+}, {
+  "id" : 1329,
+  "nombre" : "E Malama",
+  "numero" : 16,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1297033200000,
+  "duracion" : "00:25:23"
+}, {
+  "id" : 1330,
+  "nombre" : "Powa Maka Moana",
+  "numero" : 17,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1297638000000,
+  "duracion" : "00:18:00"
+}, {
+  "id" : 1331,
+  "nombre" : "Loa Aloha",
+  "numero" : 18,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1298242800000,
+  "duracion" : "00:24:26"
+}, {
+  "id" : 1332,
+  "nombre" : "Na Mee Laua Na Paio",
+  "numero" : 19,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1300662000000,
+  "duracion" : "00:11:02"
+}, {
+  "id" : 1333,
+  "nombre" : "Ma Ke Kahakai",
+  "numero" : 20,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1302472800000,
+  "duracion" : "00:44:32"
+}, {
+  "id" : 1334,
+  "nombre" : "Hoopai",
+  "numero" : 21,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1303077600000,
+  "duracion" : "00:54:38"
+}, {
+  "id" : 1335,
+  "nombre" : "Hoohuli Naau",
+  "numero" : 22,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1304287200000,
+  "duracion" : "00:32:11"
+}, {
+  "id" : 1336,
+  "nombre" : "Ua Hiki Mai Kapalena Pau",
+  "numero" : 23,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1304892000000,
+  "duracion" : "00:52:39"
+}, {
+  "id" : 1337,
+  "nombre" : "Oiaio",
+  "numero" : 24,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1305496800000,
+  "duracion" : "00:02:40"
+}, {
+  "id" : 1338,
+  "nombre" : "Haiole",
+  "numero" : 1,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1316383200000,
+  "duracion" : "00:43:17"
+}, {
+  "id" : 1339,
+  "nombre" : "Ua Lawe Wale",
+  "numero" : 2,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1316988000000,
+  "duracion" : "00:33:19"
+}, {
+  "id" : 1340,
+  "nombre" : "Kamee",
+  "numero" : 3,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1317592800000,
+  "duracion" : "00:27:34"
+}, {
+  "id" : 1341,
+  "nombre" : "Mea Makamae",
+  "numero" : 4,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1318197600000,
+  "duracion" : "00:27:06"
+}, {
+  "id" : 1342,
+  "nombre" : "Maemae",
+  "numero" : 5,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1318802400000,
+  "duracion" : "00:38:19"
+}, {
+  "id" : 1343,
+  "nombre" : "Ka Hakaka Maikai",
+  "numero" : 6,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1319407200000,
+  "duracion" : "00:49:00"
+}, {
+  "id" : 1344,
+  "nombre" : "Ka Iwi Kapu",
+  "numero" : 7,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1320015600000,
+  "duracion" : "00:15:30"
+}, {
+  "id" : 1345,
+  "nombre" : "Lapaau",
+  "numero" : 8,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1320620400000,
+  "duracion" : "00:44:20"
+}, {
+  "id" : 1346,
+  "nombre" : "Ike Maka",
+  "numero" : 9,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1321225200000,
+  "duracion" : "00:04:10"
+}, {
+  "id" : 1347,
+  "nombre" : "Kilua",
+  "numero" : 10,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1321830000000,
+  "duracion" : "00:16:31"
+}, {
+  "id" : 1348,
+  "nombre" : "Pahele",
+  "numero" : 11,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1323039600000,
+  "duracion" : "00:40:25"
+}, {
+  "id" : 1349,
+  "nombre" : "Alaheo Pauole",
+  "numero" : 12,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1323644400000,
+  "duracion" : "00:36:18"
+}, {
+  "id" : 1350,
+  "nombre" : "Ka Hooponopono",
+  "numero" : 13,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1325458800000,
+  "duracion" : "00:40:25"
+}, {
+  "id" : 1351,
+  "nombre" : "Puolo",
+  "numero" : 14,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1326668400000,
+  "duracion" : "00:48:41"
+}, {
+  "id" : 1352,
+  "nombre" : "Mai Ka Wa Kahiko",
+  "numero" : 15,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1328482800000,
+  "duracion" : "00:54:45"
+}, {
+  "id" : 1353,
+  "nombre" : "I Helu Pu",
+  "numero" : 16,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1329087600000,
+  "duracion" : "00:27:22"
+}, {
+  "id" : 1354,
+  "nombre" : "Kupale",
+  "numero" : 17,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1329692400000,
+  "duracion" : "00:00:04"
+}, {
+  "id" : 1355,
+  "nombre" : "Lekio",
+  "numero" : 18,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1330297200000,
+  "duracion" : "00:37:46"
+}, {
+  "id" : 1356,
+  "nombre" : "Kalele",
+  "numero" : 19,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1332111600000,
+  "duracion" : "00:35:10"
+}, {
+  "id" : 1357,
+  "nombre" : "Haalele",
+  "numero" : 20,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1333922400000,
+  "duracion" : "00:26:15"
+}, {
+  "id" : 1358,
+  "nombre" : "Pa Make Loa",
+  "numero" : 21,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1335736800000,
+  "duracion" : "00:56:18"
+}, {
+  "id" : 1359,
+  "nombre" : "Ua Hopu",
+  "numero" : 22,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1336341600000,
+  "duracion" : "00:37:10"
+}, {
+  "id" : 1360,
+  "nombre" : "Ua Hala",
+  "numero" : 23,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1336946400000,
+  "duracion" : "00:24:47"
+}, {
+  "id" : 1361,
+  "nombre" : "La O Na Makuahine",
+  "numero" : 1,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1348437600000,
+  "duracion" : "00:52:24"
+}, {
+  "id" : 1362,
+  "nombre" : "Kanalua",
+  "numero" : 2,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1349042400000,
+  "duracion" : "00:20:14"
+}, {
+  "id" : 1363,
+  "nombre" : "Lana I Ka Moana",
+  "numero" : 3,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1349647200000,
+  "duracion" : "00:25:00"
+}, {
+  "id" : 1364,
+  "nombre" : "Popilikia",
+  "numero" : 4,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1350252000000,
+  "duracion" : "00:20:05"
+}, {
+  "id" : 1365,
+  "nombre" : "Mohai",
+  "numero" : 5,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1352070000000,
+  "duracion" : "00:50:08"
+}, {
+  "id" : 1366,
+  "nombre" : "I Ka Wa Mamua",
+  "numero" : 6,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1352674800000,
+  "duracion" : "00:34:20"
+}, {
+  "id" : 1367,
+  "nombre" : "Ohuna",
+  "numero" : 7,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1353279600000,
+  "duracion" : "00:59:53"
+}, {
+  "id" : 1368,
+  "nombre" : "Wahineinoloa",
+  "numero" : 8,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1353884400000,
+  "duracion" : "00:36:54"
+}, {
+  "id" : 1369,
+  "nombre" : "Haawe Make Loa",
+  "numero" : 9,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1354489200000,
+  "duracion" : "00:20:08"
+}, {
+  "id" : 1370,
+  "nombre" : "Huakai Kula",
+  "numero" : 10,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1355094000000,
+  "duracion" : "00:34:54"
+}, {
+  "id" : 1371,
+  "nombre" : "Kahu",
+  "numero" : 11,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1355698800000,
+  "duracion" : "00:21:47"
+}, {
+  "id" : 1372,
+  "nombre" : "Kapu",
+  "numero" : 12,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1358118000000,
+  "duracion" : "00:49:36"
+}, {
+  "id" : 1373,
+  "nombre" : "Olelo Hoopai Make",
+  "numero" : 13,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1358636400000,
+  "duracion" : "00:41:02"
+}, {
+  "id" : 1374,
+  "nombre" : "Hana I Wa ia",
+  "numero" : 14,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1358722800000,
+  "duracion" : "00:55:53"
+}, {
+  "id" : 1375,
+  "nombre" : "Hookman",
+  "numero" : 15,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1359932400000,
+  "duracion" : "00:40:48"
+}, {
+  "id" : 1376,
+  "nombre" : "Kekoa",
+  "numero" : 16,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1360537200000,
+  "duracion" : "00:28:16"
+}, {
+  "id" : 1377,
+  "nombre" : "Paani",
+  "numero" : 17,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1361142000000,
+  "duracion" : "00:38:06"
+}, {
+  "id" : 1378,
+  "nombre" : "Na Kii",
+  "numero" : 18,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1363561200000,
+  "duracion" : "00:56:28"
+}, {
+  "id" : 1379,
+  "nombre" : "Hoa Pili",
+  "numero" : 19,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1364166000000,
+  "duracion" : "00:09:46"
+}, {
+  "id" : 1380,
+  "nombre" : "Olelo Paa",
+  "numero" : 20,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1365976800000,
+  "duracion" : "00:16:07"
+}, {
+  "id" : 1381,
+  "nombre" : "Imi Loko Ka uhane",
+  "numero" : 21,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1367186400000,
+  "duracion" : "00:27:12"
+}, {
+  "id" : 1382,
+  "nombre" : "Ho Opio",
+  "numero" : 22,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1367791200000,
+  "duracion" : "00:24:46"
+}, {
+  "id" : 1383,
+  "nombre" : "He Welo oihana",
+  "numero" : 23,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1368396000000,
+  "duracion" : "00:29:54"
+}, {
+  "id" : 1384,
+  "nombre" : "Aloha Malama Pono",
+  "numero" : 24,
+  "temporada" : 3,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1369000800000,
+  "duracion" : "00:10:12"
+}, {
+  "id" : 1385,
+  "nombre" : "Aloha Ke Kahi I Ke Kahi",
+  "numero" : 1,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1380232800000,
+  "duracion" : "00:16:10"
+}, {
+  "id" : 1386,
+  "nombre" : "A Ale Maa Wau",
+  "numero" : 2,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1380837600000,
+  "duracion" : "00:40:41"
+}, {
+  "id" : 1387,
+  "nombre" : "Ka oiaio Ma Loko",
+  "numero" : 3,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1381442400000,
+  "duracion" : "00:30:35"
+}, {
+  "id" : 1388,
+  "nombre" : "A Ia La Aku",
+  "numero" : 4,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1382047200000,
+  "duracion" : "00:52:01"
+}, {
+  "id" : 1389,
+  "nombre" : "Kupueu",
+  "numero" : 5,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1382652000000,
+  "duracion" : "00:49:49"
+}, {
+  "id" : 1390,
+  "nombre" : "Kupouli la",
+  "numero" : 6,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1383260400000,
+  "duracion" : "00:13:51"
+}, {
+  "id" : 1391,
+  "nombre" : "Ua Nalohia",
+  "numero" : 7,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1383865200000,
+  "duracion" : "00:19:42"
+}, {
+  "id" : 1392,
+  "nombre" : "Akanahe",
+  "numero" : 8,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1384470000000,
+  "duracion" : "00:26:45"
+}, {
+  "id" : 1393,
+  "nombre" : "Hauoli La Hoomaikai",
+  "numero" : 9,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1385074800000,
+  "duracion" : "00:34:09"
+}, {
+  "id" : 1394,
+  "nombre" : "Ho Onani Makuakane",
+  "numero" : 10,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1386889200000,
+  "duracion" : "00:51:29"
+}, {
+  "id" : 1395,
+  "nombre" : "Pukana",
+  "numero" : 11,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1387494000000,
+  "duracion" : "00:24:01"
+}, {
+  "id" : 1396,
+  "nombre" : "O Kēlā Me Kēia Manawa",
+  "numero" : 12,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1389308400000,
+  "duracion" : "00:48:16"
+}, {
+  "id" : 1397,
+  "nombre" : "Hana Lokomaikai",
+  "numero" : 13,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1389913200000,
+  "duracion" : "00:23:31"
+}, {
+  "id" : 1398,
+  "nombre" : "Na Hala A Ka Makua",
+  "numero" : 14,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1391122800000,
+  "duracion" : "00:22:51"
+}, {
+  "id" : 1399,
+  "nombre" : "Pale la",
+  "numero" : 15,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1393542000000,
+  "duracion" : "00:34:53"
+}, {
+  "id" : 1400,
+  "nombre" : "Hoku Welowelo",
+  "numero" : 16,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1394146800000,
+  "duracion" : "00:33:01"
+}, {
+  "id" : 1401,
+  "nombre" : "Ma Lalo O Ka ili",
+  "numero" : 17,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1394751600000,
+  "duracion" : "00:12:01"
+}, {
+  "id" : 1402,
+  "nombre" : "Hoi Hou",
+  "numero" : 18,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1396562400000,
+  "duracion" : "00:44:13"
+}, {
+  "id" : 1403,
+  "nombre" : "Ku I Ka Pili Koko",
+  "numero" : 19,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1397167200000,
+  "duracion" : "00:35:38"
+}, {
+  "id" : 1404,
+  "nombre" : "Peepee Kanaka",
+  "numero" : 20,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1398376800000,
+  "duracion" : "00:53:52"
+}, {
+  "id" : 1405,
+  "nombre" : "Makani olu A Holo Mālie",
+  "numero" : 21,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1398981600000,
+  "duracion" : "00:10:26"
+}, {
+  "id" : 1406,
+  "nombre" : "o Ka Pili ohana Ka oi",
+  "numero" : 22,
+  "temporada" : 4,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1399586400000,
+  "duracion" : "00:36:25"
+}, {
+  "id" : 1407,
+  "nombre" : "Aohe Kahi E Pee Ai",
+  "numero" : 1,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1411682400000,
+  "duracion" : "00:36:55"
+}, {
+  "id" : 1408,
+  "nombre" : "Ka Makuakane",
+  "numero" : 2,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1412287200000,
+  "duracion" : "00:03:18"
+}, {
+  "id" : 1409,
+  "nombre" : "Kanalu Hope Loa",
+  "numero" : 3,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1412892000000,
+  "duracion" : "00:16:11"
+}, {
+  "id" : 1410,
+  "nombre" : "Ka Noeau",
+  "numero" : 4,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1413496800000,
+  "duracion" : "00:20:32"
+}, {
+  "id" : 1411,
+  "nombre" : "Hooilina",
+  "numero" : 5,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1414101600000,
+  "duracion" : "00:04:24"
+}, {
+  "id" : 1412,
+  "nombre" : "Hoomaike",
+  "numero" : 6,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1414710000000,
+  "duracion" : "00:55:35"
+}, {
+  "id" : 1413,
+  "nombre" : "Ina Paha",
+  "numero" : 7,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1415314800000,
+  "duracion" : "00:58:38"
+}, {
+  "id" : 1414,
+  "nombre" : "Ka Hana Malu",
+  "numero" : 8,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1416524400000,
+  "duracion" : "00:20:16"
+}, {
+  "id" : 13824,
+  "nombre" : "Ke Koho Mamao Aku",
+  "numero" : 9,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1418338800000,
+  "duracion" : "00:19:58"
+}, {
+  "id" : 13825,
+  "nombre" : "Wawahi Moeuhane",
+  "numero" : 10,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1420153200000,
+  "duracion" : "00:05:39"
+}, {
+  "id" : 67091,
+  "nombre" : "Uaaihue",
+  "numero" : 11,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1420758000000,
+  "duracion" : "00:24:39"
+}, {
+  "id" : 107028,
+  "nombre" : "Poina ole",
+  "numero" : 12,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1421362800000,
+  "duracion" : "00:21:56"
+}, {
+  "id" : 117702,
+  "nombre" : "La Poino",
+  "numero" : 13,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1422572400000,
+  "duracion" : "00:28:27"
+}, {
+  "id" : 117703,
+  "nombre" : "Powehiwehi",
+  "numero" : 14,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1423177200000,
+  "duracion" : "00:19:07"
+}, {
+  "id" : 117704,
+  "nombre" : "E imi Pono",
+  "numero" : 15,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1423782000000,
+  "duracion" : "00:32:31"
+}, {
+  "id" : 117705,
+  "nombre" : "Nanahu",
+  "numero" : 16,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1424386800000,
+  "duracion" : "00:54:09"
+}, {
+  "id" : 117706,
+  "nombre" : "Kukaawale",
+  "numero" : 17,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1424991600000,
+  "duracion" : "00:06:12"
+}, {
+  "id" : 131197,
+  "nombre" : "Pono Kaulike",
+  "numero" : 18,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1425596400000,
+  "duracion" : "00:58:02"
+}, {
+  "id" : 139715,
+  "nombre" : "ike Hanau",
+  "numero" : 20,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1428012000000,
+  "duracion" : "00:33:41"
+}, {
+  "id" : 141538,
+  "nombre" : "Kahania",
+  "numero" : 19,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1426201200000,
+  "duracion" : "00:35:35"
+}, {
+  "id" : 142382,
+  "nombre" : "Ua Helelei Ka Hoku",
+  "numero" : 21,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1428616800000,
+  "duracion" : "00:47:04"
+}, {
+  "id" : 142383,
+  "nombre" : "Hoamoano",
+  "numero" : 22,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1429826400000,
+  "duracion" : "00:38:27"
+}, {
+  "id" : 151501,
+  "nombre" : "Moo olelo Pu",
+  "numero" : 23,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1430431200000,
+  "duracion" : "00:07:52"
+}, {
+  "id" : 151502,
+  "nombre" : "Luapoi",
+  "numero" : 24,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1431036000000,
+  "duracion" : "00:46:52"
+}, {
+  "id" : 152994,
+  "nombre" : "A Make Kaua",
+  "numero" : 25,
+  "temporada" : 5,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1431036000000,
+  "duracion" : "00:51:24"
+}, {
+  "id" : 167425,
+  "nombre" : "Mai Ho`oni I Ka Wai Lana Mâlie",
+  "numero" : 1,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1443132000000,
+  "duracion" : "00:41:07"
+}, {
+  "id" : 190125,
+  "nombre" : "Lehu A Lehu",
+  "numero" : 2,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1443736800000,
+  "duracion" : "00:08:10"
+}, {
+  "id" : 209021,
+  "nombre" : "Ua ooloku Ke Anu I Na Mauna",
+  "numero" : 3,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1444341600000,
+  "duracion" : "00:34:13"
+}, {
+  "id" : 209022,
+  "nombre" : "Ka Papahana Holo Pono",
+  "numero" : 4,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1444946400000,
+  "duracion" : "00:18:59"
+}, {
+  "id" : 209023,
+  "nombre" : "Ka alapahi Nui",
+  "numero" : 5,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1445551200000,
+  "duracion" : "00:35:25"
+}, {
+  "id" : 209024,
+  "nombre" : "Na Pilikua Nui",
+  "numero" : 6,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1446159600000,
+  "duracion" : "00:58:46"
+}, {
+  "id" : 390550,
+  "nombre" : "Na Kama Hele",
+  "numero" : 7,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1446764400000,
+  "duracion" : "00:01:31"
+}, {
+  "id" : 390551,
+  "nombre" : "Piko Pau iole",
+  "numero" : 8,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1447369200000,
+  "duracion" : "00:01:21"
+}, {
+  "id" : 410715,
+  "nombre" : "Hana Keaka",
+  "numero" : 9,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1447974000000,
+  "duracion" : "00:44:07"
+}, {
+  "id" : 480120,
+  "nombre" : "Ka Makau Kaa Kaua",
+  "numero" : 10,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1449788400000,
+  "duracion" : "00:24:50"
+}, {
+  "id" : 480121,
+  "nombre" : "Kuleana",
+  "numero" : 11,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1452207600000,
+  "duracion" : "00:09:53"
+}, {
+  "id" : 480122,
+  "nombre" : "Ua Ola Loko I Ke Aloha",
+  "numero" : 12,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1452812400000,
+  "duracion" : "00:48:53"
+}, {
+  "id" : 558562,
+  "nombre" : "Umia Ka Hanu",
+  "numero" : 13,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1453417200000,
+  "duracion" : "00:52:08"
+}, {
+  "id" : 572748,
+  "nombre" : "Hoa inea",
+  "numero" : 14,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1455231600000,
+  "duracion" : "00:28:21"
+}, {
+  "id" : 590882,
+  "nombre" : "Ke Koa Lokomaikai",
+  "numero" : 15,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1455836400000,
+  "duracion" : "00:16:44"
+}, {
+  "id" : 597678,
+  "nombre" : "Ka Pohaku Kihi Paa",
+  "numero" : 16,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1456441200000,
+  "duracion" : "00:27:08"
+}, {
+  "id" : 618812,
+  "nombre" : "Waiwai",
+  "numero" : 17,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1457650800000,
+  "duracion" : "00:54:53"
+}, {
+  "id" : 642388,
+  "nombre" : "Kanaka Hahai",
+  "numero" : 18,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1459461600000,
+  "duracion" : "00:40:01"
+}, {
+  "id" : 650510,
+  "nombre" : "Malama Ka Poe",
+  "numero" : 19,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1460066400000,
+  "duracion" : "00:01:17"
+}, {
+  "id" : 660431,
+  "nombre" : "Ka Haunaele",
+  "numero" : 20,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1460671200000,
+  "duracion" : "00:08:05"
+}, {
+  "id" : 660432,
+  "nombre" : "Ka Pono Kuokoa",
+  "numero" : 21,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1461276000000,
+  "duracion" : "00:16:34"
+}, {
+  "id" : 660433,
+  "nombre" : "Iike Ke Ao",
+  "numero" : 22,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1461880800000,
+  "duracion" : "00:33:34"
+}, {
+  "id" : 660434,
+  "nombre" : "Pilina Koko",
+  "numero" : 23,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1462485600000,
+  "duracion" : "00:19:22"
+}, {
+  "id" : 660435,
+  "nombre" : "Paa Ka ipuka I Ka upena Nananana",
+  "numero" : 24,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1463090400000,
+  "duracion" : "00:05:49"
+}, {
+  "id" : 700089,
+  "nombre" : "O Ke Alii Wale No Kau Makemake",
+  "numero" : 25,
+  "temporada" : 6,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1463090400000,
+  "duracion" : "00:57:03"
+}, {
+  "id" : 843681,
+  "nombre" : "Makaukau oe E Paani?",
+  "numero" : 1,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1474581600000,
+  "duracion" : "00:31:46"
+}, {
+  "id" : 905618,
+  "nombre" : "No Ke Alii Wahine A Me Ka aina",
+  "numero" : 2,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1475186400000,
+  "duracion" : "00:08:31"
+}, {
+  "id" : 905619,
+  "nombre" : "He Moho Hou",
+  "numero" : 3,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1475791200000,
+  "duracion" : "00:08:50"
+}, {
+  "id" : 905620,
+  "nombre" : "Hu Ae Ke Ahi Lanakila A Kamaile",
+  "numero" : 4,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1476396000000,
+  "duracion" : "00:33:45"
+}, {
+  "id" : 905621,
+  "nombre" : "Ke Kū Ana",
+  "numero" : 5,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1477000800000,
+  "duracion" : "00:31:05"
+}, {
+  "id" : 905622,
+  "nombre" : "Ka Hale Hookauweli",
+  "numero" : 6,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1477605600000,
+  "duracion" : "00:22:07"
+}, {
+  "id" : 975395,
+  "nombre" : "Ka Makuahine A Me Ke Keikikane",
+  "numero" : 7,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1478214000000,
+  "duracion" : "00:29:34"
+}, {
+  "id" : 975396,
+  "nombre" : "Hana Komo Pae",
+  "numero" : 8,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1478818800000,
+  "duracion" : "00:03:45"
+}, {
+  "id" : 975397,
+  "nombre" : "elua La Ma Nowemapa",
+  "numero" : 9,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1479423600000,
+  "duracion" : "00:27:32"
+}, {
+  "id" : 993411,
+  "nombre" : "Ka Luhi",
+  "numero" : 10,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1481238000000,
+  "duracion" : "00:21:50"
+}, {
+  "id" : 996788,
+  "nombre" : "Kaili Aku",
+  "numero" : 11,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1481842800000,
+  "duracion" : "00:18:10"
+}, {
+  "id" : 1010662,
+  "nombre" : "Ka aelike",
+  "numero" : 12,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1483657200000,
+  "duracion" : "00:55:01"
+}, {
+  "id" : 1022206,
+  "nombre" : "Ua Hoi Ka opua I Awalua",
+  "numero" : 13,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1484262000000,
+  "duracion" : "00:53:51"
+}, {
+  "id" : 1033057,
+  "nombre" : "Ka Laina Ma Ke One",
+  "numero" : 14,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1484866800000,
+  "duracion" : "00:59:22"
+}, {
+  "id" : 1039949,
+  "nombre" : "Ka Paani Nui",
+  "numero" : 15,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1486076400000,
+  "duracion" : "00:19:53"
+}, {
+  "id" : 1045392,
+  "nombre" : "Poniu I Ke Aloha",
+  "numero" : 16,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1486681200000,
+  "duracion" : "00:40:20"
+}, {
+  "id" : 1050490,
+  "nombre" : "Hahai I Na Pilikua Nui",
+  "numero" : 17,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1487286000000,
+  "duracion" : "00:24:17"
+}, {
+  "id" : 1058979,
+  "nombre" : "E Malama Pono",
+  "numero" : 18,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1487890800000,
+  "duracion" : "00:33:36"
+}, {
+  "id" : 1075773,
+  "nombre" : "Puka ana",
+  "numero" : 19,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1489100400000,
+  "duracion" : "00:50:16"
+}, {
+  "id" : 1096859,
+  "nombre" : "Huikau Na Makau A Na Lawaia",
+  "numero" : 20,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1490911200000,
+  "duracion" : "00:27:52"
+}, {
+  "id" : 1101282,
+  "nombre" : "Ua Maloo Ka Wai",
+  "numero" : 21,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1491516000000,
+  "duracion" : "00:37:56"
+}, {
+  "id" : 1101283,
+  "nombre" : "Waimaka eleele",
+  "numero" : 22,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1492120800000,
+  "duracion" : "00:01:57"
+}, {
+  "id" : 1113961,
+  "nombre" : "He Keu Na Ka alae A Hina",
+  "numero" : 24,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1493935200000,
+  "duracion" : "00:12:39"
+}, {
+  "id" : 1113962,
+  "nombre" : "Ua Mau Ke Ea O Ka Aina I Ka Pono",
+  "numero" : 25,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1494540000000,
+  "duracion" : "00:50:19"
+}, {
+  "id" : 1124805,
+  "nombre" : "Wehe ana",
+  "numero" : 23,
+  "temporada" : 7,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1493330400000,
+  "duracion" : "00:35:57"
+}, {
+  "id" : 1200790,
+  "nombre" : "aole E olelo Mai Ana Ke Ahi Ua Ana Ia",
+  "numero" : 1,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1506636000000,
+  "duracion" : "00:26:48"
+}, {
+  "id" : 1297396,
+  "nombre" : "Kau Pahi, Kou Kua, Kau Pu, Kou Poo",
+  "numero" : 3,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1507845600000,
+  "duracion" : "00:52:19"
+}, {
+  "id" : 1297398,
+  "nombre" : "Na La ilio",
+  "numero" : 2,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1507240800000,
+  "duracion" : "00:24:58"
+}, {
+  "id" : 1297399,
+  "nombre" : "E Uhi Wale No aole E Nalo, He Imu Puhi",
+  "numero" : 4,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1508450400000,
+  "duracion" : "00:30:46"
+}, {
+  "id" : 1312323,
+  "nombre" : "Kamaomao, Ka aina Huli Hana",
+  "numero" : 5,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1509663600000,
+  "duracion" : "00:16:32"
+}, {
+  "id" : 1312324,
+  "nombre" : "Mohala I Ka Wai Ka Maka O Ka Pua",
+  "numero" : 6,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1510268400000,
+  "duracion" : "00:42:41"
+}, {
+  "id" : 1335920,
+  "nombre" : "Kau Ka onohi Alii I Luna",
+  "numero" : 7,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1510873200000,
+  "duracion" : "00:33:12"
+}, {
+  "id" : 1349707,
+  "nombre" : "He Kaha Luu Ke Ala, Mai Hookolo Aku",
+  "numero" : 8,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1512082800000,
+  "duracion" : "00:14:09"
+}, {
+  "id" : 1353398,
+  "nombre" : "Make Me Kai",
+  "numero" : 9,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1512687600000,
+  "duracion" : "00:50:59"
+}, {
+  "id" : 1363906,
+  "nombre" : "I Ka Wa Ma Mua, I Ka Wa Ma Hope",
+  "numero" : 10,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1513292400000,
+  "duracion" : "00:18:07"
+}, {
+  "id" : 1363907,
+  "nombre" : "Oni Kalalea Ke Ku A Ka Laau Loa",
+  "numero" : 11,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1513292400000,
+  "duracion" : "00:27:15"
+}, {
+  "id" : 1372715,
+  "nombre" : "Ka Hopu Nui ana",
+  "numero" : 12,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1515106800000,
+  "duracion" : "00:45:50"
+}, {
+  "id" : 1376855,
+  "nombre" : "O Ka Mea Ua Hala, Ua Hala Ia.",
+  "numero" : 13,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1515711600000,
+  "duracion" : "00:07:43"
+}, {
+  "id" : 1383578,
+  "nombre" : "Na Keiki A Kalaihaohia",
+  "numero" : 14,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1516316400000,
+  "duracion" : "00:05:50"
+}, {
+  "id" : 1387554,
+  "nombre" : "He Pukoa Kani aina",
+  "numero" : 15,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1517526000000,
+  "duracion" : "00:27:14"
+}, {
+  "id" : 1405500,
+  "nombre" : "O Na Hoku O Ka Lani Ka I ike Ia Pae",
+  "numero" : 16,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1519945200000,
+  "duracion" : "00:09:42"
+}, {
+  "id" : 1414166,
+  "nombre" : "Holapu Ke Ahi, Koe Iho Ka Lehu",
+  "numero" : 17,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1520550000000,
+  "duracion" : "00:20:34"
+}, {
+  "id" : 1423295,
+  "nombre" : "E Hooko Kuleana",
+  "numero" : 18,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1522360800000,
+  "duracion" : "00:47:37"
+}, {
+  "id" : 1423296,
+  "nombre" : "Aohe Mea Make I Ka Hewa; Make No I Ka Mihi Ole",
+  "numero" : 19,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1522965600000,
+  "duracion" : "00:22:09"
+}, {
+  "id" : 1427869,
+  "nombre" : "He Lokomaikai Ka Manu O Kaiona",
+  "numero" : 20,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1523570400000,
+  "duracion" : "00:51:57"
+}, {
+  "id" : 1431734,
+  "nombre" : "Ahuwale Ka Nane Huna",
+  "numero" : 21,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1524175200000,
+  "duracion" : "00:16:03"
+}, {
+  "id" : 1431735,
+  "nombre" : "Kopi Wale No I Ka Ia A eu No Ka Ilo.",
+  "numero" : 22,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1524780000000,
+  "duracion" : "00:31:04"
+}, {
+  "id" : 1431736,
+  "nombre" : "Ka Hana A Ka Makua, O Ka Hana No Ia A Keiki",
+  "numero" : 23,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1525384800000,
+  "duracion" : "00:21:04"
+}, {
+  "id" : 1431737,
+  "nombre" : "Ka Lala Kaukonakona Haki ole I Ka Pa A Ka Makani Kona.",
+  "numero" : 24,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1525989600000,
+  "duracion" : "00:27:24"
+}, {
+  "id" : 1431738,
+  "nombre" : "Waiho Wale Kahiko",
+  "numero" : 25,
+  "temporada" : 8,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1526594400000,
+  "duracion" : "00:02:05"
+}, {
+  "id" : 1494027,
+  "nombre" : "Ka owiliokai",
+  "numero" : 1,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1538085600000,
+  "duracion" : "00:00:22"
+}, {
+  "id" : 1519179,
+  "nombre" : "Ke Kanaka I Haule Mai Ka Lewa Mai",
+  "numero" : 2,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1538690400000,
+  "duracion" : "00:44:31"
+}, {
+  "id" : 1519180,
+  "nombre" : "Mimiki Ke Kai, Ahuwale Ka Papa Leho",
+  "numero" : 3,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1539295200000,
+  "duracion" : "00:17:28"
+}, {
+  "id" : 1519181,
+  "nombre" : "Aohe Mea imi A Ka Maka",
+  "numero" : 5,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1540504800000,
+  "duracion" : "00:17:09"
+}, {
+  "id" : 1519182,
+  "nombre" : "Aia I Hiikua; I Hiialo",
+  "numero" : 6,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1541113200000,
+  "duracion" : "00:22:56"
+}, {
+  "id" : 1537480,
+  "nombre" : "Aohe Kio Pohaku Nalo I Ke Alo Pali",
+  "numero" : 4,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1539900000000,
+  "duracion" : "00:09:33"
+}, {
+  "id" : 1545314,
+  "nombre" : "Pua Ae La Ka Uwahi O Ka Moe",
+  "numero" : 7,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1541718000000,
+  "duracion" : "00:24:50"
+}, {
+  "id" : 1551639,
+  "nombre" : "Lele Pu Na Manu Like",
+  "numero" : 8,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1542322800000,
+  "duracion" : "00:34:40"
+}, {
+  "id" : 1560017,
+  "nombre" : "Mai Ka Po Mai Ka oiaio",
+  "numero" : 9,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1543532400000,
+  "duracion" : "00:22:58"
+}, {
+  "id" : 1564869,
+  "nombre" : "Pio Ke Kukui, Poele Ka Hale",
+  "numero" : 10,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1544137200000,
+  "duracion" : "00:13:41"
+}, {
+  "id" : 1576916,
+  "nombre" : "Hala I Ke Ala Oiole Mai",
+  "numero" : 11,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1546556400000,
+  "duracion" : "00:42:58"
+}, {
+  "id" : 1580010,
+  "nombre" : "Ka Hauli O Ka Mea Hewa ole, He Nalowale Koke",
+  "numero" : 12,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1547161200000,
+  "duracion" : "00:38:19"
+}, {
+  "id" : 1586768,
+  "nombre" : "Ke Iho Mai Nei Ko Luna",
+  "numero" : 13,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1547766000000,
+  "duracion" : "00:28:55"
+}, {
+  "id" : 1588650,
+  "nombre" : "Ikiiki I Ka La O Keawalua",
+  "numero" : 14,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1548975600000,
+  "duracion" : "00:04:04"
+}, {
+  "id" : 1595492,
+  "nombre" : "Hoopio ia E Ka Noho Alii A Ka Ua",
+  "numero" : 15,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1550185200000,
+  "duracion" : "00:49:37"
+}, {
+  "id" : 1596983,
+  "nombre" : "Hapai Ke Kuko, Hanau Ka Hewa",
+  "numero" : 16,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1550790000000,
+  "duracion" : "00:33:13"
+}, {
+  "id" : 1599479,
+  "nombre" : "Eao Luau A Kualima",
+  "numero" : 17,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1550790000000,
+  "duracion" : "00:25:34"
+}, {
+  "id" : 1609024,
+  "nombre" : "Ai No I Ka ape He Maneo No Ko Ka Nuku.",
+  "numero" : 18,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1551999600000,
+  "duracion" : "00:43:12"
+}, {
+  "id" : 1610414,
+  "nombre" : "Pupuhi Ka Hee O Kai Uli",
+  "numero" : 19,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1552604400000,
+  "duracion" : "00:31:33"
+}, {
+  "id" : 1622091,
+  "nombre" : "Ke Ala O Ka Pū",
+  "numero" : 20,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1554415200000,
+  "duracion" : "00:43:53"
+}, {
+  "id" : 1627189,
+  "nombre" : "He Kama Na Ka Pueo",
+  "numero" : 21,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1555020000000,
+  "duracion" : "00:53:49"
+}, {
+  "id" : 1628571,
+  "nombre" : "O Ke Kumu, O Ka Mana, Hoopuka ia",
+  "numero" : 22,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1556229600000,
+  "duracion" : "00:21:51"
+}, {
+  "id" : 1628572,
+  "nombre" : "Hookahi No La O Ka Malihini",
+  "numero" : 23,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1556834400000,
+  "duracion" : "00:06:37"
+}, {
+  "id" : 1628573,
+  "nombre" : "Hewa Ka Lima",
+  "numero" : 24,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1557439200000,
+  "duracion" : "00:06:31"
+}, {
+  "id" : 1628574,
+  "nombre" : "Hana Mao ole Ka Ua O Waianae",
+  "numero" : 25,
+  "temporada" : 9,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1558044000000,
+  "duracion" : "00:53:06"
+}, {
+  "id" : 1669465,
+  "nombre" : "Ua ʻeha Ka ʻili I Ka Maka O Ka Ihe",
+  "numero" : 1,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1569535200000,
+  "duracion" : "00:42:44"
+}, {
+  "id" : 1713763,
+  "nombre" : "Kuipeia E Ka Makani Apaa",
+  "numero" : 2,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1570140000000,
+  "duracion" : "00:37:35"
+}, {
+  "id" : 1717306,
+  "nombre" : "E Uhi Ana Ka Wa I Hala I Na Mea I Hala",
+  "numero" : 3,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1570744800000,
+  "duracion" : "00:06:25"
+}, {
+  "id" : 1719435,
+  "nombre" : "Ukulii Ka Pua, Onaona I Ka Mauu",
+  "numero" : 4,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1571349600000,
+  "duracion" : "00:23:29"
+}, {
+  "id" : 1724977,
+  "nombre" : "He ‘oi‘o Kuhihewa; He Kaka Ola I ‘ike ‘ia E Ka Makaula",
+  "numero" : 5,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1571954400000,
+  "duracion" : "00:37:08"
+}, {
+  "id" : 1728003,
+  "nombre" : "A‘ohe Pau Ka ‘ike I Ka Halau Ho‘okahi",
+  "numero" : 6,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1572562800000,
+  "duracion" : "00:01:21"
+}, {
+  "id" : 1736298,
+  "nombre" : "Ka io",
+  "numero" : 7,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1573167600000,
+  "duracion" : "00:35:11"
+}, {
+  "id" : 1743832,
+  "nombre" : "Nee aku, nee mai ke one o Punahoa",
+  "numero" : 8,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1573772400000,
+  "duracion" : "00:28:43"
+}, {
+  "id" : 1747965,
+  "nombre" : "Ka La‘au Kumu ‘ole O Kahilikolo",
+  "numero" : 9,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1574377200000,
+  "duracion" : "00:07:31"
+}, {
+  "id" : 1755135,
+  "nombre" : "O oe, a owau, nalo ia mea",
+  "numero" : 10,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1575586800000,
+  "duracion" : "00:44:21"
+}, {
+  "id" : 1759871,
+  "nombre" : "Kā i ka ‘ino, no ka ‘ino",
+  "numero" : 11,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1576191600000,
+  "duracion" : "00:06:09"
+}, {
+  "id" : 1770566,
+  "nombre" : "Ihea ‘oe i ka wa a ka ua e loku ana?",
+  "numero" : 12,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1578006000000,
+  "duracion" : "00:32:47"
+}, {
+  "id" : 1776549,
+  "nombre" : "Loa‘a pono ka ‘iole i ka pūnana",
+  "numero" : 13,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1578610800000,
+  "duracion" : "00:25:21"
+}, {
+  "id" : 1787300,
+  "nombre" : "I ho‘olulu, ho‘ohulei ‘ia e ka makani",
+  "numero" : 14,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1580425200000,
+  "duracion" : "00:13:49"
+}, {
+  "id" : 1788509,
+  "nombre" : "He waha kou o ka hee",
+  "numero" : 15,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1581030000000,
+  "duracion" : "00:31:58"
+}, {
+  "id" : 1793711,
+  "nombre" : "He kauwa ke kanaka na ke aloha",
+  "numero" : 16,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1581634800000,
+  "duracion" : "00:09:48"
+}, {
+  "id" : 1796070,
+  "nombre" : "He kohu puahiohio i ka ho‘olele i ka lepo i luna",
+  "numero" : 17,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1582239600000,
+  "duracion" : "00:57:46"
+}, {
+  "id" : 1796630,
+  "nombre" : "Nalowale i ke ‘ehu o he kai",
+  "numero" : 18,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1582844400000,
+  "duracion" : "00:40:34"
+}, {
+  "id" : 1801030,
+  "nombre" : "E hoi na keiki oki uaua o na pali",
+  "numero" : 19,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1583449200000,
+  "duracion" : "00:28:56"
+}, {
+  "id" : 1802036,
+  "nombre" : "He puhee miki",
+  "numero" : 20,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1584054000000,
+  "duracion" : "00:36:36"
+}, {
+  "id" : 1809247,
+  "nombre" : "A ohe ia e loaa aku, he ulua kapapa no ka moana",
+  "numero" : 21,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1585263600000,
+  "duracion" : "00:21:16"
+}, {
+  "id" : 1809248,
+  "nombre" : "Aloha",
+  "numero" : 22,
+  "temporada" : 10,
+  "serie" : {
+    "id" : 24,
+    "nombre" : "Hawaii Five-0",
+    "estreno" : 1284933600000,
+    "tematica" : "Drama, Action, Crime",
+    "director" : "Alfred Hitchcock",
+    "calificacion" : 8,
+    "idioma" : "English",
+    "estado" : "TERMINADA",
+    "cadena" : "CBS"
+  },
+  "fechaDeSalida" : 1585864800000,
+  "duracion" : "00:30:30"
+} ]
