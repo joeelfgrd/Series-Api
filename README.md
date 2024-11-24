@@ -269,7 +269,7 @@ git --version
 4. Desde aqui puedes ver la lista de las series disponibles.
    
 5. ![Inicio sesion app](src/main/resources/img/ListSeries.png)
-   5. Puedes filtrar en base a idioma,estado y cadena,tambien puedes filtrar por varios a la vez.Tan solo tienes que poner por lo que quieres filtrar y seleccionar el checkbox.
+    Puedes filtrar en base a idioma,estado y cadena,tambien puedes filtrar por varios a la vez.Tan solo tienes que poner por lo que quieres filtrar y seleccionar el checkbox.
    ![Inicio sesion app](src/main/resources/img/Filtrado.png)
    ![Inicio sesion app](src/main/resources/img/Filtrado2.png)
 6. Puedes ordenar las series en base a calificacion y fecha de estreno, tanto de forma ascendente como descendente.
