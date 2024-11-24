@@ -253,15 +253,19 @@ git --version
 2. Introduce tus credenciales (usuario y contraseña) y haz clic en **Acceder**.
 - Si intentas acceder con credenciales incorrectas, se mostrará un mensaje de error.
 - Si no tienes una cuenta, puedes registrarte haciendo clic en **Registrarse**.
-  ![Inicio sesion app](src/main/resources/img/Login2.png)
+  
+- ![Inicio sesion app](src/main/resources/img/Login2.png)
 - Cuando creas una contraseña e usuario,antes de guardarse en la base de datos, esta se cifrará y almacenará para proteger tu información.
-  ![Inicio sesion app](src/main/resources/img/cifrado.png)
+  
+- ![Inicio sesion app](src/main/resources/img/cifrado.png)
 
 3. Si accedes con éxito, se mostrará la pantalla principal de la aplicación.
-   ![Inicio sesion app](src/main/resources/img/PanPrinc.png)
+   
+4. ![Inicio sesion app](src/main/resources/img/PanPrinc.png)
 4. Desde aqui puedes ver la lista de las series disponibles.
-   ![Inicio sesion app](src/main/resources/img/ListSeries.png)
-5. Puedes filtrar en base a idioma,estado y cadena,tambien puedes filtrar por varios a la vez.Tan solo tienes que poner por lo que quieres filtrar y seleccionar el checkbox.
+   
+5. ![Inicio sesion app](src/main/resources/img/ListSeries.png)
+   5. Puedes filtrar en base a idioma,estado y cadena,tambien puedes filtrar por varios a la vez.Tan solo tienes que poner por lo que quieres filtrar y seleccionar el checkbox.
    ![Inicio sesion app](src/main/resources/img/Filtrado.png)
    ![Inicio sesion app](src/main/resources/img/Filtrado2.png)
 6. Puedes ordenar las series en base a calificacion y fecha de estreno, tanto de forma ascendente como descendente.
@@ -289,12 +293,22 @@ git --version
 
 # Tiempo dedicado
 
-- **Víctor Sánchez Nogueira**: 
+- **Víctor Sánchez Nogueira**:Horas aproximadas: 27h
 - Tareas:
+- Tareas CRUD
+- Creación de la base de datos
+- Corrección de errores en CRUD
+- Manejo de excepciones
+- Arreglos en la interfaz gráfica
+- Generado el jar
     
 
-- **Joel Figueirido Molares**: 
-
+- **Joel Figueirido Molares**:Horas aproximadas: 20h
+- Creación de la base de datos
+- Corrección de errores en CRUD
+- Creación de la interfaz gráfica
+- Documentación
+- Añadir login
 # Extras Realizados
 
 1. **Ordenación de resultados** Ordenación de resultados de las consultas y almacenaje de los datos (se introducirá un menú que consultará al usuario el criterio de ordenación).
@@ -320,7 +334,7 @@ git --version
 - **Añadir más funcionalidades** desde poder buscar una serie por su nombre como la posibilidad de marcar series como favoritas, ver recomendaciones
   personalizadas, etc.
 - **Añadir un sistema de seguimiento** En el que los usuarios podrían decir que series han visto y cuales no,ademas de poder marcar episodios como vistos.
-- **Modificar el codigo para que se ajuste a mas dispositivos** en mi caso tuve que redimensionar la ventana para que se viera bien en mi portatil ya que tenia una pantalla mas pequeña que la de clase.
+- **Modificar el código para que se ajuste a más dispositivos** en mi caso tuve que redimensionar la ventana para que se viera bien en mi portatil ya que tenia una pantalla mas pequeña que la de clase.
 - **Implementar un sistema de valoración** para que los usuarios puedan calificar las series y dejar comentarios que otra gente pueda ver y comentar.De esta forma podríamos crear un sistema de valoración nuevo en función de los gustos de la gente,tal vez poniendo las típicas estrellitas de valoración.
 - **Incluir un sistema de recomendaciones** para sugerir series similares a las que le gustan al usuario.
 - **Añadir la funcionalidad de poder ver los episodios** Tal vez redirigiendo a una plataforma externa.
@@ -330,3 +344,4 @@ git --version
 - En este proyecto,hemos mejorado nuestra habilidad manejando javafx,como ya sabíamos más o menos como funcionaba,en este proyecto hemos tratado más la parte visual de la aplicación,ya que la parte funcional nos resultó mas facil que en el anterior,tratando de hacerla agradable para el usuario,cabe destacar la intervencion de juan carlos el profesor de la interfaces al que acudimos a preguntar sobre la gestion de colores elegida.
 - También nos sirvió para practicar las consultas sql a la base de datos,ya que realizamos todo el CRUD.
 - Lo del jar sigue dando un poco de pereza hacerlo pero está bien para no olvidarse de como se hace.
+- En general estamos contentos con el resultado final de la aplicación,creemos que hemos mejorado mucho con respecto a la anterior y que la nota que esperamos es de al menos un 8.

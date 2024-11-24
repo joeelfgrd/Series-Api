@@ -1,0 +1,289 @@
+[ {
+  "id" : 80,
+  "nombre" : "Pilot",
+  "numero" : 1,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1111618800000,
+  "duracion" : "00:23:00"
+}, {
+  "id" : 81,
+  "nombre" : "Diversity Day",
+  "numero" : 2,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1112047200000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 82,
+  "nombre" : "Health Care",
+  "numero" : 3,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1112652000000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 83,
+  "nombre" : "The Alliance",
+  "numero" : 4,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1113256800000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 84,
+  "nombre" : "Basketball",
+  "numero" : 5,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1113861600000,
+  "duracion" : "00:23:00"
+}, {
+  "id" : 85,
+  "nombre" : "Hot Girl",
+  "numero" : 6,
+  "temporada" : 1,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1114466400000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 86,
+  "nombre" : "The Dundies",
+  "numero" : 1,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1127167200000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 87,
+  "nombre" : "Sexual Harassment",
+  "numero" : 2,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1127772000000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 88,
+  "nombre" : "Office Olympics",
+  "numero" : 3,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1128376800000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 89,
+  "nombre" : "The Fire",
+  "numero" : 4,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1128981600000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 90,
+  "nombre" : "Halloween",
+  "numero" : 5,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1129586400000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 91,
+  "nombre" : "The Fight",
+  "numero" : 6,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1130799600000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 92,
+  "nombre" : "The Client",
+  "numero" : 7,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1131404400000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 93,
+  "nombre" : "Performance Review",
+  "numero" : 8,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1132009200000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 94,
+  "nombre" : "E-Mail Surveillance",
+  "numero" : 9,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1132614000000,
+  "duracion" : "00:22:00"
+}, {
+  "id" : 95,
+  "nombre" : "Christmas Party",
+  "numero" : 10,
+  "temporada" : 2,
+  "serie" : {
+    "id" : 7,
+    "nombre" : "The Office",
+    "estreno" : 1111618800000,
+    "tematica" : "Comedia",
+    "director" : "Greg Daniels",
+    "calificacion" : 91,
+    "idioma" : "Inglés",
+    "estado" : "TERMINADA",
+    "cadena" : "NBC"
+  },
+  "fechaDeSalida" : 1133823600000,
+  "duracion" : "00:22:00"
+} ]
