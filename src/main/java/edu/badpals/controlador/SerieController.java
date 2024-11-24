@@ -71,7 +71,7 @@ public class SerieController {
     public void initialize() {
         c = cbd.crearConexion();
         setCells();
-        //imgViewLogo.setImage(new Image(getClass().getResource("/img/logo.png").toExternalForm()));
+        imgViewLogo.setImage(new Image(getClass().getResource("/img/logo.png").toExternalForm()));
         cargarSeries(Conexion_App_bbdd.getSeries(c));
 
         tableViewSeries.setOnMouseClicked(event -> {
