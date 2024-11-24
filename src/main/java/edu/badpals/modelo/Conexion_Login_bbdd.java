@@ -7,7 +7,8 @@ import java.util.Properties;
 
 public class Conexion_Login_bbdd {
     private final String URLDB = "jdbc:mysql://localhost:3306/login";
-    public Connection crearConexion() throws SQLException {
+    public Connection crearConexion() throws SQLException, ClassNotFoundException {
+        Class.forName("com.mysql.cj.jdbc.Driver");
         Properties propiedadesConexion = new Properties();
         propiedadesConexion.setProperty("user", "root");
         propiedadesConexion.setProperty("password", "root");
@@ -30,7 +31,7 @@ public class Conexion_Login_bbdd {
 
 
             System.out.println("Usuario registrado correctamente");
-        } catch (SQLException e) {
+        } catch (SQLException | ClassNotFoundException e) {
             System.out.println("Error al registrar usuario: " + e.getMessage());
         }
     }
@@ -54,7 +55,7 @@ public class Conexion_Login_bbdd {
             rs.close();
             stmt.close();
             conn.close();
-        } catch (SQLException e) {
+        } catch (SQLException | ClassNotFoundException e) {
             System.out.println("Error al leer los usuarios: " + e.getMessage());
         }
         return map;
