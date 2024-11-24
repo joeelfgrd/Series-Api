@@ -116,10 +116,10 @@ public class EpisodiosController implements Initializable {
     public void crearEp(ActionEvent actionEvent) {
     Episodio ep = cargarEpisodioTexts();
     if (ep != null) {
-        if (Conexion_App_bbdd.crearEpisodio(c, ep)) {
+        if (Conexion_App_bbdd.crearEpisodio(c, ep)){
             Controlador.showMessage("Creacion", "Episodio creado con éxito");
         } else {
-            Controlador.showWarning("Error Crear", "La temporada y el numero de episodio ya existen");
+            Controlador.showWarning("Error Crear", "Error al crear el episodio");
         }
     }
     cargarTabla();
