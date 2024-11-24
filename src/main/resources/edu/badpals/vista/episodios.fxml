@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane fx:id="panEpisodios" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #635D8CFF;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.badpals.controlador.EpisodiosController">
+<Pane fx:id="panEpisodios" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #635D8CFF;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.badpals.controlador.EpisodiosController">
     <children>
         <Label fx:id="lblEpisodio" alignment="CENTER" layoutY="25.0" prefHeight="55.0" prefWidth="276.0" style="-fx-text-fill: #696CF6FF;" text="EPISODIOS" textAlignment="CENTER">
             <font>

@@ -15,7 +15,7 @@
 
 .table-row-cell:selected {
     -fx-background-color: #fae574; /* Fondo de la fila seleccionada */
-    -fx-text-fill: #000000FF; /* Texto en fila seleccionada */
+    -fx-text-fill: #00000000; /* Texto en fila seleccionada */
 }
 
 /* Cambiar encabezado de columnas */
