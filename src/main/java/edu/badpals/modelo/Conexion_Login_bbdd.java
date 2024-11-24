@@ -7,6 +7,7 @@ import java.util.Properties;
 
 public class Conexion_Login_bbdd {
     private final String URLDB = "jdbc:mysql://localhost:3306/login";
+
     public Connection crearConexion() throws SQLException, ClassNotFoundException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Properties propiedadesConexion = new Properties();

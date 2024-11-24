@@ -112,7 +112,7 @@ public class SerieController {
             filtros[0] = txtIdiomaSerie.getText();
         }
         if (chkEstadoSerie.isSelected()) {
-            filtros[1] = txtEstadoSerie.getText().replace("_"," ");
+            filtros[1] = txtEstadoSerie.getText().replace("_", " ");
         }
         if (chkCadenaSerie.isSelected()) {
             filtros[2] = txtCadenaSerie.getText();
